@@ -1,0 +1,16 @@
+:root {
+  --navbar-height: 10.4em;
+}
+
+
+@media screen and (--desktop-screen) {
+  
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+ 
+}
+
+@media screen and (min-width: 641px) and (max-width: 800px) {
+  
+}
