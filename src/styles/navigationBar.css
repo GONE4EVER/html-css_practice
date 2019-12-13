@@ -1,0 +1,125 @@
+.navbar {
+    display: flex;
+
+    width: 100%;
+    height: var(--navbar-height);
+
+    color: rgb(245, 245, 245);
+    background-color: rgb(18, 17, 17);
+
+    justify-content: flex-end;
+}
+
+/*------------*/
+/* Logo block */
+.navbar__logo_container {
+    display: flex;
+
+    box-sizing: border-box;
+    width: 25%;
+    padding: 14px 91px 12px 0;
+
+    justify-content: flex-end;
+}
+
+.logo {
+    min-width: 112px;
+    height: 100%;
+
+    background-image: url("./assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* Logo block end */
+/*----------------*/
+
+
+/*-----------------*/
+/* Menu tabs block */
+.navbar__tabs {
+    display: flex;
+    flex: 1;
+
+    height: 100%;
+    margin: 0;
+    margin-left: 32px;
+    padding: 0;
+
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.navbar_tabs__item {
+    display: flex;
+
+    box-sizing: border-box;
+    height: 100%;
+    margin: auto;
+
+    font-size: 1.8em;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_tabs__item--active {
+    border-top: 2px solid rgb(232, 233, 234);
+    background-color: rgb(30, 29, 29);
+}
+
+.navbar_tabs__item__text {
+    margin: 0 10px;
+
+    text-align: center;
+}
+/* Menu tabs block end */
+/*---------------------*/
+
+
+/*--------------------*/
+/* Toolbar tabs block */
+.navbar__toolbar {
+    display: flex;
+    flex: 0.45;
+
+    font-size: 0.9em;
+
+    align-items: center;
+}
+
+.toolbar__button {
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toolbar__content {
+    position: relative;
+    left: 38px;
+
+    display: flex;
+
+    margin-left: 36px;
+}
+
+.toolbar__content > div {
+    margin-right: 52px;
+}
+
+#login > .toolbar_button__icon {
+    width: 26px;
+
+    content: url("./assets/icons/login.png");
+}
+
+#register > .toolbar_button__icon {
+    width: 26px;
+
+    content: url("./assets/icons/avatar.png");
+}
+/*-----------------------*/
+/* Toolbar tabs block end*/

@@ -1,7 +1,8 @@
 @import "./normalize.css";
 @import "./styles/variables.css";
 
-@import "./styles/header.css";
+@import "./styles/navigationBar.css";
+@import "./styles/home.css";
 
 
 html,

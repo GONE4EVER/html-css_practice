@@ -12,9 +12,6 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
 
-    <!-- Icons -->
-    <script src="https://use.fontawesome.com/cf8697f511.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
     <title>Ask It</title>
   </head>
@@ -25,8 +22,8 @@
           <div class="logo"></div>
         </div>
   
-        <menu class="navbar__tabs">
-          <a class="navbar_tabs__item" href="#">
+        <menu class="navbar__tabs" role="navigation">
+          <a class="navbar_tabs__item" href="#home">
             <span class="tab__text">Home</span>
           </a>  
   
@@ -52,15 +49,28 @@
         </menu>
   
         <div class="navbar__toolbar">
-          <div class="toolbar__button">
-              <i class="fa fa-sign-in" aria-hidden="true"></i>
-            <span></span>
+          <div class="toolbar__content">
+            <div class="toolbar__button" id="login">
+              <i class="toolbar_button__icon"></i>
+              <span class="toolbar_button__text">Log In</span>
+            </div>
+    
+            <div class="toolbar__button" id="register">
+              <i class="toolbar_button__icon"></i>
+              <span class="toolbar_button__text">Register</span>
+            </div>
           </div>
         </div>
       </nav>
+
+      <div id="home">
+        
+      </div>
     </header>
 
-    <main></main>
+    <main class="main">
+
+    </main>
 
     <footer></footer>
   </body>
