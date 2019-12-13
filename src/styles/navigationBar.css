@@ -6,17 +6,15 @@
 
     color: rgb(245, 245, 245);
     background-color: rgb(18, 17, 17);
-
-    justify-content: flex-end;
 }
 
 /*------------*/
 /* Logo block */
 .navbar__logo_container {
     display: flex;
+    flex: 0 0 25%;
 
     box-sizing: border-box;
-    width: 25%;
     padding: 14px 91px 12px 0;
 
     justify-content: flex-end;
@@ -38,7 +36,7 @@
 /* Menu tabs block */
 .navbar__tabs {
     display: flex;
-    flex: 1;
+    flex: 0 0 50%;
 
     height: 100%;
     margin: 0;
@@ -80,7 +78,7 @@
 /* Toolbar tabs block */
 .navbar__toolbar {
     display: flex;
-    flex: 0.45;
+    flex: 0 0 50%;
 
     font-size: 0.9em;
 

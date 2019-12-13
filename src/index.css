@@ -1,6 +1,10 @@
 @import "./normalize.css";
 @import "./styles/variables.css";
 
+/* generic styles */
+@import "./styles/general.css";
+@import "./styles/grid/columns.css";
+
 @import "./styles/navigationBar.css";
 @import "./styles/home.css";
 
@@ -12,6 +16,13 @@ body {
     margin: 0;
 
     font-family: "Roboto";
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 a {
