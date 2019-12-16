@@ -1,17 +1,17 @@
 :root {
-  --grid-step: calc(100% / 12);
+  --grid-column-width: calc(100% / 12);
 
-  --col-1-value: calc(100% - 11 * var(--grid-step));
-  --col-2-value: calc(100% - 10 * var(--grid-step));
-  --col-3-value: calc(100% - 9 * var(--grid-step));
-  --col-4-value: calc(100% - 8 * var(--grid-step));
-  --col-5-value: calc(100% - 7 * var(--grid-step));
-  --col-6-value: calc(100% - 6 * var(--grid-step));
-  --col-7-value: calc(100% - 5 * var(--grid-step));
-  --col-8-value: calc(100% - 4 * var(--grid-step));
-  --col-9-value: calc(100% - 3 * var(--grid-step));
-  --col-10-value: calc(100% - 2 * var(--grid-step));
-  --col-11-value: calc(100% - 1 * var(--grid-step));
+  --col-1-value: var(--grid-column-width);
+  --col-2-value: calc(100% - 10 * var(--grid-column-width));
+  --col-3-value: calc(100% - 9 * var(--grid-column-width));
+  --col-4-value: calc(100% - 8 * var(--grid-column-width));
+  --col-5-value: calc(100% - 7 * var(--grid-column-width));
+  --col-6-value: calc(100% - 6 * var(--grid-column-width));
+  --col-7-value: calc(100% - 5 * var(--grid-column-width));
+  --col-8-value: calc(100% - 4 * var(--grid-column-width));
+  --col-9-value: calc(100% - 3 * var(--grid-column-width));
+  --col-10-value: calc(100% - 2 * var(--grid-column-width));
+  --col-11-value: calc(100% - 1 * var(--grid-column-width));
   --col-12-value: 100%;
 }
 
