@@ -1,0 +1,107 @@
+:root {
+  --grid-step: calc(100% / 12);
+
+  --col-1-value: calc(100% - 11 * var(--grid-step));
+  --col-2-value: calc(100% - 10 * var(--grid-step));
+  --col-3-value: calc(100% - 9 * var(--grid-step));
+  --col-4-value: calc(100% - 8 * var(--grid-step));
+  --col-5-value: calc(100% - 7 * var(--grid-step));
+  --col-6-value: calc(100% - 6 * var(--grid-step));
+  --col-7-value: calc(100% - 5 * var(--grid-step));
+  --col-8-value: calc(100% - 4 * var(--grid-step));
+  --col-9-value: calc(100% - 3 * var(--grid-step));
+  --col-10-value: calc(100% - 2 * var(--grid-step));
+  --col-11-value: calc(100% - 1 * var(--grid-step));
+  --col-12-value: 100%;
+}
+
+.col-1 {
+  min-width: var(--col-1-value);
+  flex: 0 0 var(--col-1-value);
+}
+
+.col-2 {
+  min-width: var(--col-2-value);
+  flex: 0 0 var(--col-2-value);
+}
+
+.col-3 {
+  min-width: var(--col-3-value);
+  flex: 0 0 var(--col-3-value);
+}
+
+.col-4 {
+  min-width: var(--col-4-value);
+  flex: 0 0 var(--col-4-value);
+}
+
+.col-5 {
+  min-width: var(--col-5-value);
+  flex: 0 0 var(--col-5-value);
+}
+
+.col-6 {
+  min-width: var(--col-6-value);
+  flex: 0 0 var(--col-6-value);
+}
+
+.col-7 {
+  min-width: var(--col-7-value);
+  flex: 0 0 var(--col-7-value);
+}
+
+.col-8 {
+  min-width: var(--col-8-value);
+  flex: 0 0 var(--col-8-value);
+}
+
+.col-9 {
+  min-width: var(--col-9-value);
+  flex: 0 0 var(--col-9-value);
+}
+
+.col-10 {
+  min-width: var(--col-10-value);
+  flex: 0 0 var(--col-10-value);
+}
+
+.col-11 {
+  min-width: var(--col-11-value);
+  flex: 0 0 var(--col-11-value);
+}
+
+.col-12 {
+  min-width: var(--col-12-value);
+  flex: 0 0 var(--col-12-value);
+}
+
+
+.row-cols-1 > * {
+  min-width: var(--col-12-value);
+  flex: 0 0 var(--col-12-value);
+}
+
+.row-cols-2 > *  {
+  min-width: var(--col-11-value);
+  flex: 0 0 var(--col-11-value);
+}
+
+.row-cols-3 > *  {
+  min-width: var(--col-10-value);
+  flex: 0 0 var(--col-10-value);
+}
+
+.row-cols-4 > *  {
+  min-width: var(--col-9-value);
+  flex: 0 0 var(--col-9-value);
+}
+
+.row-cols-5 > *  {
+  min-width: var(--col-8-value);
+  flex: 0 0 var(--col-8-value);
+}
+
+.row-cols-6 > *  {
+  min-width: var(--col-7-value);
+  flex: 0 0 var(--col-7-value);
+}

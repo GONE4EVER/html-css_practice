@@ -1,77 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="favicon.ico" />
-    <meta name="viewport" content="initial-scale=1.0, width=device-width, shrink-to-fit=no" />
-    <meta name="description" content="HTML/CSS practice" />
 
-    <link rel="manifest" href="manifest.json" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.ico" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
+  <meta name="description" content="HTML/CSS practice" />
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="manifest" href="manifest.json" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
-    <title>Ask It</title>
-  </head>
-  <body class="app">
-    <header>
-      <nav class="navbar">
-        <div class="navbar__logo_container">
-          <div class="logo"></div>
-        </div>
-  
-        <menu class="navbar__tabs row" role="navigation">
-          <a class="navbar_tabs__item" href="#home">
-            <span class="tab__text">Home</span>
-          </a>  
-  
-          <a class="navbar_tabs__item navbar_tabs__item--active" href="#">
-            <span class="navbar_tabs__item__text">How it works</span>
-          </a>  
-  
-          <a class="navbar_tabs__item" href="#">
-            <span class="navbar_tabs__item__text">Features</span>
-          </a>   
-  
-          <a class="navbar_tabs__item" href="#">
-            <span class="navbar_tabs__item__text">Partners</span>
-          </a> 
-  
-          <a class="navbar_tabs__item"href="#">
-            <span class="navbar_tabs__item__text">Events</span>
-          </a>  
-  
-          <a class="navbar_tabs__item" href="#">
-            <span class="navbar_tabs__item__text">About us</span>
-          </a>   
-        </menu>
-  
-        <div class="navbar__toolbar">
-          <div class="toolbar__content">
-            <div class="toolbar__button" id="login">
-              <i class="toolbar_button__icon"></i>
-              <span class="toolbar_button__text">Log In</span>
-            </div>
-    
-            <div class="toolbar__button" id="register">
-              <i class="toolbar_button__icon"></i>
-              <span class="toolbar_button__text">Register</span>
-            </div>
-          </div>
-        </div>
-      </nav>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-      <div id="home">
-        
+  <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+  <title>Ask It</title>
+</head>
+
+<body class="app">
+  <header>
+    <nav class="navbar col-12 row">
+      <div class="navbar__logo_container  col-3">
+        Logo
       </div>
-    </header>
 
-    <main class="main">
+      <ul class="navbar__tabs col-6 row" role="navigation">
+        <li class="navbar__tab-item">
+          <a>Home</a>
+        </li>
+        <li class="navbar__tab-item">
+          <a>How it works</a>
+        </li>
+        <li class="navbar__tab-item">
+          <a class="tab-item__link">About</a>
+        </li>
+      </ul>
 
-    </main>
+      <div class="navbar__toolbar col-3">
+        Toolbar
+      </div>
 
-    <footer></footer>
-  </body>
+      <div class="navbar__toggle-menu col-3">
+        Toggle menu
+      </div>
+    </nav>
+
+    <div id="home">
+      <img class="home__image" src="./assets/images/home_background.png" alt="homeImage">
+    </div>
+  </header>
+
+  <main class="main">
+
+  </main>
+
+  <footer></footer>
+</body>
+
 </html>
