@@ -111,13 +111,13 @@
 #login > .toolbar_button__icon {
     width: 26px;
 
-    content: url("./assets/icons/login.png");
+    content: url("./assets/icons/navBar/login.png");
 }
 
 #register > .toolbar_button__icon {
     width: 26px;
 
-    content: url("./assets/icons/avatar.png");
+    content: url("./assets/icons/navBar/avatar.png");
 }
 /*-----------------------*/
 /* Toolbar tabs block end*/

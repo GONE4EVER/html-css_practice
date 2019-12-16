@@ -1,12 +1,22 @@
 .container {
-    display: flex;
-
-    height: 100%;
+    width: 100%;
     margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .row {
     display: flex;
 
     flex-wrap: wrap;
+}
+
+.primary {
+    color: rgb(3, 118, 147);
+    background-color: #ffffff;
+}
+
+.secondary {
+    color: #ffffff;
+    background-color: rgb(3, 118, 147);
 }

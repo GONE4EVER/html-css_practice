@@ -1,0 +1,67 @@
+main {
+    position: relative;
+    top: 1180px;
+}
+
+#howItWorks {
+    display: flex;
+    flex-direction: column;
+
+    height: 650px;
+
+    border: 15px solid goldenrod;
+    background-color: #ffffff;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.howItWorks__header {
+    text-align: center;
+    letter-spacing: 3.5px;
+
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.howItWorks__content {
+    display: flex;
+
+    width: 90%;
+    height: 50%;
+
+    flex-wrap: wrap;
+}
+
+
+
+@media only screen and (min-width: 765px) and (max-width: 1023px) {
+    #howItWorks {
+        height: 385px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #howItWorks {
+        height: 692px;
+    }
+}
+
+
+.How_it_works {
+    position: absolute;
+    z-index: 23;
+    top: 1636px;
+    left: 1091.043px;
+
+    -webkit-transform: matrix( 2,0,0,2,0,0);
+       -moz-transform: matrix( 2,0,0,2,0,0);
+        -ms-transform: matrix( 2,0,0,2,0,0);
+            transform: matrix( 2,0,0,2,0,0);
+
+    color: rgb(3, 118, 147);
+
+    font-family: "Myriad Pro";
+    font-size: 41.667px;
+    line-height: 1.2;
+}

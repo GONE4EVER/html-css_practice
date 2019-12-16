@@ -7,7 +7,15 @@
 
 @import "./styles/navigationBar.css";
 @import "./styles/home.css";
+@import "./styles/howItWorks.css";
 
+@font-face {
+    font-family: "Myriad Pro Regular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("Myriad Pro Regular"), url("./assets/fonts/MYRIADPRO-REGULAR.woff") format("woff");
+}
 
 html,
 body {
@@ -15,7 +23,7 @@ body {
     height: 100%;
     margin: 0;
 
-    font-family: "Roboto";
+    font-family: "Myriad Pro Regular";
 }
 
 *,
