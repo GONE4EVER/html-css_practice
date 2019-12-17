@@ -1,21 +1,45 @@
 @media only screen and (--mobile-viewport) {
+    :root {
+        font-size: 12px;
+    }
+
     #howItWorks {
         height: 692px;
         padding: 6% 0;
     }
 
     .howItWorks__header {
+        margin-bottom: 8.5%;
+
         text-align: center;
         letter-spacing: 4.8px;
 
-        font-size: 48px;
+        font-size: 3rem;
         line-height: 1.2;
     }
 
     .howItWorks__content {
-        width: 75%;
-        height: 80%;
+        width: 85%;
+        height: 90%;
+        padding: 0 5%;
+    }
 
-        grid-template-columns: auto auto;
+    .howItWorks__tip {
+        width: 50%;
+        height: 50%;
+    }
+
+    .howItWorks__tip__image-wrapper {
+        margin-bottom: 14%;
+    }
+
+    .howItWorks__tip > p {
+        width: 75%;
+
+        text-align: center;
+
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.2;
     }
 }
