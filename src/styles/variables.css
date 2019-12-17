@@ -1,16 +1,17 @@
-:root {
-  --navbar-height: 10.4em;
+@media screen and (--desktop-viewport) {
+  :root {
+    --navbar-height: 10.4em;
+  }
 }
 
-
-@media screen and (--desktop-screen) {
-  
+@media screen and (--tablet-viewport) {
+  :root {
+    --navbar-height: 100px;
+  }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1000px) {
- 
-}
-
-@media screen and (min-width: 641px) and (max-width: 800px) {
-  
+@media screen and (--mobile-viewport) {
+  :root {
+    --navbar-height: 135px;
+  }
 }
