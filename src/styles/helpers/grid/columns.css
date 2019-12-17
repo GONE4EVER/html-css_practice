@@ -1,107 +1,110 @@
-:root {
-  --grid-column-width: calc(100% / 12);
 
-  --col-1-value: var(--grid-column-width);
-  --col-2-value: calc(100% - 10 * var(--grid-column-width));
-  --col-3-value: calc(100% - 9 * var(--grid-column-width));
-  --col-4-value: calc(100% - 8 * var(--grid-column-width));
-  --col-5-value: calc(100% - 7 * var(--grid-column-width));
-  --col-6-value: calc(100% - 6 * var(--grid-column-width));
-  --col-7-value: calc(100% - 5 * var(--grid-column-width));
-  --col-8-value: calc(100% - 4 * var(--grid-column-width));
-  --col-9-value: calc(100% - 3 * var(--grid-column-width));
-  --col-10-value: calc(100% - 2 * var(--grid-column-width));
-  --col-11-value: calc(100% - 1 * var(--grid-column-width));
-  --col-12-value: 100%;
-}
 
 .col-1 {
-  min-width: var(--col-1-value);
-  flex: 0 0 var(--col-1-value);
+    flex: 0 0 var(--col-1-width);
+
+    min-width: var(--col-1-width);
 }
 
 .col-2 {
-  min-width: var(--col-2-value);
-  flex: 0 0 var(--col-2-value);
+    flex: 0 0 var(--col-2-width);
+
+    min-width: var(--col-2-width);
 }
 
 .col-3 {
-  min-width: var(--col-3-value);
-  flex: 0 0 var(--col-3-value);
+    flex: 0 0 var(--col-3-width);
+
+    min-width: var(--col-3-width);
 }
 
 .col-4 {
-  min-width: var(--col-4-value);
-  flex: 0 0 var(--col-4-value);
+    flex: 0 0 var(--col-4-width);
+
+    min-width: var(--col-4-width);
 }
 
 .col-5 {
-  min-width: var(--col-5-value);
-  flex: 0 0 var(--col-5-value);
+    flex: 0 0 var(--col-5-width);
+
+    min-width: var(--col-5-width);
 }
 
 .col-6 {
-  min-width: var(--col-6-value);
-  flex: 0 0 var(--col-6-value);
+    flex: 0 0 var(--col-6-width);
+
+    min-width: var(--col-6-width);
 }
 
 .col-7 {
-  min-width: var(--col-7-value);
-  flex: 0 0 var(--col-7-value);
+    flex: 0 0 var(--col-7-width);
+
+    min-width: var(--col-7-width);
 }
 
 .col-8 {
-  min-width: var(--col-8-value);
-  flex: 0 0 var(--col-8-value);
+    flex: 0 0 var(--col-8-width);
+
+    min-width: var(--col-8-width);
 }
 
 .col-9 {
-  min-width: var(--col-9-value);
-  flex: 0 0 var(--col-9-value);
+    flex: 0 0 var(--col-9-width);
+
+    min-width: var(--col-9-width);
 }
 
 .col-10 {
-  min-width: var(--col-10-value);
-  flex: 0 0 var(--col-10-value);
+    flex: 0 0 var(--col-10-width);
+
+    min-width: var(--col-10-width);
 }
 
 .col-11 {
-  min-width: var(--col-11-value);
-  flex: 0 0 var(--col-11-value);
+    flex: 0 0 var(--col-11-width);
+
+    min-width: var(--col-11-width);
 }
 
 .col-12 {
-  min-width: var(--col-12-value);
-  flex: 0 0 var(--col-12-value);
+    flex: 0 0 var(--col-12-width);
+
+    min-width: var(--col-12-width);
 }
 
 
 .row-cols-1 > * {
-  min-width: var(--col-12-value);
-  flex: 0 0 var(--col-12-value);
+    flex: 0 0 var(--col-12-width);
+
+    min-width: var(--col-12-width);
 }
 
-.row-cols-2 > *  {
-  min-width: var(--col-11-value);
-  flex: 0 0 var(--col-11-value);
+.row-cols-2 > * {
+    flex: 0 0 var(--col-11-width);
+
+    min-width: var(--col-11-width);
 }
 
-.row-cols-3 > *  {
-  min-width: var(--col-10-value);
-  flex: 0 0 var(--col-10-value);
+.row-cols-3 > * {
+    flex: 0 0 var(--col-10-width);
+
+    min-width: var(--col-10-width);
 }
 
-.row-cols-4 > *  {
-  min-width: var(--col-9-value);
-  flex: 0 0 var(--col-9-value);
+.row-cols-4 > * {
+    flex: 0 0 var(--col-9-width);
+
+    min-width: var(--col-9-width);
 }
 
-.row-cols-5 > *  {
-  min-width: var(--col-8-value);
-  flex: 0 0 var(--col-8-value);
+.row-cols-5 > * {
+    flex: 0 0 var(--col-8-width);
+
+    min-width: var(--col-8-width);
 }
 
-.row-cols-6 > *  {
-  min-width: var(--col-7-value);
-  flex: 0 0 var(--col-7-value);
+.row-cols-6 > * {
+    flex: 0 0 var(--col-7-width);
+
+    min-width: var(--col-7-width);
 }

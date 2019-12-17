@@ -40,6 +40,11 @@ ul {
     list-style: none;
 }
 
-a {
+a,
+a:link,
+a:visited,
+a:hover {
     text-decoration: none;
+
+    color: inherit;
 }

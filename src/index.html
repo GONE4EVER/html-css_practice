@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="favicon.ico" />
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon.ico">
   <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
-  <meta name="description" content="HTML/CSS practice" />
+  <meta name="description" content="HTML/CSS practice">
 
-  <link rel="manifest" href="manifest.json" />
+  <link rel="manifest" href="manifest.json">
 
   <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
   <title>Ask It</title>
@@ -16,41 +16,64 @@
 <body class="app">
   <header class="header col-12 row">
     <div class="header__logo-container  col-3">
-      Logo
+      <img class="logo" src="assets/images/logo.png">
     </div>
 
-    <nav class="navbar__tabs col-7 row" role="navigation">
-      <div class="navbar__tab-item">
-        <a>Home</a>
+    <nav class="navbar col-7 row" role="navigation">
+      <div class="navbar__tab">
+        <a href="#home">
+          Home
+        </a>
       </div>
-      <div class="navbar__tab-item">
-        <a>How it works</a>
+
+      <div class="navbar__tab">
+        <a href="#howItWorks">
+          How it works
+        </a>
       </div>
-      <div class="navbar__tab-item">
-        <a class="tab-item__link">Features</a>
+
+      <div class="navbar__tab">
+        <a>
+          Features
+        </a>
       </div>
-      <div class="navbar__tab-item">
-        <a class="tab-item__link">Partners</a>
+
+      <div class="navbar__tab">
+        <a>
+          Partners
+        </a>
       </div>
-      <div class="navbar__tab-item">
-        <a class="tab-item__link">Events</a>
+
+      <div class="navbar__tab">
+        <a>
+          Events
+        </a>
       </div>
-      <div class="navbar__tab-item">
-        <a class="tab-item__link">About us</a>
+
+      <div class="navbar__tab">
+        <a>
+          About us
+        </a>
       </div>
     </nav>
 
-    <div class="navbar__toolbar col-2">
+    <div class="header__toolbar col-2">
       Toolbar
     </div>
 
-    <div class="navbar__toggle-menu col-3">
-      Toggle menu
+    <div class="header__toggle-menu-block col-2">
+      <input type="checkbox" role="button" id="toggleMenu">
+      <label for="toggleMenu" class="header__toggle-menu__content" role="button" tabindex="1">
+        <div class="header__toggle-menu__bar" id="bar-top"></div>
+        <div class="header__toggle-menu__bar" id="bar-middle"></div>
+        <div class="header__toggle-menu__bar" id="bar-bottom"></div>
+      </label>
     </div>
   </header>
 
   <main>
     <section id="home">
+      <div class="home__image-mask"></div>
       <img class="home__image" src="assets/images/home_background.png" alt="homeImage">
     </section>
 
@@ -66,7 +89,7 @@
               id="freeAccount"
               src="assets/icons/howItWorks/freeAccount.png"
               alt="freeAccount"
-            />
+            >
           </div>
         </div>
 
@@ -76,7 +99,7 @@
               id="discussIssue"
               src="assets/icons/howItWorks/discussIssue.png"
               alt="discussIssue"
-            />
+            >
           </div>
         </div>
 
@@ -86,7 +109,7 @@
               id="qrCode"
               src="assets/icons/howItWorks/qrCode.png"
               alt="qrCode"
-            />
+            >
           </div>
         </div>
 
@@ -96,7 +119,7 @@
               id="favorites"
               src="assets/icons/howItWorks/favorites.png"
               alt="favorites"
-            />
+            >
           </div>
         </div>
       </div>
