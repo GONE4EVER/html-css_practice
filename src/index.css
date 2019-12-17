@@ -6,16 +6,16 @@
 @import "./styles/helpers/grid/columns.css";
 
 
-@import "./styles/navigationBar.css";
-@import "./styles/home.css";
-@import "./styles/howItWorks.css";
+@import "./styles/header/index.css";
+@import "./styles/home/index.css";
+@import "./styles/howItWorks/index.css";
 
 @font-face {
-    font-family: "Myriad Pro Regular";
+    font-family: "Myriad Pro Light";
     font-weight: normal;
     font-style: normal;
 
-    src: local("Myriad Pro Regular"), url("./assets/fonts/MYRIADPRO-REGULAR.woff") format("woff");
+    src: local("Myriad Pro Light"), url("./assets/fonts/MyriadPro-Light.woff") format("woff");
 }
 
 html,
@@ -24,7 +24,7 @@ body {
     height: 100%;
     margin: 0;
 
-    font-family: "Myriad Pro Regular";
+    font-family: "Myriad Pro Light";
 }
 
 *,

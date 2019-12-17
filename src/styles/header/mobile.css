@@ -1,0 +1,21 @@
+@media screen and (--mobile-viewport) {
+    .header {
+        height: 230px;
+    }
+
+    .header__logo-container {
+        flex-grow: 5;
+    }
+
+    .navbar__tabs {
+        display: none;
+    }
+
+    .navbar__toolbar {
+        display: none;
+    }
+
+    .navbar__toggle-menu {
+        display: block;
+    }
+}

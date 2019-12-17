@@ -1,17 +1,6 @@
-@media screen and (--desktop-viewport) {
-  :root {
-    --navbar-height: 10.4em;
-  }
-}
-
-@media screen and (--tablet-viewport) {
-  :root {
-    --navbar-height: 100px;
-  }
-}
-
-@media screen and (--mobile-viewport) {
-  :root {
-    --navbar-height: 135px;
-  }
+:root {
+    /* colors */
+    --color-primary: rgb(3, 118, 147);
+    --color-secondary: #ffffff;
+    --color-black: rgb(18, 17, 17);
 }

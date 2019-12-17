@@ -1,0 +1,68 @@
+#howItWorks {
+    display: flex;
+    flex-direction: column;
+
+    height: 650px;
+    padding: 5% 0;
+
+    border: 5px solid goldenrod;
+    background-color: #ffffff;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.howItWorks__header {
+    text-align: center;
+    letter-spacing: 6.5px;
+
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.howItWorks__content {
+    display: grid;
+
+    width: 80%;
+    height: 50%;
+
+    grid-template-columns: auto auto auto auto;
+}
+
+.howItWorks__tip {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.howItWorks__tip__image-wrapper {
+    display: flex;
+
+    width: 95px;
+    height: 95px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.howItWorks__tip__image-wrapper.primary {
+    border: 1px solid rgb(3, 118, 147);
+}
+
+img#freeAccount {
+    width: 32px;
+}
+
+img#discussIssue {
+    width: 64px;
+}
+
+img#qrCode {
+    width: 56px;
+}
+
+img#favorites {
+    width: 72px;
+}

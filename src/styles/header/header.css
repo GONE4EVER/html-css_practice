@@ -1,14 +1,14 @@
-.navbar {
-    height: var(--navbar-height);
+.header {
+    height: 10.4em;
 
-    color: rgb(245, 245, 245);
+    color: var(--color-secondary);
     background-color: rgb(18, 17, 17);
 }
 
 
 /*------------*/
 /* Logo block */
-.navbar__logo_container {
+.header__logo-container {
     border: 10px solid rgb(223, 37, 37); /* temporary */
 }
 
@@ -53,33 +53,4 @@
 /* Toolbar tabs block */
 .navbar__toolbar {
     border: 10px solid rgb(31, 102, 235); /* temporary */
-}
-
-
-@media screen and (--tablet-viewport) {
-    /* .navbar {
-        height: 100px;
-    } */
-}
-
-@media screen and (--mobile-viewport) {
-    /* .navbar {
-        height: 60px;
-    } */
-
-    .navbar__logo_container {
-        flex-grow: 5;
-    }
-
-    .navbar__tabs {
-        display: none;
-    }
-
-    .navbar__toolbar {
-        display: none;
-    }
-
-    .navbar__toggle-menu {
-        display: block;
-    }
 }

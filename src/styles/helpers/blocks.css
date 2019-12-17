@@ -12,11 +12,11 @@
 }
 
 .primary {
-    color: rgb(3, 118, 147);
-    background-color: #ffffff;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
 }
 
 .secondary {
-    color: #ffffff;
-    background-color: rgb(3, 118, 147);
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
 }

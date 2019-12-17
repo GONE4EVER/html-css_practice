@@ -1,0 +1,21 @@
+@media only screen and (--mobile-viewport) {
+    #howItWorks {
+        height: 692px;
+        padding: 6% 0;
+    }
+
+    .howItWorks__header {
+        text-align: center;
+        letter-spacing: 4.8px;
+
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .howItWorks__content {
+        width: 75%;
+        height: 80%;
+
+        grid-template-columns: auto auto;
+    }
+}

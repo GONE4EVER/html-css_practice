@@ -1,0 +1,5 @@
+@media only screen and (--tablet-viewport) {
+    #howItWorks {
+        height: 385px;
+    }
+}

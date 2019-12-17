@@ -14,51 +14,92 @@
 </head>
 
 <body class="app">
-  <header>
-    <nav class="navbar col-12 row">
-      <div class="navbar__logo_container  col-3">
-        Logo
+  <header class="header col-12 row">
+    <div class="header__logo-container  col-3">
+      Logo
+    </div>
+
+    <nav class="navbar__tabs col-7 row" role="navigation">
+      <div class="navbar__tab-item">
+        <a>Home</a>
       </div>
-
-      <ul class="navbar__tabs col-6 row" role="navigation">
-        <li class="navbar__tab-item">
-          <a>Home</a>
-        </li>
-        <li class="navbar__tab-item">
-          <a>How it works</a>
-        </li>
-        <li class="navbar__tab-item">
-          <a class="tab-item__link">About</a>
-        </li>
-      </ul>
-
-      <div class="navbar__toolbar col-3">
-        Toolbar
+      <div class="navbar__tab-item">
+        <a>How it works</a>
       </div>
-
-      <div class="navbar__toggle-menu col-3">
-        Toggle menu
+      <div class="navbar__tab-item">
+        <a class="tab-item__link">Features</a>
+      </div>
+      <div class="navbar__tab-item">
+        <a class="tab-item__link">Partners</a>
+      </div>
+      <div class="navbar__tab-item">
+        <a class="tab-item__link">Events</a>
+      </div>
+      <div class="navbar__tab-item">
+        <a class="tab-item__link">About us</a>
       </div>
     </nav>
+
+    <div class="navbar__toolbar col-2">
+      Toolbar
+    </div>
+
+    <div class="navbar__toggle-menu col-3">
+      Toggle menu
+    </div>
   </header>
 
-    <main class="container">
-      <section id="howItWorks" class="primary">
-        <h2 class="howItWorks__header primary">
-          How it works
-        </h2>
-        <div class="howItWorks__content primary">
-          <div class="howItWorks__tip col-3"></div>
-          <div class="howItWorks__tip col-3"></div>
-          <div class="howItWorks__tip col-3"></div>
-          <div class="howItWorks__tip col-3"></div>
-        </div>
-      </section>
-    </main>
-
-  <main class="main">
+  <main>
     <section id="home">
-      <img class="home__image" src="./assets/images/home_background.png" alt="homeImage">
+      <img class="home__image" src="assets/images/home_background.png" alt="homeImage">
+    </section>
+
+    <section id="howItWorks" class="primary">
+      <h2 class="howItWorks__header primary">
+        How it works
+      </h2>
+
+      <div class="howItWorks__content primary">
+        <div class="howItWorks__tip col-3">
+          <div class="howItWorks__tip__image-wrapper secondary">
+            <img 
+              id="freeAccount"
+              src="assets/icons/howItWorks/freeAccount.png"
+              alt="freeAccount"
+            />
+          </div>
+        </div>
+
+        <div class="howItWorks__tip col-3">
+          <div class="howItWorks__tip__image-wrapper primary">
+            <img 
+              id="discussIssue"
+              src="assets/icons/howItWorks/discussIssue.png"
+              alt="discussIssue"
+            />
+          </div>
+        </div>
+
+        <div class="howItWorks__tip col-3">
+          <div class="howItWorks__tip__image-wrapper primary">
+            <img 
+              id="qrCode"
+              src="assets/icons/howItWorks/qrCode.png"
+              alt="qrCode"
+            />
+          </div>
+        </div>
+
+        <div class="howItWorks__tip col-3">
+          <div class="howItWorks__tip__image-wrapper primary">
+            <img 
+              id="favorites"
+              src="assets/icons/howItWorks/favorites.png"
+              alt="favorites"
+            />
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
