@@ -4,33 +4,31 @@
     }
 
     #howItWorks {
-        height: 692px;
-        padding: 6% 0;
+        height: 570px;
+        padding-top: 12px;
     }
 
     .howItWorks__header {
-        margin-bottom: 8.5%;
+        margin: 5% 0 8.5%;
 
         text-align: center;
-        letter-spacing: 4.8px;
+        letter-spacing: 0.45rem;
 
         font-size: 3rem;
-        line-height: 1.2;
     }
 
     .howItWorks__content {
-        width: 85%;
-        height: 90%;
-        padding: 0 5%;
+        width: 90%;
+        height: 75%;
     }
 
     .howItWorks__tip {
         width: 50%;
-        height: 50%;
+        /* height: 50%; */
     }
 
     .howItWorks__tip__image-wrapper {
-        margin-bottom: 14%;
+        margin-bottom: 20px;
     }
 
     .howItWorks__tip > p {
@@ -38,8 +36,7 @@
 
         text-align: center;
 
-        font-size: 22px;
+        font-size: 1.4rem;
         font-weight: bold;
-        line-height: 1.2;
     }
 }

@@ -1,0 +1,15 @@
+@media only screen and (--desktop-viewport) {
+    #howItWorks {
+        height: 1150px;
+        padding-top: 5%;
+    }
+
+    .howItWorks__header {
+        font-size: 64px;
+    }
+
+    .howItWorks__content {
+        width: 80%;
+        height: 30%;
+    }
+}

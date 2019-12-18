@@ -1,0 +1,8 @@
+@media screen and (--mobile-viewport) {
+    .home__image {
+        width: 100%;
+        min-height: 32vh;
+
+        transform: scale(1.35, 1.1) translate(10px, -1.5%);
+    }
+}

@@ -1,8 +1,6 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .row {
@@ -19,4 +17,11 @@
 .secondary {
     color: var(--color-secondary);
     background-color: var(--color-primary);
+}
+
+.centered {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
 }
