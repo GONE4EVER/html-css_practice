@@ -20,8 +20,4 @@
     --col-10-width: calc(100% - 2 * var(--grid-column-width));
     --col-11-width: calc(100% - 1 * var(--grid-column-width));
     --col-12-width: 100%;
-
-    --header-height-mobile: 230px;
-
-    /* font sizes */
 }
