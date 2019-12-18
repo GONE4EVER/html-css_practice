@@ -3,12 +3,12 @@
         --header-height: 20vh;
         --header-min-height: 120px;
 
-        --icon-animation-duration: 0.4s
+        --icon-animation-duration: 0.4s;
     }
 
     .header {
         height: var(--header-height);
-        min-height: var(--header-min-height)
+        min-height: var(--header-min-height);
     }
 
     .header__logo-container {

@@ -1,6 +1,4 @@
 .header {
-    height: 10.4em;
-
     color: var(--color-secondary);
     background-color: rgb(18, 17, 17);
 }
@@ -10,8 +8,6 @@
 /* Logo block */
 .header__logo-container {
     display: flex;
-
-    padding: 0 4.2%;
 
     align-items: center;
     flex-grow: 2;
@@ -25,10 +21,6 @@
 
 /*-----------------*/
 /* Navigation bar block */
-.navbar {
-    border: 10px solid rgb(90, 223, 37); /* temporary */
-}
-
 .navbar__tab {
     display: flex;
 
@@ -55,12 +47,41 @@
 }
 
 
+
 /*--------------------*/
 /* Toolbar tabs block */
 .header__toolbar {
-    border: 10px solid rgb(31, 102, 235); /* temporary */
+    display: flex;
+
+    align-items: center;
 }
 
+.header__toolbar-control {
+    flex-direction: column;
+
+    width: 100px;
+    height: 100%;
+}
+
+.header__toolbar-control__text {
+    padding: 5px;
+}
+
+.header__toolbar-control > i {
+    width: 26px;
+}
+
+#login {
+    content: url("./assets/icons/header/login.png");
+}
+
+#register {
+    content: url("./assets/icons/header/avatar.png");
+}
+
+
+/*--------------------*/
+/* Menu icon block */
 .header__toggle-menu-block {
     display: none;
 }

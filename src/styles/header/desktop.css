@@ -1,0 +1,27 @@
+@media only screen and (--desktop-viewport) {
+    :root {
+        --header-font-size: 1.6vw; /* for low resolution devices scaling */
+    }
+
+    .header {
+        height: 168px;
+        font-size: var(--header-font-size);
+        font-weight: 100;
+
+        font-family: 'Myriad Pro Regular';
+    }
+
+    .header__logo-container {
+        padding: 0 4.8%;
+    }
+
+    .navbar {
+        margin-right: 3%;
+    }
+
+    .header__toolbar {
+        padding: 15px 25px;
+        font-size: 15px;
+    }
+    
+}

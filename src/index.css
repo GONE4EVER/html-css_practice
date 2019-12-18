@@ -18,6 +18,14 @@
     src: local("Myriad Pro Light"), url("./assets/fonts/MyriadPro-Light.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Myriad Pro Regular";
+    font-weight: normal;
+    font-style: normal;
+
+    src: local("Myriad Pro Regular"), url("./assets/fonts/MYRIADPRO-REGULAR.woff") format("woff");
+}
+
 html,
 body {
     width: 100%;
