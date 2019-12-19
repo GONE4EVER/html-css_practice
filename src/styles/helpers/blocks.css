@@ -27,12 +27,19 @@
 }
 
 button {
+    cursor: pointer;
+
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
     background-color: transparent;
 }
 
+button:hover {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
 button.filled {
-    color: transparent;
+    color: var(--color-primary);
     background-color: var(--color-secondary);
 }

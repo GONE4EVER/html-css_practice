@@ -39,15 +39,15 @@ h1,
 h2,
 h3,
 h4 {
-    transform: matrix(2,0,0,2,0,0);
+    /* transform: matrix(2,0,0,2,0,0); */
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 64px;
 }
 
 h4 {
-    font-size: 19px;
+    font-size: 1.98vw;
 }
 
 *,

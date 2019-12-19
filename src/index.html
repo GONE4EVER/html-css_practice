@@ -4,11 +4,10 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="favicon.ico">
-  <meta name="viewport" width="device-width"  content="initial-scale=1.0, , user-scalable=no">
+  <meta name="viewport" width="device-width" height="device-height" content="initial-scale=1.0, , user-scalable=no">
   <meta name="description" content="HTML/CSS practice">
 
   <link rel="manifest" href="manifest.json">
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
   <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
   <title>Ask It</title>
@@ -85,9 +84,19 @@
   <main>
     <section id="home">
       <article class="home__info">
-        <h2>Live Interaction From Audience</h2>
+        <img id="home__title" src="assets/images/home/Live Interaction From Audience.png">
+
+        <img id="home__title-shadow" src="assets/images/home/Live Interaction From Audience-1.png">
 
         <h4>Q&A, Polls and Slide-sharing for Events</h4>
+
+        <div class="home__controls">
+          <button class="home__button" id="createEvent">Create a event</button>
+          <div class="home__controls-pair">
+              <button class="home__button">Join event</button>
+              <button class="home__button filled">type code</button>
+          </div>
+        </div>
       </article>
 
       <img class="home__image" src="assets/images/home_background.png" alt="homeImage">

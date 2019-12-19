@@ -9,27 +9,78 @@
     .home__info {
         position: absolute;
         z-index: 1;
-        top: 30.4%;
-        left: 24.2%;
+        top: 29.82%;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 70%;
 
         letter-spacing: 1px;
-    }
 
-    .home__info > h2 {
-        color: var(--color-secondary);
-        text-shadow: 0 4px 1px rgba(1, 31, 38, 0.8);
-
-        font-family: "Lato";
-        line-height: 1.101;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
     .home__info > h4 {
         position: relative;
-        top: 86px;
-        left: 84px;
+        top: 2.1%;
+        left: 16.3%;
 
-        letter-spacing: 0.8px;
+        letter-spacing: 1.6px;
 
         color: #ffffff;
+    }
+
+    #home__title,
+    #home__title-shadow {
+        position: relative;
+        left: 12%;
+
+        width: 49.02%;
+    }
+
+    #home__title-shadow {
+        z-index: -1;
+        top: -2.35vw;
+    }
+
+    .home__controls {
+        position: relative;
+        top: 30.3%;
+        left: 21.8%;
+
+        display: flex;
+
+        width: 29.6%;
+
+        font-size: 1.3vw;
+
+        justify-content: space-between;
+    }
+
+    .home__controls .home__button {
+        flex: 1 1 50%;
+
+        height: 61px;
+    }
+
+    #createEvent {
+        margin-right: 10%;
+
+        flex-shrink: 1.3;
+    }
+
+    .home__controls-pair {
+        display: flex;
+        flex: 1.2 1 63%;
+    }
+
+    .phone__image {
+        right: 6.88%;
+        bottom: -29.5vh;
+
+        width: 30.2%;
     }
 }
