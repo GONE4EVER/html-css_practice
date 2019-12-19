@@ -1,9 +1,16 @@
 @media only screen and (--desktop-viewport) {
     .home__image {
         width: 100%;
-        max-height: 1008px;
+        height: 104vh;
 
         transform: scale(1.009, 1.17) translate(9px,-6.9%);
+    }
+
+    .phone__image {
+        right: 6.88%;
+        bottom: -29.5vh;
+
+        width: 30.2%;
     }
 
     .home__info {
@@ -75,12 +82,5 @@
     .home__controls-pair {
         display: flex;
         flex: 1.2 1 63%;
-    }
-
-    .phone__image {
-        right: 6.88%;
-        bottom: -29.5vh;
-
-        width: 30.2%;
     }
 }

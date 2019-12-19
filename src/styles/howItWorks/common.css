@@ -31,9 +31,6 @@
 .howItWorks__tip__image-wrapper {
     display: flex;
 
-    width: 95px;
-    height: 95px;
-
     align-items: center;
     justify-content: center;
 }
