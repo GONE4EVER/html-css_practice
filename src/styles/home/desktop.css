@@ -23,13 +23,10 @@
     }
 
     .home__info > h4 {
-        position: relative;
         top: 2.1%;
         left: 16.3%;
 
         letter-spacing: 1.6px;
-
-        color: #ffffff;
     }
 
     #home__title,

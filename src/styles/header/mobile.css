@@ -11,8 +11,9 @@
         min-height: var(--header-min-height);
     }
 
+
+
     .header__logo-container {
-        flex-grow: 2;
         justify-content: center;
         align-items: center;
     }
@@ -20,6 +21,8 @@
     .logo {
         height: 85%;
     }
+
+
 
     .navbar {
         display: none;
@@ -30,8 +33,7 @@
     }
 
 
-    /*--------------------*/
-    /* Toggle menu block */
+    
     .header__toggle-menu-block {
         position: absolute;
         right: 0;
@@ -76,6 +78,7 @@
         background-color: var(--color-secondary);
     }
 
+
     /* Menu click effects */
     .header__toggle-menu__bar {
         transition: all var(--icon-animation-duration);
@@ -108,10 +111,11 @@
         animation-timing-function: ease-in-out;
         animation-delay: 0s;
     }
-}
 
-@keyframes disappear {
-    to {
-        height: 0;
+    @keyframes disappear {
+        to {
+            height: 0;
+        }
     }
 }
+

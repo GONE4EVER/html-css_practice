@@ -4,7 +4,8 @@
     }
 
     .header {
-        height: 168px;
+        height: 17.4vh;
+        min-height: 104px;
         font-size: var(--header-font-size);
         font-weight: 100;
 

@@ -4,8 +4,7 @@
 }
 
 
-/*------------*/
-/* Logo block */
+
 .header__logo-container {
     display: flex;
 
@@ -15,12 +14,11 @@
 }
 
 .logo {
-    height: 136px;
+    height: 81%;
 }
 
 
-/*-----------------*/
-/* Navigation bar block */
+
 .navbar__tab {
     display: flex;
 
@@ -49,8 +47,6 @@
 
 
 
-/*--------------------*/
-/* Toolbar tabs block */
 .header__toolbar {
     display: flex;
 
@@ -85,8 +81,7 @@
 }
 
 
-/*--------------------*/
-/* Menu icon block */
+
 .header__toggle-menu-block {
     display: none;
 }

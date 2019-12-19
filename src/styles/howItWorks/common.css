@@ -40,8 +40,6 @@
 }
 
 .howItWorks__tip > p {
-    display: flex;
-
     width: 90%;
     height: 34%;
     margin: auto;
@@ -50,7 +48,4 @@
 
     font-size: 1.4rem;
     font-weight: bold;
-
-    align-items: flex-start;
-    justify-content: center;
 }

@@ -1,5 +1,62 @@
 @media only screen and (--tablet-viewport) {
     #howItWorks {
-        height: 385px;
+        height: 26.5vh;
+        padding-top: 2.3vh;
+    }
+
+    .howItWorks__header {
+        margin-bottom: 1%;
+
+        letter-spacing: 0.15em;
+
+        font-weight: 500;
+    }
+
+    .howItWorks__content {
+        width: 85vw;
+        height: 19vh;
+
+        font-size: 1vw;
+    }
+
+    .howItWorks__content {
+        width: 90vw;
+        height: 42vh;
+    }
+
+    .howItWorks__tip {
+        width: 25%;
+        height: 100%;
+
+        justify-content: center;
+    }
+
+    .howItWorks__tip__image-wrapper {
+        width: 7.1vh;
+        height: 7.1vh;
+    }
+
+    .howItWorks__tip > p {
+        width: 80%;
+        height: 28%;
+        margin: 15% 0 0 0;
+
+        font-size: 1.6em;
+    }
+
+    img#freeAccount {
+        width: 2.4vh;
+    }
+
+    img#discussIssue {
+        width: 4.5vh;
+    }
+
+    img#qrCode {
+        width: 4.1vh;
+    }
+
+    img#favorites {
+        width: 5.3vh;
     }
 }

@@ -1,5 +1,25 @@
 @media screen and (--tablet-viewport) {
-    /* .header{
-      height: 100px;
-  } */
+    .header {
+        height: 9vh;
+        min-height: 90px;
+
+        justify-content: flex-end;
+    }
+
+    .header__logo-container {
+        display: none;
+    }
+
+    .header__toolbar {
+        padding-left: 4.8vw;
+    }
+
+    .header__toolbar-control {
+        width: 6.5vw;
+        min-width: 60px;
+    }
+
+    .header__toolbar-control > i {
+        width: 1.7vw;
+    }
 }

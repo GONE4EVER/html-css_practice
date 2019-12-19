@@ -50,6 +50,12 @@
     z-index: -1;
 }
 
+.home__info > h4 {
+    position: relative;
+
+    color: var(--color-secondary);
+}
+
 .home__controls {
     position: relative;
 
