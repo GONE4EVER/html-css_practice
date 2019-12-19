@@ -1,6 +1,6 @@
 @media only screen and (--desktop-viewport) {
     #howItWorks {
-        height: 1150px;
+        height: 72vh;
         padding-top: 6%;
     }
 
@@ -11,8 +11,8 @@
     }
 
     .howItWorks__content {
-        width: 85%;
-        height: 40%;
+        width: 85vw;
+        height: 42vh;
     }
 
     .howItWorks__tip {
