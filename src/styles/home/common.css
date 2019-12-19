@@ -4,10 +4,6 @@
     overflow: hidden;
 }
 
-.home__image {
-    transform: scale(1.06) translate(10px, -1.5%);
-}
-
 #home::before {
     position: absolute;
     z-index: 1;
@@ -26,4 +22,40 @@
 .phone__image {
     position: absolute;
     z-index: 1;
+}
+
+.home__image {
+    width: 100%;
+
+    transform: scale(1.06) translate(10px, -1.5%);
+}
+
+.home__info {
+    position: absolute;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#home__title,
+#home__title-shadow {
+    position: relative;
+}
+
+#home__title-shadow {
+    z-index: -1;
+}
+
+.home__controls {
+    position: relative;
+
+    justify-content: space-between;
+}
+
+.home__controls-pair {
+    display: flex;
 }

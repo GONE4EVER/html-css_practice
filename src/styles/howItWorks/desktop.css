@@ -1,13 +1,18 @@
 @media only screen and (--desktop-viewport) {
+    :root {
+        font-size: 1vw;
+    }
+
     #howItWorks {
         height: 72vh;
-        padding-top: 6%;
+        padding-top: 11.9vh;
     }
 
     .howItWorks__header {
-        padding-bottom: 9px;
+        margin-bottom: 5%;
+        padding-bottom: 14px;
 
-        letter-spacing: 7.9px;
+        letter-spacing: 0.15em;
     }
 
     .howItWorks__content {
@@ -16,14 +21,13 @@
     }
 
     .howItWorks__tip {
+        width: 25%;
         height: 100%;
-
-        justify-content: flex-end;
     }
 
     .howItWorks__tip__image-wrapper {
-        width: 130px;
-        height: 130px;
+        width: 13.6vh;
+        height: 13.6vh;
     }
 
     .howItWorks__tip > p {
@@ -32,24 +36,22 @@
         width: 80%;
         height: 44%;
 
-        text-align: center;
-
-        font-size: 1.6vw;
-        font-weight: 700;
-
-        align-items: center;
+        font-size: 1.6em;
     }
 
     img#freeAccount {
-        width: 44px;
+        width: 4.2vh;
     }
+
     img#discussIssue {
-        width: 85px;
+        width: 8.6vh;
     }
+
     img#qrCode {
-        width: 75px;
+        width: 7.75vh;
     }
+
     img#favorites {
-        width: 102px;
+        width: 10.4vh;
     }
 }

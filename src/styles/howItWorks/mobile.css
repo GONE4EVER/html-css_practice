@@ -1,42 +1,60 @@
 @media only screen and (--mobile-viewport) {
     :root {
-        font-size: 12px;
+        font-size: 1.54vh;
     }
 
     #howItWorks {
-        height: 570px;
-        padding-top: 12px;
+        height: 70.1vh;
+        padding-top: 2vh;
     }
 
     .howItWorks__header {
         margin: 5% 0 8.5%;
 
-        text-align: center;
         letter-spacing: 0.45rem;
 
         font-size: 3rem;
     }
 
     .howItWorks__content {
-        width: 90%;
+        width: 90vw;
         height: 75%;
     }
 
     .howItWorks__tip {
+        flex: auto;
+
         width: 50%;
-        /* height: 50%; */
+        height: 50%;
     }
 
     .howItWorks__tip__image-wrapper {
-        margin-bottom: 20px;
+        width: 13vh;
+        height: 13vh;
     }
 
     .howItWorks__tip > p {
-        width: 75%;
+        display: flex;
 
-        text-align: center;
+        width: 90%;
+        height: 34%;
 
         font-size: 1.4rem;
-        font-weight: bold;
+    }
+
+    img#freeAccount {
+        width: 32px;
+    }
+
+    img#discussIssue {
+        width: 64px;
+    }
+
+    img#qrCode {
+        width: 56px;
+    }
+
+    img#favorites {
+        width: 72px;
     }
 }
