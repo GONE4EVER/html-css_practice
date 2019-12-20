@@ -3,14 +3,14 @@
         height: 82.4vh;
     }
 
-    .interaction__title-container {
+    .interaction__figure-container {
         position: absolute;
 
         display: flex;
 
-        width: 345px;
-        height: 70px;
-        padding-left: 22px;
+        width: 18vw;
+        height: 3.65vw;
+        padding-left: 1.16vw;
 
         transform: translateY(196%) translateX(11%) rotate(-90deg);
 
@@ -22,27 +22,27 @@
     .title__figure {
         width: 29%;
         height: 2px;
-        margin-right: 4px;
+        margin-right: 0.23em;
 
         background-color: var(--color-secondary);
     }
 
-    .interaction__title-container > span {
-        letter-spacing: 7px;
+    .interaction__figure-container > span {
+        letter-spacing: 0.23em;
 
-        font-size: 1.6em;
+        font-size: 1.62em;
         font-weight: bold;
     }
 
     .title__figure::before {
         position: relative;
-        top: -11px;
-        left: -5px;
+        top: -0.525em;
+        left: -0.26em;
 
         display: inline-block;
 
-        width: 22px;
-        height: 22px;
+        width: 1.1em;
+        height: 1.1em;
 
         content: "";
 
@@ -50,8 +50,63 @@
         background-color: var(--color-secondary);;
     }
 
-    .interaction__content {
+    .interaction__container {
         width: 70%;
         height: 100%;
+        padding: 2.5% 0 0 3%;
+    }
+
+    .interaction__title {
+        width: 28%;
+        margin: 0 0 1.7%;
+
+        letter-spacing: 0.03em;
+
+        line-height: 1.24em;
+    }
+
+    .interaction__title > span::after {
+        margin: 10%;
+
+        content: "";
+    }
+
+    .interaction__header > h5 {
+        letter-spacing: 0.05em;
+
+        font-size: 1.62em;
+    }
+
+    .interaction__header > h5::after {
+        display: inline-block;
+
+        width: 13.32vw;
+        height: 1px;
+        margin-left: 1.3vw;
+
+        content: "";
+
+        border: 1px solid;
+    }
+
+    .interaction__header {
+        padding-bottom: 4.65%;
+    }
+
+    .interaction__content {
+        width: 55%;
+
+        letter-spacing: 0.019em;
+
+        font-size: 1.08em;
+        line-height: 1.31em;
+    }
+
+    .interaction__content-item > span {
+        margin-right: 2%;
+    }
+
+    .interaction__content-item {
+        padding-bottom: 3.7%;
     }
 }

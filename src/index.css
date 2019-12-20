@@ -80,6 +80,9 @@ button.filled {
     :root {
         font-size: 1vw;
     }
+    h1 {
+        font-size: 3.4em;
+    }
     h2 {
         font-size: 3.3em;
     }
