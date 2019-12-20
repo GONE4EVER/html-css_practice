@@ -7,8 +7,6 @@
     .howItWorks__header {
         margin-bottom: 1%;
 
-        letter-spacing: 0.15em;
-
         font-weight: 500;
     }
 
@@ -16,7 +14,7 @@
         width: 85vw;
         height: 19vh;
 
-        font-size: 1vw;
+        font-size: 1.2em;
     }
 
     .howItWorks__content {
