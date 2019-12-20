@@ -1,15 +1,14 @@
 @media only screen and (--desktop-viewport) {
-    :root {
-        --header-font-size: 1.6vw; /* for low resolution devices scaling */
-    }
-
     .header {
         height: 17.4vh;
         min-height: 104px;
-        font-size: var(--header-font-size);
-        font-weight: 100;
 
-        font-family: 'Myriad Pro Regular';
+        font-family: "Myriad Pro Regular";
+        font-weight: 100;
+    }
+
+    .navbar {
+        font-size: 1.6em;
     }
 
     .header__logo-container {
@@ -18,6 +17,7 @@
 
     .header__toolbar {
         padding-left: 4.45vw;
-        font-size: 0.9vw;
+
+        font-size: 0.9em;
     }
 }

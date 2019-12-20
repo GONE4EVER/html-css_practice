@@ -1,0 +1,57 @@
+@media only screen and (--desktop-viewport) {
+    #interaction {
+        height: 82.4vh;
+    }
+
+    .interaction__title-container {
+        position: absolute;
+
+        display: flex;
+
+        width: 345px;
+        height: 70px;
+        padding-left: 22px;
+
+        transform: translateY(196%) translateX(11%) rotate(-90deg);
+
+        border: 1px solid;
+
+        align-items: center;
+    }
+
+    .title__figure {
+        width: 29%;
+        height: 2px;
+        margin-right: 4px;
+
+        background-color: var(--color-secondary);
+    }
+
+    .interaction__title-container > span {
+        letter-spacing: 7px;
+
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+
+    .title__figure::before {
+        position: relative;
+        top: -11px;
+        left: -5px;
+
+        display: inline-block;
+
+        width: 22px;
+        height: 22px;
+
+        content: "";
+
+        border-radius: 50%;
+        background-color: var(--color-secondary);;
+    }
+
+    .interaction__content {
+        width: 70%;
+        height: 100%;
+    }
+}

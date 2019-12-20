@@ -1,0 +1,5 @@
+@media only screen and (--mobile-viewport) {
+    #interaction {
+        height: 40vh;
+    }
+}

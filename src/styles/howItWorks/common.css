@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
 
-    background-color: #ffffff;
-
     align-items: center;
     justify-content: flex-start;
 }
@@ -25,7 +23,6 @@
     flex-direction: column;
 
     align-items: center;
-    justify-content: flex-end;
 }
 
 .howItWorks__tip__image-wrapper {
@@ -42,10 +39,9 @@
 .howItWorks__tip > p {
     width: 90%;
     height: 34%;
-    margin: auto;
+    margin-top: 5vh;
 
     text-align: center;
 
-    font-size: 1.4rem;
     font-weight: bold;
 }

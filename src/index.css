@@ -9,6 +9,7 @@
 @import "./styles/header/index.css";
 @import "./styles/home/index.css";
 @import "./styles/howItWorks/index.css";
+@import "./styles/interaction/index.css";
 
 @font-face {
     font-family: "Myriad Pro Light";
@@ -57,23 +58,52 @@ a:hover {
     color: inherit;
 }
 
+button {
+    cursor: pointer;
+
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    background-color: transparent;
+}
+
+button:hover {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+button.filled {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
 
 @media only screen and (--desktop-viewport) {
+    :root {
+        font-size: 1vw;
+    }
     h2 {
-        font-size: 3.3vw;
+        font-size: 3.3em;
     }
 
     h4 {
-        font-size: 1.98vw;
+        font-size: 1.98em;
     }
 }
 
 @media only screen and (--tablet-viewport) {
+    :root {
+        font-size: 1vw;
+    }
     h2 {
-        font-size: 3.9vw;
+        font-size: 3.9em;
     }
 
     h4 {
-        font-size: 2.05vw;
+        font-size: 2.05em;
+    }
+}
+
+@media only screen and (--mobile-viewport) {
+    :root {
+        font-size: 1vw;
     }
 }

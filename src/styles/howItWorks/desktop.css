@@ -1,16 +1,11 @@
 @media only screen and (--desktop-viewport) {
-    :root {
-        font-size: 1vw;
-    }
-
     #howItWorks {
-        height: 72vh;
+        height: 71.5vh;
         padding-top: 11.9vh;
     }
 
     .howItWorks__header {
-        margin-bottom: 5%;
-        padding-bottom: 14px;
+        margin-bottom: 4.5%;
 
         letter-spacing: 0.15em;
     }
@@ -23,6 +18,8 @@
     .howItWorks__tip {
         width: 25%;
         height: 100%;
+
+        justify-content: center;
     }
 
     .howItWorks__tip__image-wrapper {

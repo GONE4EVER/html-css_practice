@@ -1,19 +1,19 @@
 @media only screen and (--mobile-viewport) {
-    :root {
-        font-size: 1.54vh;
-    }
-
     #howItWorks {
         height: 70.1vh;
-        padding-top: 2vh;
+        min-height: 390px;
+
+        font-size: 3.4em;
+
+        justify-content: center;
     }
 
     .howItWorks__header {
         margin: 5% 0 8.5%;
 
-        letter-spacing: 0.45rem;
+        letter-spacing: 0.15em;
 
-        font-size: 3rem;
+        font-size: 3em;
     }
 
     .howItWorks__content {
@@ -38,23 +38,24 @@
 
         width: 90%;
         height: 34%;
+        margin-top: 3vh;
 
-        font-size: 1.4rem;
+        font-size: 1.4em;
     }
 
     img#freeAccount {
-        width: 32px;
+        width: 4vh;
     }
 
     img#discussIssue {
-        width: 64px;
+        width: 7.8vh;
     }
 
     img#qrCode {
-        width: 56px;
+        width: 6.9vh;
     }
 
     img#favorites {
-        width: 72px;
+        width: 8.9vh;
     }
 }
