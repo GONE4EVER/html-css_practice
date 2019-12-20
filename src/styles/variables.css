@@ -4,6 +4,8 @@
     --color-secondary: #ffffff;
     --color-black: rgb(18, 17, 17);
 
+    --color-card: rgb(241, 180, 81);
+
 
     /* grid column sizes */
     --grid-column-width: calc(100% / 12);
