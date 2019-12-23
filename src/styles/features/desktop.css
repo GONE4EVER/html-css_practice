@@ -1,5 +1,6 @@
 @media only screen and (--desktop-viewport) {
     #features {
+        height: 72.6vh;
         padding: 2.5% 0;
     }
 

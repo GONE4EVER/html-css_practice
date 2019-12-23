@@ -1,9 +1,15 @@
 @media screen and (--tablet-viewport) {
     .header {
-        height: 9vh;
+        height: 12vw;
         min-height: 90px;
 
         justify-content: flex-end;
+    }
+
+    .navbar {
+        min-width: 60%;
+
+        font-size: 2em;
     }
 
     .header__logo-container {

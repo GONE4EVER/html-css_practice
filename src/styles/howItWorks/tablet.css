@@ -1,6 +1,6 @@
 @media only screen and (--tablet-viewport) {
     #howItWorks {
-        height: 26.5vh;
+        height: 35vw;
         padding-top: 2.3vh;
     }
 
@@ -19,7 +19,7 @@
 
     .howItWorks__content {
         width: 90vw;
-        height: 42vh;
+        height: 80%;
     }
 
     .howItWorks__tip {
@@ -30,8 +30,8 @@
     }
 
     .howItWorks__tip__image-wrapper {
-        width: 7.1vh;
-        height: 7.1vh;
+        width: 9.4vw;
+        height: 9.4vw;
     }
 
     .howItWorks__tip > p {
@@ -43,18 +43,19 @@
     }
 
     img#freeAccount {
-        width: 2.4vh;
+        width: 3.5vw;
     }
 
     img#discussIssue {
-        width: 4.5vh;
+        width: 6vw;
+        height: 6vw;
     }
 
     img#qrCode {
-        width: 4.1vh;
+        width: 5.48vw;
     }
 
     img#favorites {
-        width: 5.3vh;
+        width: 7.1vw;
     }
 }

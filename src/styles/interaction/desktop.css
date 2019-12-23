@@ -1,10 +1,7 @@
 @media only screen and (--desktop-viewport) {
     #interaction {
-        position: relative;
-
         height: 82.4vh;
     }
-
 
     /* Aside figure (desktop only) */
     .interaction__figure-container {
@@ -86,16 +83,16 @@
         font-size: 1.62em;
     }
 
+    .interaction__header {
+        padding-bottom: 7.85%;
+    }
+
     .interaction__header > h5::after {
         width: 13.32vw;
         height: 1px;
         margin-left: 1.3vw;
 
         border: 1px solid;
-    }
-
-    .interaction__header {
-        padding-bottom: 7.85%;
     }
 
     .interaction__content {

@@ -1,6 +1,6 @@
 @media screen and (--mobile-viewport) {
     .home__image {
-        min-height: 36vh;
+        min-height: 42vw;
 
         transform: scale(1.35, 1.1) translate(10px, -1.5%);
     }
@@ -48,7 +48,7 @@
     .home__controls .home__button {
         flex: 1 1 50%;
 
-        height: 8.8vh;
+        height: 16vw;
     }
 
     #createEvent {

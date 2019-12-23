@@ -21,6 +21,10 @@
         justify-content: center;
     }
 
+    .howItWorks__tip > p {
+        margin-top: 5vh;
+    }
+
     .howItWorks__tip__image-wrapper {
         width: 13.6vh;
         height: 13.6vh;

@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
 
-    height: 72.6vh;
-
     align-items: center;
     justify-content: flex-start;
 }
