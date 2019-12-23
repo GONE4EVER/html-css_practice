@@ -16,10 +16,24 @@
     justify-content: center;
 }
 
+.interaction__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.interaction__title {
+    letter-spacing: 0.03em;
+}
+
 .interaction__header > h5::after {
     display: inline-block;
 
     content: "";
+}
+
+.interaction__header > h5 {
+    display: flex;
+    flex-direction: column;
 }
 
 .interaction__card-item {

@@ -1,0 +1,16 @@
+@media only screen and (--desktop-viewport) {
+    #features {
+        padding: 2.5% 0;
+    }
+
+    #question::before,
+    #vote::before {
+        display: none;
+    }
+
+    #vote .features__content-item__inner::after,
+    #survey .features__content-item__inner::after,
+    #policy .features__content-item__inner::after {
+        display: none;
+    }
+}

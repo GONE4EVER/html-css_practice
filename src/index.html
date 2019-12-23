@@ -16,7 +16,11 @@
 <body class="app">
   <header class="header col-12 row">
     <div class="header__logo-container  col-3">
-      <img class="logo" src="assets/images/logo.png">
+      <img 
+        class="logo" 
+        src="assets/images/logo.png" 
+        alt="logo"
+      >
     </div>
 
     <nav class="navbar col-6 row" role="navigation">
@@ -33,25 +37,25 @@
       </div>
 
       <div class="navbar__tab">
-        <a>
+        <a href="#features">
           Features
         </a>
       </div>
 
       <div class="navbar__tab">
-        <a>
+        <a href="#partners">
           Partners
         </a>
       </div>
 
       <div class="navbar__tab">
-        <a>
+        <a href="#events">
           Events
         </a>
       </div>
 
       <div class="navbar__tab">
-        <a>
+        <a href="#aboutUs">
           About us
         </a>
       </div>
@@ -84,9 +88,17 @@
   <main>
     <section id="home">
       <article class="home__info">
-        <img id="home__title" src="assets/images/home/Live Interaction From Audience.png">
+        <img 
+          id="home__title" 
+          src="assets/images/home/Live Interaction From Audience.png" 
+          alt="title"
+        >
 
-        <img id="home__title-shadow" src="assets/images/home/Live Interaction From Audience-1.png">
+        <img 
+          id="home__title-shadow" 
+          src="assets/images/home/Live Interaction From Audience-1.png" 
+          alt="shadow"
+        >
 
         <h4>Q&A, Polls and Slide-sharing for Events</h4>
 
@@ -99,15 +111,23 @@
         </div>
       </article>
 
-      <img class="home__image" src="assets/images/home_background.png" alt="homeImage">
+      <img 
+        class="home__image" 
+        src="assets/images/home_background.png" 
+        alt="homeImage
+      ">
       
-      <img src="assets/images/iPhone.png" alt="iphone" class="phone__image">
+      <img 
+        src="assets/images/iPhone.png" 
+        class="phone__image"
+        alt="iphone" 
+      >
     </section>
 
     <section id="howItWorks" class="primary">
-      <h2 class="howItWorks__header primary">
+      <h1 class="howItWorks__header primary">
         How it works
-      </h2>
+      </h1>
 
       <div class="howItWorks__content primary">
         <div class="howItWorks__tip">
@@ -178,11 +198,11 @@
             </div>
     
             <article class="interaction__content">
-              <p class="interaction__content-item">
+              <p class="interaction__content-paragraph">
                 it’s never been easier to connect with people who speak this language. They want others to build up their self-image and confidence, and digital connectivity creates ample opportunity to tell your audience why they’re awesome. Move  beyond general flattery and focus on specifics. Ask yourself, “How can I <span>make</span> my audience feel good about themselves?”
               </p>
               
-              <p class="interaction__content-item">
+              <p class="interaction__content-paragraph">
                   One option might be developing a blog series that focuses on industry wins, or  spotlights companies that are doing something right. Or if you share an article  with your network, you could point out a quote from the author that really  resonates with you. Don’t just tell your audience you love them; tell them why. 
               </p>
     
@@ -193,7 +213,10 @@
           <figure class="interaction__card-item" id="ask">
             <div class="interaction__card-content-wrapper">
               <div class="interaction__card-content">
-                <img src="assets/icons/interactions/light-bulb.png">
+                <img 
+                  src="assets/icons/interactions/light-bulb.png"
+                  alt="light-bulb"
+                >
                 <figcaption>Ask a Question Right Now</figcaption>
               </div>
             </div>
@@ -202,7 +225,10 @@
           <figure class="interaction__card-item" id="choose">
             <div class="interaction__card-content-wrapper">
               <div class="interaction__card-content">
-                <img src="assets/icons/interactions/magnifying-glass.png">
+                <img 
+                  src="assets/icons/interactions/magnifying-glass.png"
+                  alt="magnifying-glass"
+                >
                 <figcaption>Choose From Questions</figcaption>
               </div>
             </div>
@@ -211,12 +237,95 @@
           <figure class="interaction__card-item" id="select">
             <div class="interaction__card-content-wrapper">
               <div class="interaction__card-content">
-                <img src="assets/icons/interactions/contract.png">
+                <img 
+                  src="assets/icons/interactions/contract.png"
+                  alt="magnifying-glass"
+                >
                 <figcaption>Select From Top Questions</figcaption>
               </div>
             </div>
           </figure>
         </div>
+      </div>
+    </section>
+
+    <section id="features" class="primary">
+      <h1 class="features__header">
+        Features
+      </h1>
+      <div class="features__content">
+        <div id="question" class="features__content-item">
+          <div class="features__content-item__inner">
+            <img
+              src="assets/icons/features/microphone.png"
+              class=""
+              alt="microphone"
+            >
+
+            <figcaption>Ask a question</figcaption>
+          </div>
+        </div>
+
+        <div id="poll" class="features__content-item">
+          <div class="features__content-item__inner">
+            <img
+              src="assets/icons/features/bar-chart.png"
+              class=""
+              alt="bar-chart"
+            >
+
+            <figcaption>Raise a poll</figcaption>
+          </div>
+        </div>
+
+        <div id="statistics" class="features__content-item">
+          <div class="features__content-item__inner">
+            <img
+              src="assets/icons/features/insight.png"
+              class=""
+              alt="insight"
+            >
+        
+            <figcaption>View statistics</figcaption>
+          </div>
+        </div>
+
+        <div id="vote" class="features__content-item">
+          <div class="features__content-item__inner">
+            <img
+              src="assets/icons/features/medal.png"
+              class=""
+              alt="medal"
+            >
+
+            <figcaption>Vote a question</figcaption>
+          </div>  
+        </div>
+
+        <div id="survey" class="features__content-item">
+          <div class="features__content-item__inner">
+            <img
+              src="assets/icons/features/flag.png"
+              class=""
+              alt="flag"
+            >
+  
+            <figcaption>Create a survey</figcaption>
+          </div>
+        </div>
+
+        <div id="policy" class="features__content-item">
+          <div class="features__content-item__inner">
+            <img
+              src="assets/icons/features/padlock.png"
+              class=""
+              alt="padlock"
+            >
+
+            <figcaption>Policy ensured</figcaption>
+          <div>
+        </div>
+
       </div>
     </section>
   </main>

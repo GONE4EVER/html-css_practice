@@ -3,8 +3,6 @@
     background-color: rgb(18, 17, 17);
 }
 
-
-
 .header__logo-container {
     display: flex;
 
@@ -16,8 +14,6 @@
 .logo {
     height: 81%;
 }
-
-
 
 .navbar__tab {
     display: flex;
@@ -44,8 +40,6 @@
 
     align-items: center;
 }
-
-
 
 .header__toolbar {
     display: flex;
@@ -79,8 +73,6 @@
 #register {
     content: url("./assets/icons/header/avatar.png");
 }
-
-
 
 .header__toggle-menu-block {
     display: none;

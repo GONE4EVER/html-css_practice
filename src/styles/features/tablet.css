@@ -1,0 +1,48 @@
+@media only screen and (--tablet-viewport) {
+    #features {
+        height: 64vh;
+
+        font-size: 2em;
+    }
+
+    .features__header {
+        margin: 5% 0 1%;
+
+        font-size: 3.4em;
+    }
+
+    .features__content {
+        width: 90%;
+        height: 75%;
+    }
+
+    .features__content-item {
+        width: 50%;
+
+        align-items: center;
+    }
+
+    .features__content-item__inner > img {
+        height: 60%;
+        padding: 5.5% 0;
+    }
+
+    .features__content-item::before {
+        height: 60%;
+    }
+
+    .features__content-item__inner::after {
+        width: 70%;
+    }
+
+    #question::before,
+    #statistics::before,
+    #survey::before {
+        display: none;
+    }
+
+    #survey .features__content-item__inner::after,
+    #policy .features__content-item__inner::after {
+        display: none;
+    }
+}

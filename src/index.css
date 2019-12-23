@@ -10,6 +10,7 @@
 @import "./styles/home/index.css";
 @import "./styles/howItWorks/index.css";
 @import "./styles/interaction/index.css";
+@import "./styles/features/index.css";
 
 @font-face {
     font-family: "Myriad Pro Light";
@@ -83,9 +84,6 @@ button.filled {
     h1 {
         font-size: 3.4em;
     }
-    h2 {
-        font-size: 3.3em;
-    }
 
     h4 {
         font-size: 1.98em;
@@ -96,7 +94,7 @@ button.filled {
     :root {
         font-size: 1vw;
     }
-    h2 {
+    h1 {
         font-size: 3.9em;
     }
 

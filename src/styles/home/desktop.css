@@ -7,7 +7,7 @@
 
     .phone__image {
         right: 6.88%;
-        bottom: -29.5vh;
+        bottom: -14.8vw;
 
         width: 30.2%;
     }
@@ -37,7 +37,7 @@
     }
 
     #home__title-shadow {
-        top: -2.35vw;
+        transform: translateY(-2.35vw);
     }
 
     .home__controls {

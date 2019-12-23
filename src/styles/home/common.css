@@ -46,8 +46,12 @@
     position: relative;
 }
 
+#home__title {
+    z-index: 2;
+}
+
 #home__title-shadow {
-    z-index: -1;
+    z-index: 1;
 }
 
 .home__info > h4 {
