@@ -34,7 +34,7 @@
         height: 9.4vw;
     }
 
-    .howItWorks__tip > p {
+    .howItWorks__tip > figcaption {
         width: 80%;
         height: 28%;
         margin-top: 15%;

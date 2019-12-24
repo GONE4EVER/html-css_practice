@@ -36,7 +36,7 @@
     border: 1px solid rgb(3, 118, 147);
 }
 
-.howItWorks__tip > p {
+.howItWorks__tip > figcaption {
     width: 90%;
     height: 34%;
 

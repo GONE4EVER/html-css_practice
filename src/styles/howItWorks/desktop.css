@@ -21,7 +21,7 @@
         justify-content: center;
     }
 
-    .howItWorks__tip > p {
+    .howItWorks__tip > figcaption {
         margin-top: 5vh;
     }
 
@@ -30,7 +30,7 @@
         height: 13.6vh;
     }
 
-    .howItWorks__tip > p {
+    .howItWorks__tip > figcaption {
         width: 80%;
         height: 44%;
 
