@@ -1,0 +1,47 @@
+@media only screen and (--tablet-viewport) {
+    #partners {
+        height: 90vw;
+
+        font-size: 2em;
+    }
+
+    .partners__image {
+        transform: scale(4, 1) translateX(-10%);
+    }
+
+    .partners__header {
+        font-size: 3.4em;
+    }
+
+    .partners__list {
+        padding: 0 6vw;
+    }
+
+    #mccann > img {
+        width: 80%;
+    }
+
+    #unwomen > img {
+        width: 74%;
+    }
+
+    #accenture > img {
+        width: 80%;
+    }
+
+    #cisco > img {
+        width: 60%;
+    }
+
+    #eventbrite > img {
+        width: 80%;
+    }
+
+    #zappos > img {
+        width: 72%;
+    }
+
+    #siemens > img {
+        width: 86%;
+    }
+}

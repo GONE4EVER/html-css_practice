@@ -1,0 +1,82 @@
+@media only screen and (--desktop-viewport) {
+    #partners {
+        height: 37.5vh;
+    }
+
+    .partners__header {
+        margin: 0.8vw 0 0.6vw;
+    }
+
+    .partners__container {
+        padding: 0 6vw;
+    }
+
+    .partners__list {
+        height: 50%;
+        padding: 5% 0;
+
+        justify-content: center;
+    }
+
+    .partners__list-item {
+        flex: 1 1;
+
+        height: 100%;
+
+        order: 0 !important;
+    }
+
+    .partners__contol-arrow {
+        position: absolute;
+        top: 60%;
+
+        display: block;
+
+        padding: 0.8vw;
+
+        cursor: pointer;
+
+        border: solid var(--color-secondary);
+        border-width: 2px 2px 0 0;
+    }
+
+    .partners__contol-arrow.right {
+        right: 3.4vw;
+
+        transform: rotate(45deg);
+    }
+
+    .partners__contol-arrow.left {
+        left: 3.4vw;
+
+        transform: rotate(-135deg);
+    }
+
+    #mccann > img {
+        width: 68%;
+    }
+
+    #unwomen > img {
+        width: 58%;
+    }
+
+    #accenture > img {
+        width: 62%;
+    }
+
+    #cisco > img {
+        width: 38%;
+    }
+
+    #eventbrite > img {
+        width: 62%;
+    }
+
+    #zappos > img {
+        width: 54%;
+    }
+
+    #siemens > img {
+        width: 70%;
+    }
+}

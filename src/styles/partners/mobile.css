@@ -1,0 +1,15 @@
+@media only screen and (--mobile-viewport) {
+    #partners {
+        height: 110vw;
+
+        font-size: 3.4em;
+    }
+
+    .partners__image {
+        transform: scale(4, 1) translateX(-10%);
+    }
+
+    .partners__header {
+        font-size: 3.4em;
+    }
+}

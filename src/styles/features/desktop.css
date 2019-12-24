@@ -4,6 +4,10 @@
         padding: 2.5% 0;
     }
 
+    .features__header {
+        padding-bottom: 0;
+    }
+
     #question::before,
     #vote::before {
         display: none;
