@@ -12,6 +12,7 @@
 @import "./styles/interaction/index.css";
 @import "./styles/features/index.css";
 @import "./styles/partners/index.css";
+@import "./styles/events/index.css";
 
 @font-face {
     font-family: "Myriad Pro Light";

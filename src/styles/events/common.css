@@ -1,0 +1,164 @@
+#events {
+    display: flex;
+    flex-direction: column;
+
+    height: 42.8vw;
+    padding-top: 1%;
+
+    background-color: rgb(232, 232, 232);
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.events__header {
+    letter-spacing: 0.15em;
+}
+
+.events__content {
+    width: 100%;
+    height: 80%;
+    padding: 0 9%;
+}
+
+.events__card {
+    flex: 1 1 calc(100% / 3);
+
+    max-width: calc(100% / 3);
+    height: 90%;
+
+    color: var(--color-secondary);
+    background-color: var(--color-secondary);
+}
+
+.events__card > header {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 46%;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    font-family: "Myriad Pro Regular";
+    font-size: 3.8em;
+    line-height: 1.3em;
+}
+
+.events__card span {
+    display: block;
+
+    font-size: 1.1em;
+}
+
+.events__card-content {
+    display: flex;
+    flex-direction: column;
+
+    height: 60%;
+    padding: 5% 0;
+
+    color: black;
+
+    font-weight: bold;
+
+    align-items: center;
+}
+
+.events__card-content > p {
+    width: 70%;
+    padding: 1.7% 0 2.6%;
+
+    text-align: center;
+    letter-spacing: 0.07em;
+
+    line-height: 1.6em;
+}
+
+.events__card-content > button {
+    width: 9.76vw;
+    height: 2.75vw;
+
+    border-radius: 40px;
+
+    font-size: 1.6em;;
+}
+
+
+/* header images */
+
+
+
+/* icons sizing */
+#usbConnection img {
+    width: 9.4%;
+}
+
+#interactivity img {
+    width: 13%;
+}
+
+#hardDisk img {
+    width: 11%;
+}
+
+
+/* shadows */
+#usbConnection,
+#hardDisk {
+    box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
+}
+
+#interactivity {
+    box-shadow: 0 2.72px 65.28px 2.72px rgba(30, 30, 30, 0.26);
+}
+
+
+/* positioning transforms */
+.green {
+    transform: scale(0.89) translate(4.7vw,-0.4vw);
+}
+
+.red {
+    z-index: 1;
+
+    transform: translateY(-4%);
+}
+
+.orange {
+    transform: scale(0.89) translate(-4.7vw, -0.4vw);
+}
+
+
+/* color themes */
+.red > header {
+    background-color: #f26250;
+    box-shadow: 0 1px var(--color-secondary),
+    0 6px #f26250;
+}
+
+.red button {
+    background-color: #f26250;
+}
+
+.orange > header {
+    background-color: #f0a765;
+    box-shadow: 0 1px var(--color-secondary),
+    0 6px #f0a765;
+}
+
+.orange button {
+    background-color: #f0a765;
+}
+
+.green > header {
+    background-color: #4ca59a;
+    box-shadow: 0 1px var(--color-secondary),
+    0 6px #4ca59a;
+}
+
+.green button {
+    background-color: #4ca59a;
+}
