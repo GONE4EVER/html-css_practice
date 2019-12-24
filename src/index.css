@@ -2,8 +2,8 @@
 @import "./styles/variables.css";
 
 /* generic styles */
-@import "./styles/helpers/blocks.css";
-@import "./styles/helpers/grid/columns.css";
+@import "./styles/blocks.css";
+@import "./styles/gridColumns.css";
 
 
 @import "./styles/header/index.css";
