@@ -1,5 +1,7 @@
 #interaction {
     position: relative;
+
+    overflow: hidden;
 }
 
 .interaction__figure-container {
