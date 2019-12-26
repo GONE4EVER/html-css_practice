@@ -5,6 +5,7 @@
 @import "./styles/blocks.css";
 @import "./styles/gridColumns.css";
 
+@import "./styles/headerUnderline.css";
 
 @import "./styles/header/index.css";
 @import "./styles/home/index.css";

@@ -1,0 +1,57 @@
+.underline {
+    position: relative;
+}
+
+.underline::before {
+    position: absolute;
+    bottom: -0.1em;
+
+    width: 1.25em;
+    padding-top: 2px;
+
+    content: "";
+
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: inherit;
+}
+
+.underline::after {
+    position: absolute;
+    bottom: -0.1em;
+
+    width: 0.2em;
+    padding-top: 2px;
+
+    content: "";
+
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+
+/* positioning */
+.underline.underline-left::after {
+    left: 1.45em;
+}
+
+
+.underline.underline-right::before {
+    right: 0;
+}
+.underline.underline-right::after {
+    right: 1.45em;
+}
+
+/* colors */
+.primary .underline::after,
+.primary .underline::before {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+}
+
+.secondary .underline::after,
+.secondary .underline::before {
+    border-color: var(--color-secondary);
+    background-color: var(--color-secondary);
+}

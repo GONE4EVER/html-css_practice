@@ -14,6 +14,8 @@
 
 /* sections header */
 .events__header {
+    margin-bottom: 1.4em;
+
     letter-spacing: 0.15em;
 }
 
@@ -25,6 +27,8 @@
     width: 100%;
     height: 80%;
     padding: 0 9%;
+
+    align-items: center;
 }
 
 
@@ -33,7 +37,7 @@
     flex: 1 1 calc(100% / 3);
 
     max-width: calc(100% / 3);
-    height: 90%;
+    height: 94%;
 
     color: var(--color-secondary);
     background-color: var(--color-secondary);
@@ -81,7 +85,7 @@
     flex-direction: column;
 
     height: 60%;
-    padding: 5% 0;
+    padding: 0.4vw 0;
 
     color: black;
 
@@ -92,7 +96,7 @@
 
 .events__card-content > p {
     width: 70%;
-    padding: 1.7% 0 2.6%;
+    padding-bottom: 2.6%;
 
     text-align: center;
     letter-spacing: 0.07em;
@@ -101,7 +105,7 @@
 }
 
 .events__card-content > button {
-    width: 9.76vw;
+    width: 9.2vw;
     height: 2.75vw;
 
     border-radius: 40px;

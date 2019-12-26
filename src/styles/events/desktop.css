@@ -1,4 +1,10 @@
 @media only screen and (--desktop-viewport) {
+    /* sections header */
+    .events__header {
+        margin-bottom: 1em;
+    }
+
+
     /* card items header images */
     #external > header::after {
         background-image: url("./assets/images/events/externalEvent.png");
