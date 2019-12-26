@@ -10,7 +10,7 @@
     }
 
     .home__info {
-        top: 29.82%;
+        top: 25%;
 
         width: 100%;
         height: 70%;
@@ -18,7 +18,38 @@
         letter-spacing: 1px;
     }
 
-    .home__info > h4 {
+    #homeTitle {
+        width: 95%;
+        margin: 0 0 4vw;
+
+        text-align: center;
+
+        font-size: 6.2em;
+
+        align-self: center;
+    }
+
+    #homeTitle::before,
+    #homeTitle::after {
+        bottom: -0.3em;
+
+        padding: 2px;
+
+        border-radius: 20px;
+    }
+
+    #homeTitle::before {
+        right: 4.7em;
+
+        width: 0.3em;
+    }
+    #homeTitle::after {
+        right: 0.2em;
+
+        width: 4.3em;
+    }
+
+    #homeSubtitle {
         top: 2.1%;
         left: 16.3%;
 
@@ -27,16 +58,6 @@
         font-size: 3.4em;
     }
 
-    #home__title,
-    #home__title-shadow {
-        width: 86%;
-
-        align-self: center;
-    }
-
-    #home__title-shadow {
-        top: -3.6vw;
-    }
 
     .home__controls {
         width: 90%;

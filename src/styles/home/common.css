@@ -56,24 +56,31 @@
     justify-content: flex-start;
 }
 
-#home__title,
-#home__title-shadow {
+#homeTitle {
+    position: relative;
+
+    margin: 0 0 1.7vw;
+
+    text-shadow: 0 5px 2px rgba(0,0,0,0.9);
+
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+#homeTitle::before,
+#homeTitle::after,
+#homeSubtitle::before {
+    position: absolute;
+
+    content: "";
+
+    background-color: var(--color-secondary);
+}
+
+#homeSubtitle {
     position: relative;
 }
 
-#home__title {
-    z-index: 2;
-}
-
-#home__title-shadow {
-    z-index: 1;
-}
-
-.home__info > h4 {
-    position: relative;
-
-    color: var(--color-secondary);
-}
 
 .home__controls {
     position: relative;

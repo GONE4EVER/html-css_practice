@@ -19,23 +19,39 @@
         height: 70%;
     }
 
-    .home__info > h4 {
+    #homeSubtitle {
         top: 1.7%;
         left: 16.6%;
 
         letter-spacing: 1.2px;
     }
 
-    #home__title,
-    #home__title-shadow {
-        left: 12%;
+    #homeTitle {
+        left: 9%;
 
-        width: 49.7%;
+        width: 58.7%;
     }
 
-    #home__title-shadow {
-        top: -2.3vw;
+    #homeTitle::before,
+    #homeTitle::after {
+        bottom: -1.2vw;
+
+        padding: 2px;
+
+        border-radius: 20px;
     }
+
+    #homeTitle::before {
+        right: 5.25em;
+
+        width: 0.3em;
+    }
+    #homeTitle::after {
+        right: 5.4vw;
+
+        width: 14.2vw;
+    }
+
 
     .home__controls {
         top: 30.3%;
