@@ -3,58 +3,12 @@
         height: 82.4vh;
     }
 
-    /* Aside figure (desktop only) */
-    .interaction__figure-container {
-        position: absolute;
-
-        display: flex;
-
-        width: 18vw;
-        height: 3.65vw;
-        padding-left: 1.16vw;
-
-        transform: translateY(196%) translateX(11%) rotate(-90deg);
-
-        border: 1px solid;
-
-        align-items: center;
-    }
-
-    .title__figure {
-        width: 29%;
-        height: 2px;
-        margin-right: 0.23em;
-
-        background-color: var(--color-secondary);
-    }
-
-    .interaction__figure-container > span {
-        letter-spacing: 0.23em;
-
-        font-size: 1.62em;
-        font-weight: bold;
-    }
-
-    .title__figure::before {
-        display: inline-block;
-
-        width: 1.1em;
-        height: 1.1em;
-
-        content: "";
-        transform: translateX(-0.26em) translateY(-0.515em);
-
-        border-radius: 50%;
-        background-color: var(--color-secondary);;
-    }
-
-
     /* Main content */
     .interaction__container {
         flex-direction: row;
 
         width: 70%;
-        padding: 1.5% 0 0 3%;
+        padding: 2.5% 0 0 3%;
 
         align-items: flex-start;
     }
