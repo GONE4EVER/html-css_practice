@@ -24,10 +24,9 @@
 
         transform: none !important;
 
+        border-width: 2px;
         border-color: var(--color-secondary);
-        border-top-width: 3px;
         border-top-style: solid;
-        border-bottom-width: 3px;
         border-bottom-style: solid;
         outline: none;
         box-shadow: none !important;
