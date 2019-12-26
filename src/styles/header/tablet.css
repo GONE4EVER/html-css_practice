@@ -7,7 +7,7 @@
     }
 
     .navbar {
-        min-width: 60%;
+        max-width: 60%;
 
         font-size: 2em;
     }
@@ -17,6 +17,7 @@
     }
 
     .header__toolbar {
+        max-width: 30%;
         padding-left: 4.8vw;
     }
 
