@@ -1,17 +1,5 @@
 @media only screen and (--desktop-viewport) {
-    /* header images */
-    .events__card > header::after {
-        position: absolute;
-        z-index: -1;
-
-        width: 100%;
-        height: 100%;
-
-        content: "";
-
-        background-position: center;
-    }
-
+    /* card items header images */
     #external > header::after {
         background-image: url("./assets/images/events/externalEvent.png");
     }
@@ -22,5 +10,19 @@
 
     #internal > header::after {
         background-image: url("./assets/images/events/internalEvent.png");
+    }
+
+
+    /* card items content icons*/
+    #external .events__card-icon {
+        background-image: url("./assets/icons/events/usb-connection.png");
+    }
+
+    #interactive .events__card-icon {
+        background-image: url("./assets/icons/events/interactivity.png");
+    }
+
+    #internal .events__card-icon {
+        background-image: url("./assets/icons/events/hard-disk.png");
     }
 }

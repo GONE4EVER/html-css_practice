@@ -11,10 +11,14 @@
     justify-content: flex-start;
 }
 
+
+/* sections header */
 .events__header {
     letter-spacing: 0.15em;
 }
 
+
+/* sections content */
 .events__content {
     display: flex;
 
@@ -23,6 +27,8 @@
     padding: 0 9%;
 }
 
+
+/* card item */
 .events__card {
     flex: 1 1 calc(100% / 3);
 
@@ -33,6 +39,8 @@
     background-color: var(--color-secondary);
 }
 
+
+/* card items header */
 .events__card > header {
     position: relative;
 
@@ -49,10 +57,25 @@
     line-height: 1.3em;
 }
 
+.events__card > header::after {
+    position: absolute;
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+
+    content: "";
+
+    background-position: center;
+    background-size: cover;
+}
+
 .events__card > header > span {
     font-size: 1.1em;
 }
 
+
+/* card items content */
 .events__card-content {
     display: flex;
     flex-direction: column;
@@ -87,8 +110,10 @@
 }
 
 
-/* card icons */
+/* card items content icons */
 .events__card-icon {
+    height: 30%;
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -96,27 +121,18 @@
 
 #external .events__card-icon {
     width: 9.4%;
-    height: 30%;
-
-    background-image: url("./assets/icons/events/usb-connection.png");
 }
 
 #interactive .events__card-icon {
     width: 12%;
-    height: 30%;
-
-    background-image: url("./assets/icons/events/interactivity.png");
 }
 
 #internal .events__card-icon {
     width: 11%;
-    height: 30%;
-
-    background-image: url("./assets/icons/events/hard-disk.png");
 }
 
 
-/* shadows */
+/* card items shadows */
 #external,
 #internal {
     box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
@@ -127,7 +143,7 @@
 }
 
 
-/* positioning transforms */
+/* card items positioning transforms */
 #external {
     transform: scale(0.89) translate(4.7vw,-0.4vw);
 }
@@ -143,13 +159,12 @@
 }
 
 
-/* color themes */
+/* color themes (desktop/tablet) */
 .red > header {
     background-color: rgba(242, 98, 80, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px #f26250;
 }
-
 .red button {
     background-color: #f26250;
 }
@@ -159,7 +174,6 @@
     box-shadow: 0 1px var(--color-secondary),
     0 6px #f0a765;
 }
-
 .orange button {
     background-color: #f0a765;
 }
@@ -169,7 +183,6 @@
     box-shadow: 0 1px var(--color-secondary),
     0 6px #4ca59a;
 }
-
 .green button {
     background-color: #4ca59a;
 }

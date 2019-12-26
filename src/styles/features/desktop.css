@@ -4,15 +4,20 @@
         padding: 2.5% 0;
     }
 
+
+    /* sections header */
     .features__header {
         padding-bottom: 0;
     }
 
+    /* removing extra vertical borders */
     #question::before,
     #vote::before {
         display: none;
     }
 
+
+    /* removing extra horizontal borders */
     #vote .features__content-item__inner::after,
     #survey .features__content-item__inner::after,
     #policy .features__content-item__inner::after {

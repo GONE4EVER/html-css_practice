@@ -6,12 +6,16 @@
         font-size: 3.4em;
     }
 
+
+    /* sections header */
     .features__header {
         margin: 8% 0 1%;
 
         font-size: 3.4em;
     }
 
+
+    /* secitons content */
     .features__content {
         width: 96%;
         height: 80%;
@@ -23,20 +27,27 @@
         align-items: center;
     }
 
+
+    /* table borders */
+
+    /* vertical border*/
     .features__content-item::before {
         height: 60%;
     }
 
+    /* horizontal border*/
     .features__content-item__inner::after {
         width: 70%;
     }
 
+    /* removing extra vertical borders */
     #question::before,
     #statistics::before,
     #survey::before {
         display: none;
     }
 
+    /* removing extra horizontal borders */
     #survey .features__content-item__inner::after,
     #policy .features__content-item__inner::after {
         display: none;
