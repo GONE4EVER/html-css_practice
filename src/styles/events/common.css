@@ -16,6 +16,8 @@
 }
 
 .events__content {
+    display: flex;
+
     width: 100%;
     height: 80%;
     padding: 0 9%;
@@ -47,9 +49,7 @@
     line-height: 1.3em;
 }
 
-.events__card span {
-    display: block;
-
+.events__card > header > span {
     font-size: 1.1em;
 }
 
@@ -83,58 +83,69 @@
 
     border-radius: 40px;
 
-    font-size: 1.6em;;
+    font-size: 1.6em;
 }
 
 
-/* header images */
+/* card icons */
+.events__card-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 
-
-
-/* icons sizing */
-#usbConnection img {
+#external .events__card-icon {
     width: 9.4%;
+    height: 30%;
+
+    background-image: url("./assets/icons/events/usb-connection.png");
 }
 
-#interactivity img {
-    width: 13%;
+#interactive .events__card-icon {
+    width: 12%;
+    height: 30%;
+
+    background-image: url("./assets/icons/events/interactivity.png");
 }
 
-#hardDisk img {
+#internal .events__card-icon {
     width: 11%;
+    height: 30%;
+
+    background-image: url("./assets/icons/events/hard-disk.png");
 }
 
 
 /* shadows */
-#usbConnection,
-#hardDisk {
+#external,
+#internal {
     box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
 }
 
-#interactivity {
+#interactive {
     box-shadow: 0 2.72px 65.28px 2.72px rgba(30, 30, 30, 0.26);
 }
 
 
 /* positioning transforms */
-.green {
+#external {
     transform: scale(0.89) translate(4.7vw,-0.4vw);
 }
 
-.red {
+#interactive {
     z-index: 1;
 
     transform: translateY(-4%);
 }
 
-.orange {
+#internal {
     transform: scale(0.89) translate(-4.7vw, -0.4vw);
 }
 
 
 /* color themes */
 .red > header {
-    background-color: #f26250;
+    background-color: rgba(242, 98, 80, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px #f26250;
 }
@@ -144,7 +155,7 @@
 }
 
 .orange > header {
-    background-color: #f0a765;
+    background-color: rgba(240, 167, 101, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px #f0a765;
 }
@@ -154,7 +165,7 @@
 }
 
 .green > header {
-    background-color: #4ca59a;
+    background-color: rgba(76, 165, 154, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px #4ca59a;
 }

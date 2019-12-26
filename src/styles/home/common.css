@@ -1,3 +1,18 @@
+#home button {
+    border: 1px solid var(--color-secondary);
+    background-color: transparent;
+}
+
+#home button:hover {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+#home button.filled {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
 #home {
     position: relative;
 

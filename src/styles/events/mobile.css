@@ -1,0 +1,109 @@
+@media only screen and (--mobile-viewport) {
+    #events {
+        height: 160vw;
+        padding: 0;
+    }
+
+    .events__header {
+        display: none;
+    }
+
+    .events__content {
+        flex-direction: column;
+
+        height: 100%;
+        padding: 0;
+    }
+
+    .events__card {
+        flex: 1 1 100%;
+
+        width: 100%;
+        max-width: 100%;
+        padding: 2vw 0;
+
+        transform: none !important;
+
+        border-color: var(--color-secondary);
+        border-top-width: 3px;
+        border-top-style: solid;
+        border-bottom-width: 3px;
+        border-bottom-style: solid;
+        outline: none;
+        box-shadow: none !important;
+    }
+
+    .events__card > header {
+        display: block;
+
+        height: 20%;
+
+        background-color: transparent;
+        box-shadow: none;
+
+        font-size: 5.5em;
+    }
+
+    .events__card-content {
+        flex-direction: row;
+
+        height: 80%;
+        padding: 0;
+
+        color: black;
+
+        font-weight: bold;
+
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .events__card-content .events__card-icon {
+        margin: 5%;
+    }
+
+    .events__card-content > p {
+        height: 50%;
+
+        color: var(--color-secondary);
+
+        font-size: 3.5em;
+    }
+
+
+    /* color themes */
+    .events__card-content button {
+        width: 24%;
+        height: 18%;
+
+        background-color: var(--color-secondary);
+
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+
+    .red.events__card {
+        background-color: rgba(242, 98, 80, 0.8);
+    }
+
+    .red button {
+        color: #f26250;
+    }
+
+    .orange.events__card {
+        background-color: rgba(240, 167, 101, 0.8);
+    }
+
+    .orange button {
+        color: #f0a765;
+    }
+
+    .green.events__card {
+        background-color: rgba(76, 165, 154, 0.8);
+    }
+
+    .green button {
+        color: #4ca59a;
+    }
+}

@@ -1,0 +1,26 @@
+@media only screen and (--desktop-viewport) {
+    /* header images */
+    .events__card > header::after {
+        position: absolute;
+        z-index: -1;
+
+        width: 100%;
+        height: 100%;
+
+        content: "";
+
+        background-position: center;
+    }
+
+    #external > header::after {
+        background-image: url("./assets/images/events/externalEvent.png");
+    }
+
+    #interactive > header::after {
+        background-image: url("./assets/images/events/interactiveEvent.png");
+    }
+
+    #internal > header::after {
+        background-image: url("./assets/images/events/internalEvent.png");
+    }
+}

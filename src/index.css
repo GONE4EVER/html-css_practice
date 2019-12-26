@@ -65,19 +65,9 @@ button {
     cursor: pointer;
 
     color: var(--color-secondary);
-    border: 1px solid var(--color-secondary);
-    background-color: transparent;
+    border: 1px solid transparent;
 }
 
-button:hover {
-    color: var(--color-primary);
-    background-color: var(--color-secondary);
-}
-
-button.filled {
-    color: var(--color-primary);
-    background-color: var(--color-secondary);
-}
 
 @media only screen and (--desktop-viewport) {
     :root {
