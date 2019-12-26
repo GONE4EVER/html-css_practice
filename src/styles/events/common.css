@@ -108,6 +108,7 @@
     width: 9.2vw;
     height: 2.75vw;
 
+    border: 1px solid transparent;
     border-radius: 40px;
 
     font-size: 1.6em;
@@ -167,26 +168,41 @@
 .red > header {
     background-color: rgba(242, 98, 80, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px #f26250;
+    0 6px var(--color-red-card);
 }
 .red button {
-    background-color: #f26250;
+    background-color: var(--color-red-card);
+}
+#events .red button:hover {
+    color: var(--color-red-card);
+    border-color: var(--color-red-card);
+    background-color: var(--color-secondary);
 }
 
 .orange > header {
     background-color: rgba(240, 167, 101, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px #f0a765;
+    0 6px var(--color-orange-card);
 }
 .orange button {
-    background-color: #f0a765;
+    background-color: var(--color-orange-card);
+}
+#events .orange button:hover {
+    color: var(--color-orange-card);
+    border-color: var(--color-orange-card);
+    background-color: var(--color-secondary);
 }
 
 .green > header {
     background-color: rgba(76, 165, 154, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px #4ca59a;
+    0 6px var(--color-green-card);
 }
 .green button {
-    background-color: #4ca59a;
+    background-color: var(--color-green-card);
+}
+#events .green button:hover {
+    color: var(--color-green-card);
+    border-color: var(--color-green-card);
+    background-color: var(--color-secondary);
 }

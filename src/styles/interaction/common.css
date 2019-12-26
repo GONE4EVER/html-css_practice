@@ -41,7 +41,7 @@
 .interaction__card-item {
     transform: rotate(45deg);
 
-    border: 2px solid var(--color-card);
+    border: 2px solid var(--color-interaction-card);
     border-radius: 8px;
 }
 
@@ -51,7 +51,7 @@
 
     color: black;
     border-radius: inherit;
-    background-color: var(--color-card);
+    background-color: var(--color-interaction-card);
 }
 
 .interaction__card-content {

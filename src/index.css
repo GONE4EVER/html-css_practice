@@ -6,6 +6,7 @@
 @import "./styles/gridColumns.css";
 
 @import "./styles/headerUnderline.css";
+@import "./styles/asideFigure.css";
 
 @import "./styles/header/index.css";
 @import "./styles/home/index.css";
@@ -14,6 +15,7 @@
 @import "./styles/features/index.css";
 @import "./styles/partners/index.css";
 @import "./styles/events/index.css";
+@import "./styles/aboutUs/index.css";
 
 @font-face {
     font-family: "Myriad Pro Light";
@@ -67,6 +69,7 @@ button {
 
     color: var(--color-secondary);
     border: 1px solid transparent;
+    outline: none;
 }
 
 
