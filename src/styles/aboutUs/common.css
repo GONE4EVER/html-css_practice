@@ -31,10 +31,10 @@
 
 
 /* graphical info */
-.layout__graphical-info {
+#aboutUs .layout__graphical-info {
     flex: 1 1 50%;
 
-    padding-bottom: 4vw;
+    padding-right: 8vw;
 }
 
 .aboutUs__graphical-info-item {

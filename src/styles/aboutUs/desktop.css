@@ -29,7 +29,7 @@
     }
 
     #aboutUs .layout__info-header {
-        padding-bottom: 1.7vw;
+        padding-bottom: 2vw;
     }
 
     #aboutUs .layout__info-header__title {
@@ -37,6 +37,8 @@
         padding-left: 0.15vw;
 
         letter-spacing: 0.024em;
+
+        font-size: 3.1em;
     }
 
     #aboutUs .layout__info-header > h5 {
@@ -54,15 +56,14 @@
     }
 
     #aboutUs .layout__container {
-        width: 92%;
+        width: 100%;
         padding-top: 2.5vw;
         padding-left: 0;
     }
 
     #aboutUs .layout__text-info {
-        flex: 1 1 50%;
+        flex: 1 1 40%;
 
-        padding-top: 0.4vw;
         padding-left: 2.4vw;
     }
 
