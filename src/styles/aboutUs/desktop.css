@@ -72,7 +72,7 @@
 
         letter-spacing: 0.003em;
 
-        color: black;
+        color: var(--color-black);
 
         font-family: var(--lato-font-regular);
         font-size: 1.05em;
@@ -82,6 +82,8 @@
     #aboutUs .layout__graphical-info {
         display: flex;
         flex: 1 1 40%;
+
+        padding-right: 8vw;
     }
 
     .aboutUs__graphical-info-item {
@@ -97,7 +99,7 @@
     .aboutUs__graphical-info-item-text {
         letter-spacing: 0.04vw;
 
-        color: black;
+        color: var(--color-black);
 
         font-size: 1.3rem;
     }
@@ -108,8 +110,8 @@
 
         content: "";
 
-        border: 0.12vw solid;
-        border-radius: 0.03vw;
+        border: 0.11vw solid;
+        border-radius: 3px;
     }
 
     .aboutUs__graphical-info-item > span {

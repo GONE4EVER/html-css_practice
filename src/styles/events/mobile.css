@@ -83,7 +83,7 @@
         height: 80%;
         padding-bottom: 0;
 
-        color: black;
+        color: var(--color-black);
 
         font-weight: bold;
 

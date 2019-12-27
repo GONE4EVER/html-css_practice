@@ -16,6 +16,7 @@
 @import "./styles/partners/index.css";
 @import "./styles/events/index.css";
 @import "./styles/aboutUs/index.css";
+@import "./styles/footer/index.css";
 
 @font-face {
     font-family: "Myriad Pro Light";
@@ -33,22 +34,27 @@
     src: local("Myriad Pro Regular"), url("./assets/fonts/MYRIADPRO-REGULAR.woff") format("woff");
 }
 
+
 html,
 body {
     width: 100%;
     height: 100%;
     margin: 0;
 
-    font-family: "Myriad Pro Light";
+    font-family: var(--base-font-light);
 }
 
-*,
-*::before,
-*::after {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+button {
+    cursor: pointer;
+
+    color: var(--color-secondary);
+    border: 1px solid transparent;
+    outline: none;
+}
+
+h1 {
+    font-family: var(--base-font-light);
+    font-weight: 100;
 }
 
 ul {
@@ -64,22 +70,15 @@ a:hover {
     color: inherit;
 }
 
-
-button {
-    cursor: pointer;
-
-    color: var(--color-secondary);
-    border: 1px solid transparent;
-    outline: none;
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-:root {
-    font-family: var(--lato-font-regular);
-}
-h1 {
-    font-family: var(--base-font-light);
-    font-weight: 100;
-}
 
 @media only screen and (--desktop-viewport) {
     :root {
