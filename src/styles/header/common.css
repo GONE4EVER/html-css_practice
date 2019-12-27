@@ -58,7 +58,7 @@
     padding: 5px;
 }
 
-.header__toolbar-control > i {
+.header__toolbar-control > span {
     width: 26px;
 }
 

@@ -26,7 +26,7 @@
         min-width: 60px;
     }
 
-    .header__toolbar-control > i {
+    .header__toolbar-control > span {
         width: 1.7vw;
     }
 }
