@@ -56,7 +56,7 @@
     text-align: center;
     letter-spacing: 0.01em;
 
-    font-family: "Myriad Pro Regular";
+    font-family: var(--base-font-regular);
     font-size: 3.8em;
     line-height: 1.3em;
 }
@@ -168,41 +168,41 @@
 .red > header {
     background-color: rgba(242, 98, 80, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px var(--color-red-card);
+    0 6px var(--color-red);
 }
 .red button {
-    background-color: var(--color-red-card);
+    background-color: var(--color-red);
 }
 #events .red button:hover {
-    color: var(--color-red-card);
-    border-color: var(--color-red-card);
+    color: var(--color-red);
+    border-color: var(--color-red);
     background-color: var(--color-secondary);
 }
 
 .orange > header {
     background-color: rgba(240, 167, 101, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px var(--color-orange-card);
+    0 6px var(--color-orange);
 }
 .orange button {
-    background-color: var(--color-orange-card);
+    background-color: var(--color-orange);
 }
 #events .orange button:hover {
-    color: var(--color-orange-card);
-    border-color: var(--color-orange-card);
+    color: var(--color-orange);
+    border-color: var(--color-orange);
     background-color: var(--color-secondary);
 }
 
 .green > header {
     background-color: rgba(76, 165, 154, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px var(--color-green-card);
+    0 6px var(--color-green);
 }
 .green button {
-    background-color: var(--color-green-card);
+    background-color: var(--color-green);
 }
 #events .green button:hover {
-    color: var(--color-green-card);
-    border-color: var(--color-green-card);
+    color: var(--color-green);
+    border-color: var(--color-green);
     background-color: var(--color-secondary);
 }

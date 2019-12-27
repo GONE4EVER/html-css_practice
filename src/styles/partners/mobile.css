@@ -8,8 +8,4 @@
     .partners__image {
         transform: scale(4, 1) translateX(-10%);
     }
-
-    .partners__header {
-        font-size: 3.4em;
-    }
 }

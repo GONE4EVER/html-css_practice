@@ -4,9 +4,15 @@
     --color-secondary: #ffffff;
     --color-black: rgb(18, 17, 17);
 
-    --color-orange-card: rgb(240, 167, 101);
-    --color-red-card: rgb(242, 98, 80);
-    --color-green-card: rgb(76, 165, 154);
+    --color-orange: rgb(240, 167, 101);
+    --color-orange-opacity: rgba(240, 167, 101, 0.6);
+
+    --color-red: rgb(242, 98, 80);
+    --color-red-opacity: rgb(242, 98, 80, 0.6);
+
+    --color-green: rgb(76, 165, 154);
+    --color-green-opacity: rgb(76, 165, 154, 0.6);
+    
 
     --color-interaction-card: rgb(241, 180, 81);
 
@@ -27,4 +33,9 @@
     --col-11-width: calc(100% - 1 * var(--grid-column-width));
     --col-12-width: 100%;
 
+
+    /* fonts */
+    --base-font-regular: "Myriad Pro Regular";
+    --base-font-light: "Myriad Pro Light";
+    --lato-font-regular: "Lato"
 }

@@ -1,5 +1,9 @@
 @media only screen and (--desktop-viewport) {
     .aside-figure-container {
+        flex: 1 1 15%;
+    }
+
+    .aside-figure {
         position: absolute;
 
         display: flex;
@@ -19,21 +23,21 @@
     }
 
 
-    .aside-figure-container > span {
+    .aside-figure > span {
         letter-spacing: 0.23em;
 
         font-size: 1.62em;
         font-weight: bold;
     }
 
-    .aside-figure-container > .inner-figure {
+    .aside-figure > .inner-figure {
         flex: 1 1 30%;
 
         height: 2px;
         margin-right: 0.23em;
     }
 
-    .aside-figure-container > .inner-figure::before {
+    .aside-figure > .inner-figure::before {
         display: inline-block;
 
         width: 1.1em;
@@ -45,23 +49,23 @@
         border-radius: 50%;
     }
 
-    .primary .aside-figure-container > .inner-figure::before {
+    .primary .aside-figure > .inner-figure::before {
         background-color: var(--color-primary);
     }
-    .primary .aside-figure-container > .inner-figure {
+    .primary .aside-figure > .inner-figure {
         background-color: var(--color-primary);
     }
 
-    .secondary .aside-figure-container > .inner-figure::before {
+    .secondary .aside-figure > .inner-figure::before {
         background-color: var(--color-secondary);
     }
-    .secondary .aside-figure-container > .inner-figure {
+    .secondary .aside-figure > .inner-figure {
         background-color: var(--color-secondary);
     }
 }
 
 @media only screen and (--tablet-viewport) {
-    .aside-figure-container {
+    .aside-figure {
         display: none;
     }
 }

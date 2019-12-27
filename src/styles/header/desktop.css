@@ -3,7 +3,7 @@
         height: 17.4vh;
         min-height: 104px;
 
-        font-family: "Myriad Pro Regular";
+        font-family: var(--base-font-regular);
         font-weight: 100;
     }
 

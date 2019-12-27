@@ -69,7 +69,7 @@ module.exports = {
                     'custom-properties': true,
                     'custom-media-queries': true
                   },
-                  importFrom: path.join(__dirname, 'src/styles/customMedia.css')
+                  importFrom: path.join(__dirname, 'src/styles/helpers/customMedia.css')
                 }),
               ]
             }

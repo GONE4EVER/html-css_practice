@@ -2,11 +2,11 @@
 @import "./styles/variables.css";
 
 /* generic styles */
-@import "./styles/blocks.css";
-@import "./styles/gridColumns.css";
+@import "./styles/helpers/blocks.css";
+@import "./styles/helpers/gridColumns.css";
 
-@import "./styles/headerUnderline.css";
-@import "./styles/templateLayout/index.css";
+@import "./styles/helpers/headerUnderline.css";
+@import "./styles/helpers/templateLayout/index.css";
 
 @import "./styles/header/index.css";
 @import "./styles/home/index.css";
@@ -103,5 +103,8 @@ button {
 @media only screen and (--mobile-viewport) {
     :root {
         font-size: 1vw;
+    }
+    h1 {
+        font-size: 11.56rem;
     }
 }
