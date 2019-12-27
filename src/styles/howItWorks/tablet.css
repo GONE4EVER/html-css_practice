@@ -1,11 +1,10 @@
 @media only screen and (--tablet-viewport) {
     #howItWorks {
-        height: 35vw;
-        padding-top: 2.3vh;
+        height: 42vw;
     }
 
     .howItWorks__header {
-        margin-bottom: 1%;
+        margin: 5% 0 3%;
 
         font-weight: 500;
     }

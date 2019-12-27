@@ -23,6 +23,7 @@
     .aboutUs__content {
         display: flex;
         flex-direction: column;
+        flex: 1 1 85%;
 
         padding-top: 6.2vw;
     }
@@ -55,13 +56,14 @@
     #aboutUs .layout__container {
         width: 92%;
         padding-top: 2.5vw;
-        padding-left: 3.7vw;
+        padding-left: 0;
     }
 
     #aboutUs .layout__text-info {
         flex: 1 1 50%;
 
-        padding-left: 3vw;
+        padding-top: 0.4vw;
+        padding-left: 2.4vw;
     }
 
     #aboutUs .layout__info-content {

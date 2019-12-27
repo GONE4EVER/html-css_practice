@@ -26,6 +26,9 @@
 
 .layout__info-header__title {
     letter-spacing: 0.03em;
+
+    font-family: var(--lato-font-regular);
+    font-weight: bold;
 }
 
 .layout__info-header > h5 {
