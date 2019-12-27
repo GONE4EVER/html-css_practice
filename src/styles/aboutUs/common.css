@@ -1,112 +1,14 @@
-#aboutUs {
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-
-    height: 37.3vw;
-}
-
-.aboutUs__container {
-    display: flex;
-    flex-direction: column;
-
-    width: 83%;
-    height: 100%;
-
-    align-self: flex-end;
-}
-
 .aboutUs__header {
-    margin-top: 6.1vw;
+    margin-top: 0;
 
     letter-spacing: 0.15em;
-
-    align-self: center;
-}
-
-.aboutUs__info {
-    display: flex;
-}
-
-.aboutUs__info > header {
-    position: relative;
-    left: 0.7vw;
-
-    display: flex;
-    flex-direction: column;
-
-    letter-spacing: 0.09vw;
 }
 
 .aboutUs__content {
-    flex: 1 1 52%;
-
-    padding-left: 9.2vw;
-}
-
-
-.aboutUs__title {
-    letter-spacing: 0.03em;
-}
-
-.aboutUs__content > header {
-    padding-bottom: 1.7vw;
-}
-
-.aboutUs__content > header > h1 {
-    margin-top: 2.1vw;
-    margin-bottom: 0.25vw;
-}
-
-.aboutUs__content > header > h5 {
-    position: relative;
-    left: 0.2vw;
-
-    display: block;
-
-    letter-spacing: 0.11em;
-
-    font-size: 1.62em;
-}
-
-.aboutUs__content > header > h5::after {
-    position: relative;
-    top: 0.1vw;
-
-    display: inline-block;
-
-    width: 10.9vw;
-    height: 1px;
-    margin-left: 1.8vw;
-
-    content: "";
-
-    border: 1px solid;
-}
-
-.aboutUs__content-header > h5 {
-    display: block;
+    display: flex;
     flex-direction: column;
 
-    letter-spacing: 0.08em;
+    padding-top: 6.2vw;
 
-    font-size: 1.62em;
-}
-
-.aboutUs__content > article {
-    letter-spacing: 0.024em;
-
-    color: #000000;
-
-    font-family: Lato;
-    line-height: 1.4em;
-}
-
-.aboutUs__content > article > p {
-    padding-bottom: 1.5vw;
-}
-
-.aboutUs__stats {
-    flex: 1 1 40%;
+    align-items: center;
 }

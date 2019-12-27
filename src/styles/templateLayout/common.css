@@ -1,0 +1,40 @@
+.template {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.layout__figure-container {
+    display: none;
+}
+
+.layout__container {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text block */
+.layout__text-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout__info-header__title {
+    letter-spacing: 0.03em;
+}
+
+.layout__info-header > h5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout__info-header > h5::after {
+    display: inline-block;
+
+    content: "";
+}

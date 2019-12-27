@@ -6,7 +6,7 @@
 @import "./styles/gridColumns.css";
 
 @import "./styles/headerUnderline.css";
-@import "./styles/asideFigure.css";
+@import "./styles/templateLayout/index.css";
 
 @import "./styles/header/index.css";
 @import "./styles/home/index.css";
