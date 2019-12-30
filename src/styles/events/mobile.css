@@ -139,6 +139,18 @@
     }
 
 
+    #external .events__card-icon {
+        background-image: url("./assets/icons/events/mobile/usb-connection.png");
+    }
+
+    #interactive .events__card-icon {
+        background-image: url("./assets/icons/events/mobile/interactivity.png");
+    }
+
+    #internal .events__card-icon {
+        background-image: url("./assets/icons/events/mobile/hard-disk.png");
+    }
+
     /* color themes */
     .red.events__card > * {
         background-color: rgba(242, 98, 80, 0.8);
