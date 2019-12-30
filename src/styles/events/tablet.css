@@ -66,18 +66,4 @@
 
         font-size: 0.8em;
     }
-
-
-    /* card items content icons*/
-    #external .events__card-icon {
-        background-image: url("./assets/icons/events/usb-connection.png");
-    }
-
-    #interactive .events__card-icon {
-        background-image: url("./assets/icons/events/interactivity.png");
-    }
-
-    #internal .events__card-icon {
-        background-image: url("./assets/icons/events/hard-disk.png");
-    }
 }

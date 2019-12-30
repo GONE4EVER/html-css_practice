@@ -21,7 +21,22 @@
     }
 
     .navbar {
-        display: none;
+        position: absolute;
+        left: 100%;
+        
+        font-size: 6em;
+        z-index: 2;
+        
+        background-color: inherit;
+        
+        height: 100%;
+        flex-direction: column;
+        transition: all 0.3s;
+    }
+
+    .navbar__tab {
+        height: 20vw;
+        flex-grow: 0;
     }
 
     .header__toolbar {
@@ -76,6 +91,11 @@
 
     .header__toggle-menu__content:focus {
         outline: none;
+    }
+
+    /* making menu visible */
+    .header__toggle-menu-block > .header__toggle-menu__content:focus ~.navbar {
+        left: 0;
     }
 
     .header__toggle-menu__content:focus .header__toggle-menu__bar {

@@ -23,8 +23,23 @@
         alt="logo"
       >
     </div>
+    
+    <div class="header__toggle-menu-block col-2">
+      <input type="checkbox" role="button" id="toggleMenu">
 
-    <nav class="navbar col-6 row" role="navigation">
+      <label for="toggleMenu" class="header__toggle-menu__content" role="button" tabindex="1">
+        <div class="header__toggle-menu__bar" id="bar-top"></div>
+
+        <div class="header__toggle-menu__bar" id="bar-middle"></div>
+
+        <div class="header__toggle-menu__bar" id="bar-bottom"></div>
+      </label>
+    </div>
+
+    <nav 
+      class="navbar col-6 row" 
+      role="navigation"
+    >
       <div class="navbar__tab centered">
         <a href="#home">
           Home
@@ -72,18 +87,7 @@
         <div class="header__toolbar-control__text">Register</div>
       </div>
     </div>
-
-    <div class="header__toggle-menu-block col-2">
-      <input type="checkbox" role="button" id="toggleMenu">
-
-      <label for="toggleMenu" class="header__toggle-menu__content" role="button" tabindex="1">
-        <div class="header__toggle-menu__bar" id="bar-top"></div>
-
-        <div class="header__toggle-menu__bar" id="bar-middle"></div>
-
-        <div class="header__toggle-menu__bar" id="bar-bottom"></div>
-      </label>
-    </div>
+    
   </header>
 
   <main>
@@ -104,14 +108,12 @@
         </div>
       </article>
 
-      <img
+      <div
         class="home__image"
-        src="assets/images/home_desktop.png"
-        alt="homeImage"
-      >
+      ></div>
       
       <img 
-        src="assets/images/iPhone.png"
+        src="assets/images/home/iPhone.png"
         class="phone__image"
         alt="iphone" 
       >
@@ -596,7 +598,7 @@
         <div class="footer__email-form">
           <span class="footer__email-form-title">Subscribe to our newsletter</span>
           <span class="footer__email-input">
-            <input type="email">
+            <input type="email" placeholder="Email address">
           </span>
         </div>
       </div>

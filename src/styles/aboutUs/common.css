@@ -1,18 +1,12 @@
-#aboutUs {
-    height: 130vw;
-}
-
+/* section header */
 .aboutUs__header {
     margin: 8% 0 1%;
 
     letter-spacing: 0.15em;
 }
 
-#aboutUs .layout__info-header__title {
-    font-family: var(--lato-font-regular);
-    font-weight: bold;
-}
 
+/* content */
 .aboutUs__content {
     display: flex;
     flex-direction: column;
@@ -22,6 +16,14 @@
     align-items: center;
 }
 
+
+/* text title */
+#aboutUs .layout__info-header__title {
+    font-family: var(--lato-font-regular);
+    font-weight: bold;
+}
+
+
 #aboutUs .layout__info-content {
     color: var(--color-black);
 
@@ -30,10 +32,6 @@
 }
 
 
-/* graphical info */
-#aboutUs .layout__graphical-info {
-    flex: 1 1 50%;
-}
 
 .aboutUs__graphical-info-item > span {
     display: flex;
@@ -91,7 +89,6 @@
     border: 0.25vw solid;
     border-radius: 3px;
 }
-
 
 
 /* color themes */

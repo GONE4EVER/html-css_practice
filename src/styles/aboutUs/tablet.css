@@ -1,8 +1,16 @@
 @media only screen and (--tablet-viewport) {
+    #aboutUs {
+        height: 130vw;
+    }
+
+
+    /* secion content */
     #aboutUs .layout__container {
         flex-direction: column;
     }
 
+
+    /* graphical section */
     #aboutUs .layout__graphical-info {
         flex-direction: row;
         flex: 1 1 50%;
@@ -13,6 +21,8 @@
         order: -1;
     }
 
+
+    /* text section */
     #aboutUs .layout__text-info {
         justify-content: flex-start;
     }

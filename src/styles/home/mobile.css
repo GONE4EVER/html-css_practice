@@ -1,8 +1,11 @@
 @media screen and (--mobile-viewport) {
     .home__image {
-        min-height: 42vw;
+        height: 42vh;
+        max-height: 270px;
 
         transform: scale(1.35, 1.1) translate(10px, -1.5%);
+
+        background-image: url("assets/images/home/background_mobile.png");
     }
 
     .phone__image {

@@ -129,16 +129,24 @@
     background-size: contain;
 }
 
+
+/* card items content icons*/
 #external .events__card-icon {
     width: 9.4%;
+
+    background-image: url("./assets/icons/events/usb-connection.png");
 }
 
 #interactive .events__card-icon {
     width: 12%;
+
+    background-image: url("./assets/icons/events/interactivity.png");
 }
 
 #internal .events__card-icon {
     width: 11%;
+
+    background-image: url("./assets/icons/events/hard-disk.png");
 }
 
 

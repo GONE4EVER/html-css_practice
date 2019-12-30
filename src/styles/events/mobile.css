@@ -117,18 +117,6 @@
         margin: 0 5%;
     }
 
-    #external .events__card-icon {
-        background-image: url("./assets/icons/events/mobile/usb-connection.png");
-    }
-
-    #interactive .events__card-icon {
-        background-image: url("./assets/icons/events/mobile/interactivity.png");
-    }
-
-    #internal .events__card-icon {
-        background-image: url("./assets/icons/events/mobile/hard-disk.png");
-    }
-
 
     /* card items background */
     #external::before {

@@ -1,0 +1,136 @@
+footer {
+    color: var(--color-secondary);
+    background-color: var(--color-black);
+
+    font-family: var(--lato-font-regular);
+}
+
+
+/* major container */
+.footer__content {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    padding: 4vw 8vw 0;
+}
+
+
+/* logo block */
+.footer__logo-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.footer__logo-container > p {
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    line-height: 1.55em;
+}
+
+.footer__logo-container > img {
+    width: 30%;
+    padding-bottom: 2.88vw;
+}
+
+
+.footer__links {
+    display: none;
+}
+
+
+/* links blocks */
+
+
+.footer__links > * > ul {
+    font-size: 0.9em;
+    line-height: 1.27em;
+}
+
+
+/* social block */
+.footer__social {
+    display: flex;
+    flex-direction: column;
+
+    height: 63.5%;
+
+    align-items: center;
+    align-self: center;
+}
+
+.footer__social-icons {
+    display: flex;
+
+    width: 100%;
+    margin-bottom: 2vw;
+
+    justify-content: space-around;
+}
+
+
+/* email form */
+.footer__email-form {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    align-items: center;
+}
+
+.footer__email-form > .footer__email-form-title {
+    margin-bottom: 2.04vw;
+
+    font-size: 0.93em;
+}
+
+.footer__email-input {
+    position: relative;
+
+    width: 100%;
+}
+
+input[type=email] {
+    width: 100%;
+
+    text-align: center;
+
+    color: var(--color-secondary);
+    border: none;
+    border-bottom: 2px solid var(--color-secondary);
+    background-color: inherit;
+
+    font-family: var(--base-font-light);
+    font-size: 0.95em;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+.footer__email-input::after {
+    position: absolute;
+    top: 0;
+    right: 0.3em;
+
+    width: 1.3em;
+    height: 1.1em;
+
+    content: "";
+
+    background-image: url("/assets/icons/footer/envelope.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.footer__copyright {
+    position: relative;
+    bottom: 0.5vw;
+
+    text-align: center;
+}

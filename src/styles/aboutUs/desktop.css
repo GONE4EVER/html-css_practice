@@ -5,24 +5,22 @@
         height: 37.3vw;
     }
 
-    .aboutUs__header {
-        margin: 0;
 
-        letter-spacing: 0.15em;
-    }
-
+    /* section header */
     .aboutUs__header {
         position: relative;
         left: -1em;
 
-        margin-bottom: 1.7vw;
+        margin: 0 0 1.7vw;
+
+        letter-spacing: 0.15em;
 
         align-self: center;
     }
 
+
+    /* section content */
     .aboutUs__content {
-        display: flex;
-        flex-direction: column;
         flex: 1 1 85%;
 
         padding-top: 6.2vw;
@@ -72,9 +70,6 @@
 
         letter-spacing: 0.003em;
 
-        color: var(--color-black);
-
-        font-family: var(--lato-font-regular);
         font-size: 1.05em;
         line-height: 1.34em;
     }
@@ -86,16 +81,6 @@
         padding-right: 8vw;
     }
 
-    .aboutUs__graphical-info-item {
-        display: flex;
-        flex-direction: column;
-        flex: 1 1 33%;
-
-        font-family: var(--base-font-regular);
-
-        align-items: center;
-    }
-
     .aboutUs__graphical-info-item-text {
         letter-spacing: 0.04vw;
 
@@ -105,62 +90,31 @@
     }
 
     .aboutUs__graphical-info-item::after {
-        width: 84%;
         margin-top: 2vw;
 
-        content: "";
-
         border: 0.11vw solid;
-        border-radius: 3px;
     }
 
     .aboutUs__graphical-info-item > span {
-        display: flex;
-        flex-direction: column;
-
-        width: 100%;
-        padding: 2.5vw 0 0.8vw;
-
         letter-spacing: -0.02vw;
 
         font-size: 2.9rem;
-
-        align-items: center;
-        justify-content: flex-end;
     }
 
     .aboutUs__graphical-info-item > span::before {
-        display: block;
-
-        width: 0vw;
-        height: 0vw;
-        margin-bottom: 2vw;
-
-        content: "";
-
         border: 1.2vw solid;
-        border-radius: 50%;
     }
 
-    .green.aboutUs__graphical-info-item {
-        color: var(--color-green);
-    }
     .green.aboutUs__graphical-info-item > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-green-opacity);
     }
 
-    .red.aboutUs__graphical-info-item {
-        color: var(--color-red);
-    }
     .red.aboutUs__graphical-info-item > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-red-opacity);
     }
 
-    .orange.aboutUs__graphical-info-item {
-        color: var(--color-orange);
-    }
     .orange.aboutUs__graphical-info-item > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-orange-opacity);

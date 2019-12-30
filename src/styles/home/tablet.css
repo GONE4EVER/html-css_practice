@@ -3,10 +3,12 @@
         height: 52.4vw;
 
         transform: scale(1.009, 1.17) translate(9px,-6.9%);
+
+        background-image: url("assets/images/home/background_mobile.png");
     }
 
     .phone__image {
-        right: 5.7vw;
+        right: 2.7vw;
         bottom: -15.7vw;
 
         width: 30.7%;
