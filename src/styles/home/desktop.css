@@ -1,8 +1,13 @@
 @media only screen and (--desktop-viewport) {
+    #home {
+        border-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #1b3c57;
+    }
     .home__image {
         height: 52.4vw;
 
-        transform: scale(1) translate(0, -4.2vw);
+        transform: translateY(0px);
 
         background-image: url("assets/images/home/background_desktop.png");
     }

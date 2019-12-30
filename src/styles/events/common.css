@@ -57,9 +57,7 @@
     letter-spacing: 0.01em;
 
     font-family: var(--base-font-light);
-    font-size: 3.8em;
     font-weight: lighter;
-    line-height: 1.3em;
 }
 
 .events__card > header::after {
@@ -101,7 +99,6 @@
 
 .events__card-content > p {
     width: 70%;
-    padding-bottom: 2.6%;
 
     text-align: center;
     letter-spacing: 0.07em;

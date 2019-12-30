@@ -2,8 +2,6 @@
     .home__image {
         height: 52.4vw;
 
-        transform: scale(1.009, 1.17) translate(9px,-6.9%);
-
         background-image: url("assets/images/home/background_mobile.png");
     }
 

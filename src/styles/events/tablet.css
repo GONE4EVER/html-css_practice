@@ -18,7 +18,9 @@
     }
 
     .events__card > header {
-        font-size: 1.9em;
+        letter-spacing: 0.3rem;
+
+        font-size: 5.5rem;
     }
 
 

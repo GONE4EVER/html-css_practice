@@ -11,17 +11,17 @@
         padding: 9px;
     }
 
-    figure#ask {
+    #ask {
         top: 7.9vw;
         right: 26.5vw;
     }
 
-    figure#choose {
+    #choose {
         top: 15.35vw;
         right: 17.2vw;
     }
 
-    figure#select {
+    #select {
         top: 22.8vw;
         right: 26.5vw;
     }

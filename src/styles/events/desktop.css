@@ -4,6 +4,15 @@
         margin-bottom: 1em;
     }
 
+    .events__card > header {
+        font-size: 3.8rem;
+        line-height: 4.8rem;
+    }
+
+    .events__card-content > p {
+        padding-bottom: 2.6%;
+    }
+
 
     /* card items header images */
     #external > header::after {

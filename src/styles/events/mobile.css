@@ -1,6 +1,6 @@
 @media only screen and (--mobile-viewport) {
     #events {
-        height: 160vw;
+        height: 200vw;
         padding: 0;
     }
 
@@ -60,13 +60,16 @@
     .events__card > header {
         display: block;
 
-        height: 20%;
+        height: 30%;
         padding-top: 4vw;
+
+        letter-spacing: 0.9rem;
 
         background-color: transparent;
         box-shadow: none;
 
-        font-size: 5.5em;
+        font-family: Myriad Pro Light;
+        font-size: 8.5rem;
     }
 
     .events__card > header::after {
@@ -80,7 +83,7 @@
     .events__card-content {
         flex-direction: row;
 
-        height: 80%;
+        height: 70%;
         padding-bottom: 0;
 
         color: var(--color-black);
@@ -103,11 +106,15 @@
     }
 
     .events__card-content > p {
+        display: flex;
+
         height: 50%;
 
         color: var(--color-secondary);
 
         font-size: 3.5em;
+
+        align-items: center;
     }
 
 

@@ -42,8 +42,6 @@
 .home__image {
     width: 100%;
 
-    transform: scale(1) translate(0, -4.2vw);
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
