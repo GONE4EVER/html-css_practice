@@ -7,6 +7,10 @@
         font-weight: 100;
     }
 
+    .logo {
+        width: 40%;
+    }
+
     .navbar {
         font-size: 1.6em;
     }
@@ -19,5 +23,9 @@
         padding-left: 4.45vw;
 
         font-size: 0.9em;
+    }
+
+    .header__toolbar-control {
+        width: 5.3vw;
     }
 }

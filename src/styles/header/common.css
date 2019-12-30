@@ -46,7 +46,6 @@
 .header__toolbar-control {
     flex-direction: column;
 
-    width: 100px;
     height: 100%;
 }
 
@@ -58,17 +57,10 @@
     padding: 5px;
 }
 
-.header__toolbar-control > span {
+.header__toolbar-control > img {
     width: 26px;
 }
 
-#login {
-    content: url("./assets/icons/header/login.png");
-}
-
-#register {
-    content: url("./assets/icons/header/avatar.png");
-}
 
 .header__toggle-menu-block {
     display: none;

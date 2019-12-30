@@ -1,6 +1,6 @@
 @media only screen and (--mobile-viewport) {
     #howItWorks {
-        height: 70.1vh;
+        height: 140vw;
         min-height: 390px;
 
         font-size: 3.4em;
@@ -25,31 +25,31 @@
     }
 
     .howItWorks__tip__image-wrapper {
-        width: 13vh;
-        height: 13vh;
+        width: 19.5vw;
+        height: 19.5vw;
     }
 
     .howItWorks__tip > figcaption {
         width: 90%;
         height: 34%;
-        margin-top: 3vh;
+        margin-top: 4.6vw;
 
         font-size: 1.4em;
     }
 
     img#freeAccount {
-        width: 4vh;
+        width: 8.6vw;
     }
 
     img#discussIssue {
-        width: 7.8vh;
+        width: 16.7vw;
     }
 
     img#qrCode {
-        width: 6.9vh;
+        width: 14.6vw;
     }
 
     img#favorites {
-        width: 8.9vh;
+        width: 15vw;
     }
 }

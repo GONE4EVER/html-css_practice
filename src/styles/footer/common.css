@@ -102,7 +102,7 @@ input[type=email] {
     color: var(--color-secondary);
     border: none;
     border-bottom: 2px solid var(--color-secondary);
-    background-color: inherit;
+    background-color: var(--color-black);
 
     font-family: var(--base-font-light);
     font-size: 0.95em;

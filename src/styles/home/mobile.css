@@ -1,6 +1,6 @@
 @media screen and (--mobile-viewport) {
     .home__image {
-        height: 42vh;
+        height: 72vw;
         max-height: 270px;
 
         transform: scale(1.35, 1.1) translate(10px, -1.5%);
