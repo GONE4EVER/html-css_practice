@@ -5,7 +5,7 @@
         font-size: 3.4em;
     }
 
-    .partners__image {
-        transform: scale(4, 1) translateX(-10%);
+    .partners__image-background {
+        background-image: url("./assets/images/partners/background_mobile.png");
     }
 }

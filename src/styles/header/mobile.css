@@ -23,6 +23,7 @@
     .navbar {
         position: absolute;
         left: 100%;
+        display: none;
         
         font-size: 6em;
         z-index: 2;

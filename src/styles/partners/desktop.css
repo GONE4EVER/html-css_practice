@@ -3,6 +3,10 @@
         height: 37.5vh;
     }
 
+    .partners__image-background {
+        background-image: url("./assets/images/partners/background_desktop.png");
+    }
+
     .partners__header {
         margin: 0.8vw 0 0.6vw;
     }
