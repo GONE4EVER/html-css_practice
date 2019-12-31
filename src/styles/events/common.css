@@ -169,43 +169,43 @@
 
 
 /* color themes (desktop/tablet) */
-.events__card-red > header {
+.events__card_red > header {
     background-color: rgba(242, 98, 80, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px var(--color-red);
 }
-.events__card-red button {
+.events__card_red button {
     background-color: var(--color-red);
 }
-.events__card-red button:hover {
+.events__card_red button:hover {
     color: var(--color-red);
     border-color: var(--color-red);
     background-color: var(--color-secondary);
 }
 
-.events__card-orange > header {
+.events__card_orange > header {
     background-color: rgba(240, 167, 101, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px var(--color-orange);
 }
-.events__card-orange button {
+.events__card_orange button {
     background-color: var(--color-orange);
 }
-.events__card-orange button:hover {
+.events__card_orange button:hover {
     color: var(--color-orange);
     border-color: var(--color-orange);
     background-color: var(--color-secondary);
 }
 
-.events__card-green > header {
+.events__card_green > header {
     background-color: rgba(76, 165, 154, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px var(--color-green);
 }
-.events__card-green button {
+.events__card_green button {
     background-color: var(--color-green);
 }
-.events__card-green button:hover {
+.events__card_green button:hover {
     color: var(--color-green);
     border-color: var(--color-green);
     background-color: var(--color-secondary);

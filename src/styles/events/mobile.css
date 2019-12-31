@@ -152,24 +152,24 @@
     }
 
     /* color themes */
-    .events__card.events__card-red > * {
+    .events__card.events__card_red > * {
         background-color: rgba(242, 98, 80, 0.8);
     }
-    .events__card-red button {
+    .events__card_red button {
         color: #f26250;
     }
 
-    .events__card.events__card-orange > * {
+    .events__card.events__card_orange > * {
         background-color: rgba(240, 167, 101, 0.8);
     }
-    .events__card-orange button {
+    .events__card_orange button {
         color: #f0a765;
     }
 
-    .events__card.events__card-green > * {
+    .events__card.events__card_green > * {
         background-color: rgba(76, 165, 154, 0.8);
     }
-    .events__card-green button {
+    .events__card_green button {
         color: #4ca59a;
     }
 
