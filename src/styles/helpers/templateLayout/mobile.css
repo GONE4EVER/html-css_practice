@@ -1,16 +1,16 @@
 @media only screen and (--mobile-viewport) {
-    .layout__container {
+    .template-layout__container {
         width: 90%;
         padding: 5% 0;
     }
 
-    .layout__text-info {
+    .template-layout__text-info {
         flex: 1 1 55%;
 
         order: 1;
     }
 
-    .layout__info-header__title {
+    .template-layout__info-header__title {
         width: 100%;
         margin: 0 0 2.7%;
 
@@ -20,11 +20,11 @@
         line-height: 1.24em;
     }
 
-    .layout__info-header {
+    .template-layout__info-header {
         padding-bottom: 6%;
     }
 
-    .layout__info-header > h5 {
+    .template-layout__info-header > h5 {
         letter-spacing: 0.06em;
 
         font-size: 5em;
@@ -32,7 +32,7 @@
         align-items: center;
     }
 
-    .layout__info-header > h5::after {
+    .template-layout__info-header > h5::after {
         width: 19vw;
         height: 1px;
         margin-top: 12px;
@@ -40,7 +40,7 @@
         border: 1px solid;
     }
 
-    .layout__info-content {
+    .template-layout__info-content {
         width: 100%;
 
         text-align: center;
@@ -52,7 +52,7 @@
         line-height: 1.31em;
     }
 
-    .layout__graphical-info {
+    .template-layout__graphical-info {
         display: flex;
         flex-direction: row;
         flex: 1 1 15%;

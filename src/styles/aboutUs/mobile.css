@@ -5,7 +5,7 @@
 
 
     /* graphical content section */
-    #aboutUs .layout__graphical-info {
+    #aboutUs .template-layout__graphical-info {
         flex: 1 1 50%;
     }
 
