@@ -16,15 +16,15 @@
 
     /* card items header images */
     #external > header::after {
-        background-image: url("./assets/images/events/externalEvent.png");
+        background-image: url("./assets/images/events/externalEvent.jpg");
     }
 
     #interactive > header::after {
-        background-image: url("./assets/images/events/interactiveEvent.png");
+        background-image: url("./assets/images/events/interactiveEvent.jpg");
     }
 
     #internal > header::after {
-        background-image: url("./assets/images/events/internalEvent.png");
+        background-image: url("./assets/images/events/internalEvent.jpg");
     }
 
 
