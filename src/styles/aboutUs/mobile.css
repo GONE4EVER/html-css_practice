@@ -1,6 +1,6 @@
 @media only screen and (--mobile-viewport) {
     #aboutUs {
-        height: 132vw;
+        height: 136vw;
     }
 
 
@@ -17,5 +17,9 @@
 
     .aboutUs__stats-item-text {
         font-size: 3rem;
+    }
+
+    .aboutUs__stats-item > span:before {
+        margin-bottom: 6vw;
     }
 }

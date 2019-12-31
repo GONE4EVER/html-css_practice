@@ -26,8 +26,8 @@
     .aside-figure > span {
         letter-spacing: 0.23em;
 
+        font-family: var(--font-light);
         font-size: 1.62em;
-        font-weight: bold;
     }
 
     .aside-figure > .inner-figure {

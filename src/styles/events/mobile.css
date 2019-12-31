@@ -61,14 +61,13 @@
         display: block;
 
         height: 30%;
-        padding-top: 4vw;
+        padding-top: 8vw;
 
-        letter-spacing: 0.9rem;
+        letter-spacing: 0.5rem;
 
         background-color: transparent;
         box-shadow: none;
 
-        font-family: Myriad Pro Light;
         font-size: 8.5rem;
     }
 

@@ -31,10 +31,10 @@
     }
 
     .howItWorks__tip > figcaption {
-        width: 80%;
+        width: 79%;
         height: 44%;
 
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     img#freeAccount {

@@ -18,9 +18,10 @@
     }
 
     .events__card > header {
-        letter-spacing: 0.3rem;
+        letter-spacing: 0.1rem;
 
-        font-size: 5.5rem;
+        font-size: 4.7rem;
+        line-height: 7rem;
     }
 
 
@@ -64,7 +65,7 @@
 
     .events__card-content > p {
         width: 90%;
-        padding-bottom: 1.5em;
+        padding-bottom: 0.5em;
 
         font-size: 0.8em;
     }

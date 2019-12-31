@@ -27,17 +27,23 @@
 .layout__info-header__title {
     letter-spacing: 0.03em;
 
-    font-family: var(--lato-font-regular);
+    font-family: var(--font-regular);
     font-weight: bold;
 }
 
 .layout__info-header > h5 {
     display: flex;
     flex-direction: column;
+
+    font-weight: 500;
 }
 
 .layout__info-header > h5::after {
     display: inline-block;
 
     content: "";
+}
+
+.layout__info-content-paragraph {
+    font-family: var(--font-light);
 }

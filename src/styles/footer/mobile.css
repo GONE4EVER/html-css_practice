@@ -15,6 +15,9 @@
         flex: 0 0;
     }
 
+    .footer__links {
+        display: none;
+    }
 
     .footer__logo-container > p {
         width: 90%;

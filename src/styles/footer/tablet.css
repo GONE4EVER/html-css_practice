@@ -22,17 +22,28 @@
     }
 
     .footer__logo-container > img {
-        width: 20%;
+        width: 17%;
+        height: 37%;
         padding-bottom: 6vw;
     }
 
     .footer__social {
+        display: none;
+    }
+
+    .footer__links {
+        flex-direction: row;
         flex: 0 0;
 
-        width: 80%;
-        padding: 12vw 0;
+        padding: 8vw 0;
 
-        font-size: 4em;
+        font-size: 3.6rem;
+
+        justify-content: space-between;
+    }
+
+    .footer__links ul {
+        font-family: var(--font-light);
     }
 
     input[type=email] {

@@ -1,6 +1,6 @@
 @media only screen and (--mobile-viewport) {
     #howItWorks {
-        height: 140vw;
+        height: 130vw;
         min-height: 390px;
 
         font-size: 3.4em;
@@ -14,7 +14,7 @@
 
     .howItWorks__content {
         width: 90vw;
-        height: 75%;
+        height: 70%;
     }
 
     .howItWorks__tip {

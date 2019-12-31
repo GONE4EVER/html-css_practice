@@ -35,7 +35,7 @@
 
 
     /* fonts */
-    --base-font-regular: "Myriad Pro Regular";
-    --base-font-light: "Myriad Pro Light";
-    --lato-font-regular: "Lato"
+    --font-light: "Lato Light";
+    --font-regular: "Lato Regular";
+    --font-bold: "Lato Bold";
 }

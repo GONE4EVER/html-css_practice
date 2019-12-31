@@ -56,7 +56,7 @@
     text-align: center;
     letter-spacing: 0.01em;
 
-    font-family: var(--base-font-light);
+    font-family: var(--font-light);
     font-weight: lighter;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .events__card > header > span {
-    font-family: var(--lato-font-regular);
+    font-family: var(--font-regular);
     font-size: 1.1em;
     font-weight: bold;
 }
@@ -103,6 +103,7 @@
     text-align: center;
     letter-spacing: 0.07em;
 
+    font-family: var(--font-light);
     line-height: 1.6em;
 }
 

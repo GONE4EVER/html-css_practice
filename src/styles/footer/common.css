@@ -2,7 +2,7 @@ footer {
     color: var(--color-secondary);
     background-color: var(--color-black);
 
-    font-family: var(--lato-font-regular);
+    font-family: var(--font-regular);
 }
 
 
@@ -37,13 +37,11 @@ footer {
 }
 
 
-.footer__links {
-    display: none;
-}
-
-
 /* links blocks */
 
+.footer__links {
+    display: flex;
+}
 
 .footer__links > * > ul {
     font-size: 0.9em;
@@ -104,7 +102,7 @@ input[type=email] {
     border-bottom: 2px solid var(--color-secondary);
     background-color: var(--color-black);
 
-    font-family: var(--base-font-light);
+    font-family: var(--font-light);
     font-size: 0.95em;
 }
 
@@ -133,4 +131,6 @@ input[type=email]:focus {
     bottom: 0.5vw;
 
     text-align: center;
+
+    font-family: var(--font-light);
 }
