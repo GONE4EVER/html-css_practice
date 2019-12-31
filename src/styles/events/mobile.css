@@ -152,24 +152,24 @@
     }
 
     /* color themes */
-    .red.events__card > * {
+    .events__card.events__card-red > * {
         background-color: rgba(242, 98, 80, 0.8);
     }
-    .red button {
+    .events__card-red button {
         color: #f26250;
     }
 
-    .orange.events__card > * {
+    .events__card.events__card-orange > * {
         background-color: rgba(240, 167, 101, 0.8);
     }
-    .orange button {
+    .events__card-orange button {
         color: #f0a765;
     }
 
-    .green.events__card > * {
+    .events__card.events__card-green > * {
         background-color: rgba(76, 165, 154, 0.8);
     }
-    .green button {
+    .events__card-green button {
         color: #4ca59a;
     }
 
