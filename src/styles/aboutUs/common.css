@@ -33,7 +33,7 @@
 
 
 
-.aboutUs__graphical-info-item > span {
+.aboutUs__stats-item > span {
     display: flex;
     flex-direction: column;
 
@@ -44,7 +44,7 @@
     justify-content: flex-end;
 }
 
-.aboutUs__graphical-info-item > span::before {
+.aboutUs__stats-item > span::before {
     display: block;
 
     width: 0vw;
@@ -57,7 +57,7 @@
     border-radius: 50%;
 }
 
-.aboutUs__graphical-info-item {
+.aboutUs__stats-item {
     display: flex;
     flex-direction: column;
     flex: 1 1 33%;
@@ -67,13 +67,13 @@
     align-items: center;
 }
 
-.aboutUs__graphical-info-item-text {
+.aboutUs__stats-item-text {
     letter-spacing: 0.04vw;
 
     color: var(--color-black);
 }
 
-.aboutUs__graphical-info-item::after {
+.aboutUs__stats-item::after {
     width: 84%;
     height: 3;
     margin-top: 4vw;
@@ -86,26 +86,26 @@
 
 
 /* color themes */
-.green.aboutUs__graphical-info-item {
+.aboutUs__stats-item.aboutUs__stats-item_green {
     color: var(--color-green);
 }
-.green.aboutUs__graphical-info-item > span::before {
+.aboutUs__stats-item.aboutUs__stats-item_green > span::before {
     box-shadow: 0 0 0 2px var(--color-secondary),
     0 0 0 0.3em var(--color-green-opacity);
 }
 
-.red.aboutUs__graphical-info-item {
+.aboutUs__stats-item.aboutUs__stats-item_red {
     color: var(--color-red);
 }
-.red.aboutUs__graphical-info-item > span::before {
+.aboutUs__stats-item.aboutUs__stats-item_red > span::before {
     box-shadow: 0 0 0 2px var(--color-secondary),
     0 0 0 0.3em var(--color-red-opacity);
 }
 
-.orange.aboutUs__graphical-info-item {
+.aboutUs__stats-item.aboutUs__stats-item_orange {
     color: var(--color-orange);
 }
-.orange.aboutUs__graphical-info-item > span::before {
+.aboutUs__stats-item.aboutUs__stats-item_orange > span::before {
     box-shadow: 0 0 0 2px var(--color-secondary),
     0 0 0 0.3em var(--color-orange-opacity);
 }

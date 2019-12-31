@@ -81,7 +81,7 @@
         padding-right: 8vw;
     }
 
-    .aboutUs__graphical-info-item-text {
+    .aboutUs__stats-item-text {
         letter-spacing: 0.04vw;
 
         color: var(--color-black);
@@ -89,33 +89,33 @@
         font-size: 1.3rem;
     }
 
-    .aboutUs__graphical-info-item::after {
+    .aboutUs__stats-item::after {
         margin-top: 2vw;
 
         border: 0.11vw solid;
     }
 
-    .aboutUs__graphical-info-item > span {
+    .aboutUs__stats-item > span {
         letter-spacing: -0.02vw;
 
         font-size: 2.9rem;
     }
 
-    .aboutUs__graphical-info-item > span::before {
+    .aboutUs__stats-item > span::before {
         border: 1.2vw solid;
     }
 
-    .green.aboutUs__graphical-info-item > span::before {
+    .aboutUs__stats-item.aboutUs__stats-item_green > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-green-opacity);
     }
 
-    .red.aboutUs__graphical-info-item > span::before {
+    .aboutUs__stats-item.aboutUs__stats-item_red > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-red-opacity);
     }
 
-    .orange.aboutUs__graphical-info-item > span::before {
+    .aboutUs__stats-item.aboutUs__stats-item_orange > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-orange-opacity);
     }
