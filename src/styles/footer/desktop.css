@@ -8,7 +8,7 @@
         margin-top: 0.1em;
         margin-bottom: 1.5vw;
 
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
 
 
@@ -30,7 +30,7 @@
     .footer__logo-container > p {
         width: 100%;
 
-        font-size: 0.93em;
+        font-size: 0.93rem;
     }
 
     .footer__logo-container > img {
@@ -52,7 +52,7 @@
     }
 
     .footer__links > * > ul {
-        font-size: 0.9em;
+        font-size: 0.9rem;
         line-height: 1.27em;
     }
 
@@ -88,7 +88,7 @@
     .footer__email-form > .footer__email-form-title {
         margin-bottom: 2.04vw;
 
-        font-size: 0.93em;
+        font-size: 0.93rem;
     }
 
     .footer__email-input {
@@ -102,6 +102,6 @@
     }
 
     .footer__copyright {
-        font-size: 1.06em;
+        font-size: 1.06rem;
     }
 }

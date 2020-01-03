@@ -25,4 +25,9 @@
         top: 22.8vw;
         right: 26.5vw;
     }
+
+    .interaction__card-content > figcaption {
+        font-size: 1.35rem;
+        line-height: 1.85rem;
+    }
 }

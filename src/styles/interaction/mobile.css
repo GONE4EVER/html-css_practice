@@ -34,7 +34,8 @@
     }
 
     .interaction__card-content > figcaption {
-        font-size: 3em;
+        font-size: 3rem;
         font-weight: 700;
+        line-height: 4.2rem;
     }
 }

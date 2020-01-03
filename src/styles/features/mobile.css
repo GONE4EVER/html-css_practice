@@ -2,8 +2,6 @@
     #features {
         height: 140vw;
         min-height: 460px;
-
-        font-size: 3.4em;
     }
 
 
@@ -26,7 +24,9 @@
     }
 
 
-    /* table borders */
+    .features__content-item figcaption {
+        font-size: 5.1rem;
+    }
 
     /* vertical border*/
     .features__content-item::before {

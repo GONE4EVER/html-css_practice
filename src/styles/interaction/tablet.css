@@ -35,14 +35,9 @@
     }
 
     .interaction__card-content > figcaption {
-        position: relative;
+        letter-spacing: 0.03rem;
 
-        height: 50%;
-
-        letter-spacing: 0.03em;
-
-        font-size: 1.35em;
-        font-weight: 700;
-        line-height: 1.25em;
+        font-size: 1.35rem;
+        line-height: 2rem;
     }
 }

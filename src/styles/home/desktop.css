@@ -44,7 +44,7 @@
 
         letter-spacing: 0.028em;
 
-        font-size: 3.35em;
+        font-size: 3.35rem;
     }
 
     #homeTitle::before,
@@ -73,7 +73,7 @@
 
         width: 29.6%;
 
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
 
     .home__controls .home__button {

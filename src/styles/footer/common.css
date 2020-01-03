@@ -43,12 +43,6 @@ footer {
     display: flex;
 }
 
-.footer__links > * > ul {
-    font-size: 0.9em;
-    line-height: 1.27em;
-}
-
-
 /* social block */
 .footer__social {
     display: flex;

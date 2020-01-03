@@ -77,7 +77,7 @@
 
 .events__card > header > span {
     font-family: var(--font-regular);
-    font-size: 1.1em;
+    font-size: 1.15em;
     font-weight: bold;
 }
 
@@ -113,8 +113,6 @@
 
     border: 1px solid transparent;
     border-radius: 40px;
-
-    font-size: 1.6em;
 }
 
 

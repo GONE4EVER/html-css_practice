@@ -13,6 +13,10 @@
         padding-bottom: 2.6%;
     }
 
+    .events__card-content > button {
+        font-size: 1.6rem;
+    }
+
 
     /* card items header images */
     #external > header::after {

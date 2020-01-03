@@ -19,10 +19,11 @@
         display: none;
     }
 
+
     .footer__logo-container > p {
         width: 90%;
 
-        font-size: 3.6em;
+        font-size: 3.6rem;
     }
 
     .footer__logo-container > img {
@@ -36,7 +37,7 @@
         width: 80%;
         padding: 12vw 0;
 
-        font-size: 4em;
+        font-size: 4rem;
     }
 
     input[type=email] {
@@ -49,7 +50,7 @@
 
         text-align: center;
 
-        font-size: 4.2em;
+        font-size: 4.2rem;
     }
 
     .footer__email-form-title {

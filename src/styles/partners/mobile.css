@@ -1,8 +1,6 @@
 @media only screen and (--mobile-viewport) {
     #partners {
         height: 110vw;
-
-        font-size: 3.4em;
     }
 
     .partners__image-background {

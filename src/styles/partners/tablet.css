@@ -1,16 +1,10 @@
 @media only screen and (--tablet-viewport) {
     #partners {
         height: 90vw;
-
-        font-size: 2em;
     }
 
     .partners__image-background {
         background-image: url("./assets/images/partners/background_tablet.jpg");
-    }
-
-    .partners__header {
-        font-size: 3.4em;
     }
 
     .partners__list {
