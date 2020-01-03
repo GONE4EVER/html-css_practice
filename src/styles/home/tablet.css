@@ -34,22 +34,16 @@
 
     #homeTitle::before,
     #homeTitle::after {
-        bottom: -1.2vw;
-
-        padding: 2px;
-
-        border-radius: 20px;
+        bottom: -1rem;
     }
 
     #homeTitle::before {
-        right: 5.25em;
-
-        width: 0.3em;
+        width: 18vw;
     }
     #homeTitle::after {
-        right: 5.4vw;
+        right: 19.2vw;
 
-        width: 14.2vw;
+        width: 0.3em;
     }
 
 

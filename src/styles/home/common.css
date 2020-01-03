@@ -69,7 +69,7 @@
     font-weight: bold;
 }
 
-#homeTitle::before,
+/* #homeTitle::before,
 #homeTitle::after,
 #homeSubtitle::before {
     position: absolute;
@@ -77,7 +77,7 @@
     content: "";
 
     background-color: var(--color-secondary);
-}
+} */
 
 #homeSubtitle {
     position: relative;

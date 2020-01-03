@@ -35,10 +35,6 @@
     #homeTitle::before,
     #homeTitle::after {
         bottom: -0.3em;
-
-        padding: 2px;
-
-        border-radius: 20px;
     }
 
     #homeTitle::before {

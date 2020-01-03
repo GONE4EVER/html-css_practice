@@ -1,3 +1,4 @@
+
 .underline {
     position: relative;
 }
@@ -27,6 +28,14 @@
 
     border: 1px solid;
     border-radius: 2px;
+}
+
+
+@media only screen and (--mobile-viewport) {
+    .underline::after,
+    .underline::before {
+        padding-top: 0;
+    }
 }
 
 

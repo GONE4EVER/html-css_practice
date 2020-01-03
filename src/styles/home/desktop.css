@@ -49,9 +49,9 @@
 
     #homeTitle::before,
     #homeTitle::after {
-        bottom: -0.3em;
+        bottom: -0.5rem;
 
-        padding: 0.06em;
+        padding: 2px;
 
         border-radius: 0.06em;
     }
