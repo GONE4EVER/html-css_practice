@@ -75,13 +75,11 @@
 
 .aboutUs__stats-item::after {
     width: 84%;
-    height: 3;
     margin-top: 4vw;
 
     content: "";
 
-    border: 0.25vw solid;
-    border-radius: 3px;
+    border-bottom: 0.5vw solid;
 }
 
 

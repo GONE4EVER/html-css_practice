@@ -1,31 +1,38 @@
 @media only screen and (--desktop-viewport) {
     .header {
-        height: 17.4vh;
-        min-height: 104px;
-
         font-family: var(--font-regular);
         font-weight: 100;
     }
 
-    .logo {
-        width: 40%;
+    .header__logo-container {
+        margin-right: 73px;
     }
 
     .navbar {
-        font-size: 1.6em;
+        display: flex;
+
+        width: 500px;
+
+        font-size: 16px;
     }
 
-    .header__logo-container {
-        padding: 0 4.8%;
+    .navbar__tabs-list {
+        width: 100%;
+    }
+
+    .header__logo {
+        height: 75px;
+        margin: 5px 0;
     }
 
     .header__toolbar {
-        padding-left: 4.45vw;
+        position: relative;
+        left: 24px;
 
-        font-size: 0.9em;
+        font-size: 9px;
     }
 
     .header__toolbar-control {
-        width: 5.3vw;
+        width: 56px;
     }
 }
