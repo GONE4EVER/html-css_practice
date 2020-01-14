@@ -1,36 +1,38 @@
 @media only screen and (--tablet-viewport) {
-    .home__image {
-        height: 52.4vw;
+    .home__container {
+        width: 768px;
+        padding-top: 118px;
+    }
 
-        background-image: url("assets/images/home/background_mobile.jpg");
+    .home__container-header {
+        margin-bottom: 80px;
+    }
+
+    .home__content {
+        margin-top: 2px;
+        margin-bottom: 113px;
+        margin-left: 91px;
     }
 
     .phone__image {
-        right: 2.7vw;
-        bottom: -15.7vw;
+        bottom: -117px;
+        left: 480px;
 
-        width: 30.7%;
-    }
-
-    .home__info {
-        top: 29.82%;
-
-        width: 100%;
-        height: 70%;
-    }
-
-    #homeSubtitle {
-        top: 1.7%;
-        left: 16.6%;
-
-        letter-spacing: 1.2px;
+        width: 230px;
     }
 
     #homeTitle {
-        left: 4%;
+        margin-bottom: 20px;
 
-        width: 62%;
+        letter-spacing: 0.6px;
+
+        font-size: 26px;
     }
+
+    #homeSubtitle {
+        letter-spacing: 1.2px;
+    }
+
 
     #homeTitle::before,
     #homeTitle::after {
@@ -48,12 +50,9 @@
 
 
     .home__controls {
-        top: 30.3%;
-        left: 21.8%;
+        width: 231px;
 
-        width: 30%;
-
-        font-size: 1.4rem;
+        font-size: 11px;
     }
 
     .home__controls .home__button {

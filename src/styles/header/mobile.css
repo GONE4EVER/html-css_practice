@@ -96,7 +96,7 @@
 
     /* making menu visible */
     .header__toggle-menu__content:focus, .navbar {
-       /*  left: 0; */
+       
     }
 
     .header__toggle-menu__content:focus .header__toggle-menu__bar {
