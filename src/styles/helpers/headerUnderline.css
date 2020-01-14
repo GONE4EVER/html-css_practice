@@ -1,9 +1,9 @@
 
-.underline {
+.header__underline {
     position: relative;
 }
 
-.underline::before {
+.header__underline::before {
     position: absolute;
     bottom: -0.1em;
 
@@ -17,7 +17,7 @@
     background-color: inherit;
 }
 
-.underline::after {
+.header__underline::after {
     position: absolute;
     bottom: -0.1em;
 
@@ -32,35 +32,35 @@
 
 
 @media only screen and (--mobile-viewport) {
-    .underline::after,
-    .underline::before {
+    .header__underline::after,
+    .header__underline::before {
         padding-top: 0;
     }
 }
 
 
 /* positioning */
-.underline.underline-left::after {
+.header__underline.header__underline-left::after {
     left: 1.45em;
 }
 
 
-.underline.underline-right::before {
+.header__underline.header__underline-right::before {
     right: 0;
 }
-.underline.underline-right::after {
+.header__underline.header__underline-right::after {
     right: 1.45em;
 }
 
 /* colors */
-.primary .underline::after,
-.primary .underline::before {
+.primary .header__underline::after,
+.primary .header__underline::before {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
 }
 
-.secondary .underline::after,
-.secondary .underline::before {
+.secondary .header__underline::after,
+.secondary .header__underline::before {
     border-color: var(--color-secondary);
     background-color: var(--color-secondary);
 }

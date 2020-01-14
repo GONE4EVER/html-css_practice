@@ -27,7 +27,7 @@
       <div class="header__toggle-menu-block">
         <input type="checkbox" role="button" id="toggleMenu">
   
-        <label for="toggleMenu" class="header__toggle-menu__content" role="button" tabindex="1">
+        <label for="toggleMenu" class="header__toggle-menu__content" role="button" tabindex="0">
           <div class="header__toggle-menu__bar" id="bar-top"></div>
   
           <div class="header__toggle-menu__bar" id="bar-middle"></div>
@@ -48,31 +48,31 @@
           </li>
     
           <li class="navbar__tabs-list-item centered">
-            <a href="#howItWorks">
+            <a class="navbar__tabs-list-item-link" href="#howItWorks">
               How it works
             </a>
           </li>
     
           <li class="navbar__tabs-list-item centered">
-            <a href="#features">
+            <a class="navbar__tabs-list-item-link"href="#features">
               Features
             </a>
           </li>
     
           <li class="navbar__tabs-list-item centered">
-            <a href="#partners">
+            <a class="navbar__tabs-list-item-link" href="#partners">
               Partners
             </a>
           </li>
     
           <li class="navbar__tabs-list-item centered">
-            <a href="#events">
+            <a class="navbar__tabs-list-item-link"href="#events">
               Events
             </a>
           </li>
     
           <li class="navbar__tabs-list-item centered">
-            <a href="#aboutUs">
+            <a class="navbar__tabs-list-item-link"  href="#aboutUs">
               About us
             </a>
           </li>
@@ -80,22 +80,24 @@
       </nav>
   
       <div class="header__toolbar">
-        <div class="header__toolbar-control centered">
+        <a class="header__toolbar-control centered"  href="#login">
           <img
+            class="header__toolbar-control-icon"
             src="./assets/icons/header/login.png"
             id="login"
             alt="login"
           >
-          <div class="header__toolbar-control__text">Log In</div>
-        </div>
-        <div class="header__toolbar-control centered">
+          <span class="header__toolbar-control__text">Log In</span>
+        </a>
+        <a class="header__toolbar-control centered" href="#register">
           <img
+            class="header__toolbar-control-icon"
             src="./assets/icons/header/avatar.png"
             id="register"
             alt="register"
           >
-          <div class="header__toolbar-control__text">Register</div>
-        </div>
+          <span class="header__toolbar-control__text">Register</span>
+        </a>
       </div>
     </div>
     
@@ -104,7 +106,7 @@
   <main>
     <section id="home" class="secondary">
       <article class="home__info">
-        <h2 id="homeTitle" class="underline underline-right">Live Interaction From Audience</h2>
+        <h2 id="homeTitle" class="header__underline header__underline-right">Live Interaction From Audience</h2>
 
         <h4 id="homeSubtitle">Q&A, Polls and Slide-sharing for Events</h4>
 
@@ -129,7 +131,7 @@
     </section>
 
     <section id="howItWorks" class="primary">
-      <h1 class="howItWorks__header underline underline-left">
+      <h1 class="howItWorks__header header__underline header__underline-left">
         How it works
       </h1>
 
@@ -256,11 +258,11 @@
     </section>
 
     <section id="features" class="primary">
-      <h1 class="features__header underline underline-left">
+      <h1 class="features__header header__underline header__underline-left">
         Features
       </h1>
       <div class="features__content">
-        <div id="question" class="features__content-item">
+        <figure id="question" class="features__content-item">
           <div class="features__content-item__inner">
             <img
               src="assets/icons/features/microphone.png"
@@ -269,9 +271,9 @@
 
             <figcaption>Ask a question</figcaption>
           </div>
-        </div>
+        </figure>
 
-        <div id="poll" class="features__content-item">
+        <figure id="poll" class="features__content-item">
           <div class="features__content-item__inner">
             <img
               src="assets/icons/features/bar-chart.png"
@@ -280,9 +282,9 @@
 
             <figcaption>Raise a poll</figcaption>
           </div>
-        </div>
+        </figure>
 
-        <div id="statistics" class="features__content-item">
+        <figure id="statistics" class="features__content-item">
           <div class="features__content-item__inner">
             <img
               src="assets/icons/features/insight.png"
@@ -291,9 +293,9 @@
         
             <figcaption>View statistics</figcaption>
           </div>
-        </div>
+        </figure>
 
-        <div id="vote" class="features__content-item">
+        <figure id="vote" class="features__content-item">
           <div class="features__content-item__inner">
             <img
               src="assets/icons/features/medal.png"
@@ -302,9 +304,9 @@
 
             <figcaption>Vote a question</figcaption>
           </div>  
-        </div>
+        </figure>
 
-        <div id="survey" class="features__content-item">
+        <figure id="survey" class="features__content-item">
           <div class="features__content-item__inner">
             <img
               src="assets/icons/features/flag.png"
@@ -313,9 +315,9 @@
   
             <figcaption>Create a survey</figcaption>
           </div>
-        </div>
+        </figure>
 
-        <div id="policy" class="features__content-item">
+        <figure id="policy" class="features__content-item">
           <div class="features__content-item__inner">
             <img
               src="assets/icons/features/padlock.png"
@@ -324,7 +326,7 @@
 
             <figcaption>Policy ensured</figcaption>
           </div>
-        </div>
+        </figure>
 
       </div>
     </section>
@@ -333,8 +335,9 @@
       <div
         class="partners__image-background"
       ></div>
+      
       <div class="partners__container image-shadow secondary">
-        <h1 class="partners__header underline underline-right">Partners</h1>
+        <h1 class="partners__header header__underline header__underline-right">Partners</h1>
         <div class="partners__list centered col-12">
           <div id="mccann" class="partners__list-item" >
             <img 
@@ -393,7 +396,7 @@
     </section>
 
     <section id="events" class="primary">
-      <h1 class="events__header underline underline-left double">Events</h1>
+      <h1 class="events__header header__underline header__underline-left double">Events</h1>
 
       <div class="events__content">
         <div id="external" class="events__card events__card_green">
@@ -458,7 +461,7 @@
       </aside>
       
       <div class="aboutUs__content">
-        <h1 class="aboutUs__header underline underline-right">
+        <h1 class="aboutUs__header header__underline header__underline-right">
           About us
         </h1>
     

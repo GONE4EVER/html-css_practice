@@ -8,10 +8,15 @@
         margin-right: 73px;
     }
 
+    .header__container {
+        min-width: 790px;
+        padding-left: 28px;
+    }
+
     .navbar {
         display: flex;
 
-        width: 500px;
+        min-width: 500px;
 
         font-size: 16px;
     }
@@ -27,12 +32,19 @@
 
     .header__toolbar {
         position: relative;
-        left: 24px;
+
+        margin-left: 36px;
 
         font-size: 9px;
     }
 
+
     .header__toolbar-control {
-        width: 56px;
+        margin-right: 18px;
+        padding: 5px;
+    }
+
+    .header__toolbar-control-icon {
+        width: 14px;
     }
 }

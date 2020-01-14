@@ -10,9 +10,7 @@
 .header__container {
     display: flex;
 
-    width: 790px;
     margin: auto;
-    padding-left: 28px;
 }
 
 
@@ -56,20 +54,13 @@
 .header__toolbar-control {
     flex-direction: column;
 
-    height: 100%;
-}
-
-.header__toolbar-control > * {
     cursor: pointer;
 }
 
 .header__toolbar-control__text {
-    padding: 5px;
+    padding-top: 5px;
 }
 
-.header__toolbar-control > img {
-    width: 14px;
-}
 
 .header__toggle-menu-block {
     display: none;
