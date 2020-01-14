@@ -114,7 +114,7 @@ input[type=email]:focus {
 
     content: "";
 
-    background-image: url("/assets/icons/footer/envelope.png");
+    background-image: url("/assets/icons/footer/envelope.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
