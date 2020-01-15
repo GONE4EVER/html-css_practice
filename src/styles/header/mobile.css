@@ -2,11 +2,17 @@
     :root {
         --icon-animation-duration: 0.4s;
     }
+
+    .header {
+        min-width: 320px;
+    }
     
     .header__container {
         padding-left: 0;
         align-items: center;
         justify-content: center;
+
+        width: 320px;
     }
 
     .header__logo-container {

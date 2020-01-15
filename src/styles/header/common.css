@@ -1,13 +1,14 @@
 .header {
-    display: flex;
-
     color: var(--color-secondary);
     background-color: rgb(18, 17, 17);
 
-    justify-content: center;
+    font-family: var(--font-regular);
+    font-weight: 100;
 }
 
 .header__container {
+    position: relative;
+
     display: flex;
 
     margin: auto;

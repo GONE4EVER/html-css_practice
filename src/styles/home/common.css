@@ -1,7 +1,7 @@
 #home {
     z-index: 0;
 
-    margin-right: auto;
+    margin: auto;
     /* border-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: #1b3c57;
@@ -31,7 +31,7 @@
     font-weight: 700;
 }
 
-.home__button--filled {
+.home__button_filled {
     color: var(--color-primary);
     background-color: var(--color-secondary);
 }

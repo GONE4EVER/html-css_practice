@@ -1,6 +1,10 @@
 @media only screen and (--desktop-viewport) {
     #interaction {
-        height: 82.4vh;
+        display: flex;
+    }
+
+    .interaction__content {
+        flex: 1 1 85%;
     }
 
     .interaction__card-item {
@@ -26,7 +30,7 @@
         right: 26.5vw;
     }
 
-    .interaction__card-content > figcaption {
+    .interaction__card-description {
         font-size: 1.35rem;
         line-height: 1.85rem;
     }

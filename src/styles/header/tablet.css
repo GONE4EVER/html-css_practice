@@ -1,10 +1,8 @@
 @media screen and (--tablet-viewport) {
-    .header {
-        font-family: var(--font-regular);
-        font-weight: 100;
-    }
-
     .header__container {
+        width: 768px;
+        padding-left: 101px;
+
         justify-content: center;
     }
 
@@ -15,7 +13,7 @@
     .navbar {
         display: flex;
 
-        min-width: 400px;
+        min-width: 372px;
 
         font-size: 13px;
     }

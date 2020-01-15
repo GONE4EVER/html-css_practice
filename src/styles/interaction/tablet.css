@@ -26,7 +26,7 @@
         right: 26.5vw;
     }
 
-    .interaction__card-content > img {
+    .interaction__card-icon {
         top: 0.1vw;
         left: 3vw;
 
@@ -34,7 +34,7 @@
         margin-bottom: 5px;
     }
 
-    .interaction__card-content > figcaption {
+    .interaction__card-description {
         letter-spacing: 0.03rem;
 
         font-size: 1.35rem;

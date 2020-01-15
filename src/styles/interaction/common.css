@@ -25,7 +25,7 @@
     transform: rotate(-45deg);
 }
 
-.interaction__card-content > img {
+.interaction__card-icon {
     position: relative;
     top: 0.1vw;
     left: 3vw;
@@ -34,7 +34,7 @@
     margin-bottom: 5px;
 }
 
-.interaction__card-content > figcaption {
+.interaction__card-description {
     position: relative;
 
     height: 50%;

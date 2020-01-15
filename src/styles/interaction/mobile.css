@@ -27,13 +27,13 @@
         right: 26.5vw;
     }
 
-    .interaction__card-content > img {
+    .interaction__card-icon {
         left: 5.9vw;
 
         margin-bottom: 0;
     }
 
-    .interaction__card-content > figcaption {
+    .interaction__card-description {
         font-size: 3rem;
         font-weight: 700;
         line-height: 4.2rem;

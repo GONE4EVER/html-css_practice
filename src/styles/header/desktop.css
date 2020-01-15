@@ -1,16 +1,11 @@
 @media only screen and (--desktop-viewport) {
-    .header {
-        font-family: var(--font-regular);
-        font-weight: 100;
-    }
-
     .header__logo-container {
         margin-right: 73px;
     }
 
     .header__container {
-        min-width: 790px;
-        padding-left: 28px;
+        width: 1024px;
+        padding-left: 145px;
     }
 
     .navbar {
