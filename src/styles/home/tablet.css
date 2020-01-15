@@ -8,6 +8,28 @@
         margin-bottom: 80px;
     }
 
+    #homeTitle {
+        margin-bottom: 20px;
+
+        letter-spacing: 0.6px;
+
+        font-size: 26px;
+    }
+
+    #homeSubtitle {
+        letter-spacing: 1.2px;
+    }
+
+    #homeTitle::before {
+        width: 108px;
+    }
+    #homeTitle::after {
+        right: 112px;
+
+        width: 7px;
+    }
+
+
     .home__content {
         margin-top: 2px;
         margin-bottom: 113px;
@@ -21,34 +43,6 @@
         width: 230px;
     }
 
-    #homeTitle {
-        margin-bottom: 20px;
-
-        letter-spacing: 0.6px;
-
-        font-size: 26px;
-    }
-
-    #homeSubtitle {
-        letter-spacing: 1.2px;
-    }
-
-
-    #homeTitle::before,
-    #homeTitle::after {
-        bottom: -1rem;
-    }
-
-    #homeTitle::before {
-        width: 18vw;
-    }
-    #homeTitle::after {
-        right: 19.2vw;
-
-        width: 0.3em;
-    }
-
-
     .home__controls {
         width: 231px;
 
@@ -58,11 +52,11 @@
     .home__controls .home__button {
         flex: 1 1 50%;
 
-        height: 3.2vw;
+        line-height: 23px;
     }
 
     #createEvent {
-        margin-right: 10%;
+        margin-right: 23px;
 
         flex-shrink: 1.3;
     }

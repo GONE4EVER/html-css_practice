@@ -1,15 +1,16 @@
 #home {
     z-index: 0;
 
-    width: 100%;
-
-    border-width: 2px;
+    margin-right: auto;
+    /* border-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: #1b3c57;
     background-image: url("assets/images/home/background_desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+
+    background-color: rgb(34, 43, 119);
 }
 
 #home button {
@@ -29,11 +30,9 @@
 
 #home {
     position: relative;
-
-    overflow: hidden;
 }
 
-#home::before {
+.home__container::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -60,6 +59,14 @@
 
     margin: auto;
 
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #1b3c57;
+    background-image: url("assets/images/home/background_desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     align-items: flex-start;
     justify-content: flex-start;
 }
@@ -75,8 +82,6 @@
 
 #homeTitle {
     position: relative;
-
-    margin: 0 0 1.7vw;
 
     text-shadow: 0 5px 2px rgba(0,0,0,0.9);
 

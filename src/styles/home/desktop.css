@@ -64,7 +64,7 @@
     }
 
     #createEvent {
-        margin-right: 10%;
+        margin-right: 30px;
 
         flex-shrink: 1.3;
     }
