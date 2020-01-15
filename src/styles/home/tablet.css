@@ -49,7 +49,7 @@
         font-size: 11px;
     }
 
-    .home__controls .home__button {
+    .home__button {
         flex: 1 1 50%;
 
         line-height: 23px;

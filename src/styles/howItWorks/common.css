@@ -8,6 +8,16 @@
     justify-content: flex-start;
 }
 
+.howItWorks__container {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    align-items: center;
+}
+
+
 .howItWorks__header {
     letter-spacing: 0.15em;
 }
@@ -17,7 +27,7 @@
 
     align-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .howItWorks__tip {
@@ -27,20 +37,17 @@
     align-items: center;
 }
 
-.howItWorks__tip__image-wrapper {
+.howItWorks__tip-image-wrapper {
     display: flex;
 
     align-items: center;
     justify-content: center;
 }
 
-.howItWorks__tip__image-wrapper.primary {
+.howItWorks__tip-image-wrapper.primary {
     border: 1px solid rgb(3, 118, 147);
 }
 
 .howItWorks__tip > figcaption {
-    width: 90%;
-    height: 34%;
-
     text-align: center;
 }

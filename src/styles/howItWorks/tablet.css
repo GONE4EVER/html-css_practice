@@ -1,60 +1,52 @@
 @media only screen and (--tablet-viewport) {
-    #howItWorks {
-        height: 42vw;
+    .howItWorks__container {
+        width: 768px;
+        padding: 20px 80px;
     }
 
     .howItWorks__header {
-        margin: 5% 0 3%;
+        margin: 0 0 15px;
 
-        font-weight: 500;
+        letter-spacing: 4px;
+
+        font-size: 25px;
     }
 
     .howItWorks__content {
-        width: 85vw;
-        height: 19vh;
-
-        font-size: 1.2rem;
-    }
-
-    .howItWorks__content {
-        width: 90vw;
-        height: 80%;
+        padding-top: 15px;
     }
 
     .howItWorks__tip {
         width: 25%;
-        height: 100%;
+        padding: 0 9px;
 
-        justify-content: center;
+        justify-content: flex-start;
     }
 
-    .howItWorks__tip__image-wrapper {
-        width: 9.4vw;
-        height: 9.4vw;
+    .howItWorks__tip-image-wrapper {
+        width: 52px;
+        height: 51px;
     }
 
-    .howItWorks__tip > figcaption {
-        width: 80%;
-        height: 28%;
-        margin-top: 15%;
+    .howItWorks__tip-image-description {
+        margin-top: 22px;
 
-        font-size: 2.2rem;
+        font-size: 12px;
     }
 
     img#freeAccount {
-        width: 3.5vw;
+        width: 18px;
     }
 
     img#discussIssue {
-        width: 6vw;
-        height: 6vw;
+        width: 34px;
     }
 
     img#qrCode {
-        width: 5.48vw;
+        width: 30px;
     }
 
     img#favorites {
-        width: 7.1vw;
+        width: 40px;
     }
 }

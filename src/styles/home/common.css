@@ -13,17 +13,25 @@
     background-color: rgb(34, 43, 119);
 }
 
-#home button {
+.home__button {
     border: 1px solid var(--color-secondary);
     background-color: transparent;
 }
 
-#home button:hover {
+.home__button:hover {
     color: var(--color-primary);
     background-color: var(--color-secondary);
 }
 
-#home button.filled {
+.home__button:focus {
+    z-index: 1;
+
+    box-shadow: 0 0 0 3px var(--color-primary);
+
+    font-weight: 700;
+}
+
+.home__button--filled {
     color: var(--color-primary);
     background-color: var(--color-secondary);
 }
