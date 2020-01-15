@@ -3,35 +3,85 @@
         display: flex;
     }
 
+    .interaction__container {
+        width: 1024px;
+    }
+
     .interaction__content {
         flex: 1 1 85%;
+    }
+
+    .interaction__template-layout__info-header {
+        padding-bottom: 32px;
+    }
+
+    .interaction__template-layout__info-header__title {
+        margin: 0 0 9px;
+
+        letter-spacing: 0.6px;
+
+        line-height: 43px;
+    }
+
+    .interaction__template-layout__info-header__subtitle {
+        letter-spacing: 0.8px;
+
+        font-size: 16px;
+    }
+
+    .interaction__template-layout__info-content {
+        width: 390px;
+
+        letter-spacing: 0.5px;
+
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .interaction__template-layout__container {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .interaction__template-layout__text-info {
+        flex: 1 1 35%;
+
+        padding: 5px 0 13px;
     }
 
     .interaction__card-item {
         position: absolute;
 
-        width: 11.5vw;
-        height: 11.5vw;
-        padding: 9px;
+        width: 119px;
+        height: 119px;
+        padding: 6px;
+    }
+
+
+    .interaction__card-content {
+        width: 100px;
+        height: 100%;
+
+        transform: rotate(-45deg);
     }
 
     #ask {
-        top: 7.9vw;
-        right: 26.5vw;
+        top: 58px;
+        left: 0;
     }
 
     #choose {
-        top: 15.35vw;
-        right: 17.2vw;
+        top: 133px;
+        left: 96px;
     }
 
     #select {
-        top: 22.8vw;
-        right: 26.5vw;
+        top: 211px;
+        left: 0;
     }
 
     .interaction__card-description {
-        font-size: 1.35rem;
-        line-height: 1.85rem;
+        font-size: 13px;
+        line-height: 18px;
     }
 }

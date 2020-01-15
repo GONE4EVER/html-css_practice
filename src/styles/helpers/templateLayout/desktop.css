@@ -27,7 +27,7 @@
         content: "";
     }
 
-    .template-layout__info-header > h5 {
+    .template-layout__info-header__subtitle {
         display: block;
 
         letter-spacing: 0.05em;
@@ -39,21 +39,11 @@
         padding-bottom: 7.85%;
     }
 
-    .template-layout__info-header > h5::after {
-        width: 13.32vw;
+    .template-layout__info-header__subtitle::after {
+        width: 135px;
         height: 1px;
-        margin-left: 1.3vw;
 
-        border: 1px solid;
-    }
-
-    .template-layout__info-content {
-        width: 92%;
-
-        letter-spacing: 0.019em;
-
-        font-size: 1.08em;
-        line-height: 1.31em;
+        border-top: 1px solid;
     }
 
     .template-layout__info-content-paragraph {
@@ -65,6 +55,8 @@
     }
 
     .template-layout__graphical-info {
+        position: relative;
+
         flex: 1 1 30%;
     }
 }

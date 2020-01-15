@@ -18,13 +18,13 @@
 
 
 /* text title */
-#aboutUs .template-layout__info-header__title {
+.aboutUs__template-layout__info-header__title {
     font-family: var(--font-regular);
     font-weight: bold;
 }
 
 
-#aboutUs .template-layout__info-content {
+.aboutUs__template-layout__info-content {
     color: var(--color-black);
 
     font-family: var(--font-regular);

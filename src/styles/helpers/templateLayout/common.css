@@ -23,20 +23,18 @@
 }
 
 .template-layout__info-header__title {
-    letter-spacing: 0.03em;
-
     font-family: var(--font-regular);
     font-weight: bold;
 }
 
-.template-layout__info-header > h5 {
+.template-layout__info-header__subtitle {
     display: flex;
     flex-direction: column;
 
     font-weight: 500;
 }
 
-.template-layout__info-header > h5::after {
+.template-layout__info-header__subtitle::after {
     display: inline-block;
 
     content: "";

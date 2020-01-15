@@ -5,13 +5,13 @@
 
 
     /* secion content */
-    #aboutUs .template-layout__container {
+    .aboutUs__template-layout__container {
         flex-direction: column;
     }
 
 
     /* graphical section */
-    #aboutUs .template-layout__graphical-info {
+    .aboutUs__template-layout__graphical-info {
         flex-direction: row;
         flex: 1 1 50%;
 
@@ -23,21 +23,21 @@
 
 
     /* text section */
-    #aboutUs .template-layout__text-info {
+    .aboutUs__template-layout__text-info {
         justify-content: flex-start;
     }
 
-    #aboutUs .template-layout__info-header__title {
+    .aboutUs__template-layout__info-header__title {
         text-align: center;
 
         font-size: 6.6rem;
     }
 
-    #aboutUs .template-layout__info-header > h5 {
+    .aboutUs__template-layout__info-header__subtitle {
         font-size: 3.8rem;
     }
 
-    #aboutUs .template-layout__info-content {
+    .aboutUs__template-layout__info-content {
         width: 90%;
 
         font-size: 3rem;
