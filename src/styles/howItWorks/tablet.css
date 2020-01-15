@@ -1,7 +1,7 @@
 @media only screen and (--tablet-viewport) {
     .howItWorks__container {
         width: 768px;
-        padding: 20px 80px;
+        padding: 20px 80px 15px;
     }
 
     .howItWorks__header {
