@@ -1,15 +1,12 @@
 @media only screen and (--tablet-viewport) {
     .template-layout__container {
         flex-direction: row;
-
-        width: 90%;
-        padding: 1% 0 1%;
     }
 
     .template-layout__text-info {
         flex: 1 1 80%;
 
-        padding-top: 2%;
+        padding-top: 14px;
 
         align-items: center;
         justify-content: center;
@@ -17,22 +14,11 @@
 
     .template-layout__info-header__title {
         width: 100%;
-        margin: 0 0 2.7%;
-
-        font-size: 2.6em;
-        line-height: 1.24em;
     }
 
-    .template-layout__info-header {
-        padding-bottom: 10%;
-    }
 
     .template-layout__info-header__subtitle {
         flex-direction: column;
-
-        letter-spacing: 0.06em;
-
-        font-size: 2.8em;
 
         align-items: center;
     }
@@ -51,12 +37,9 @@
         width: 80%;
 
         text-align: center;
-        letter-spacing: 0.025em;
+        font-weight: bold;
         word-break: break-word;
 
-        font-size: 1.7em;
-        font-weight: bold;
-        line-height: 1.31em;
     }
 
     .template-layout__graphical-info {

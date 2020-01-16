@@ -22,22 +22,38 @@
         line-height: 25px;
     }
 
+    .interaction__template-layout__info-header__subtitle {
+        letter-spacing: 0.7px;
+
+        font-size: 22px;
+    }
+
+    .interaction__template-layout__info-header__subtitle::after {
+        width: 150px;
+
+        border: none;
+        border-top: 1px solid;
+    }
+
     .interaction__template-layout__info-content {
         width: 100%;
         padding: 0 35px;
-    }
 
+        letter-spacing: 0.32px;
+
+        font-size: 13px;
+        line-height: 17px;
+    }
 
     .interaction__template-layout__text-info {
         padding-top: 0;
     }
 
-
     .interaction__card-item {
         position: relative;
 
-        width: 11.8vw;
-        height: 11.8vw;
+        width: 90px;
+        height: 90px;
         margin: 21px 0;
         padding: 5px;
     }
@@ -52,19 +68,15 @@
         top: -7px;
     }
 
-
     .interaction__card-icon {
-        top: 0.1vw;
-        left: 3vw;
-
-        width: 43%;
+        width: 34px;
         margin-bottom: 5px;
     }
 
     .interaction__card-description {
-        letter-spacing: 0.03rem;
+        letter-spacing: 0.3px;
 
-        font-size: 1.35rem;
-        line-height: 2rem;
+        font-size: 10px;
+        line-height: 13px;
     }
 }

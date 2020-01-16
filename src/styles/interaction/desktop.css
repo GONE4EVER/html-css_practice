@@ -46,6 +46,7 @@
     .interaction__template-layout__text-info {
         flex: 1 1 35%;
 
+        max-width: 441px;
         padding: 5px 0 13px;
     }
 
@@ -57,12 +58,18 @@
         padding: 6px;
     }
 
-
     .interaction__card-content {
         width: 100px;
         height: 100%;
 
         transform: rotate(-45deg);
+    }
+
+    .interaction__card-description {
+        letter-spacing: 0.5px;
+
+        font-size: 13px;
+        line-height: 18px;
     }
 
     #ask {
@@ -78,10 +85,5 @@
     #select {
         top: 211px;
         left: 0;
-    }
-
-    .interaction__card-description {
-        font-size: 13px;
-        line-height: 18px;
     }
 }

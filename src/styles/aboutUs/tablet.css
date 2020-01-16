@@ -3,12 +3,13 @@
         height: 130vw;
     }
 
-
     /* secion content */
     .aboutUs__template-layout__container {
         flex-direction: column;
-    }
 
+        width: 90%;
+        padding: 8px 0;
+    }
 
     /* graphical section */
     .aboutUs__template-layout__graphical-info {
@@ -27,20 +28,32 @@
         justify-content: flex-start;
     }
 
-    .aboutUs__template-layout__info-header__title {
-        text-align: center;
+    .aboutUs__template-layout__info-header {
+        padding-bottom: 50px;
+    }
 
-        font-size: 6.6rem;
+    .aboutUs__template-layout__info-header__title {
+        margin: 0 0 10px;
+
+        text-align: center;
+        letter-spacing: 1px;
+
+        font-size: 48px;
     }
 
     .aboutUs__template-layout__info-header__subtitle {
-        font-size: 3.8rem;
+        letter-spacing: 1.8px;
+
+        font-size: 24px;
     }
 
     .aboutUs__template-layout__info-content {
         width: 90%;
 
-        font-size: 3rem;
+        letter-spacing: 0.025em;
+
+        font-size: 2.4em;
+        line-height: 1.31em;
     }
 
 

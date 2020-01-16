@@ -45,10 +45,7 @@
 .interaction__card-description {
     position: relative;
 
-    height: 50%;
-
     text-align: center;
-    letter-spacing: 0.05rem;
 
     font-weight: 700;
 }

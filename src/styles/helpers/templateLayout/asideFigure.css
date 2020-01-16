@@ -1,16 +1,16 @@
 @media only screen and (--desktop-viewport) {
-    .aside-figure-container {
+    .aside-figure__container {
         flex: 1 1 15%;
     }
 
-    .aside-figure {
+    .aside-figure__content {
         position: absolute;
 
         display: flex;
 
-        width: 18vw;
-        height: 3.65vw;
-        padding: 0 0.7vw 0 1.16vw;
+        width: 184px;
+        height: 37px;
+        padding: 0 7px 0 12px;
 
         transform: translateY(196%) translateX(11%) rotate(-90deg);
 
@@ -23,25 +23,25 @@
     }
 
 
-    .aside-figure > span {
-        letter-spacing: 0.23em;
+    .aside-figure__text {
+        letter-spacing: 4px;
 
         font-family: var(--font-light);
-        font-size: 1.62em;
+        font-size: 16px;
     }
 
-    .aside-figure > .inner-figure {
+    .aside-figure__decoration-line {
         flex: 1 1 30%;
 
         height: 2px;
-        margin-right: 0.23em;
+        margin-right: 3px;
     }
 
-    .aside-figure > .inner-figure::before {
+    .aside-figure__decoration-line::before {
         display: inline-block;
 
-        width: 1.1em;
-        height: 1.1em;
+        width: 11px;
+        height: 11px;
 
         content: "";
         transform: translateX(-0.26em) translateY(-0.515em);
@@ -49,29 +49,29 @@
         border-radius: 50%;
     }
 
-    .primary .aside-figure > .inner-figure::before {
+    .primary .aside-figure__decoration-line::before {
         background-color: var(--color-primary);
     }
-    .primary .aside-figure > .inner-figure {
+    .primary .aside-figure__decoration-line {
         background-color: var(--color-primary);
     }
 
-    .secondary .aside-figure > .inner-figure::before {
+    .secondary .aside-figure__decoration-line::before {
         background-color: var(--color-secondary);
     }
-    .secondary .aside-figure > .inner-figure {
+    .secondary .aside-figure__decoration-line {
         background-color: var(--color-secondary);
     }
 }
 
 @media only screen and (--tablet-viewport) {
-    .aside-figure {
+    .aside-figure__content {
         display: none;
     }
 }
 
 @media only screen and (--mobile-viewport) {
-    .aside-figure-container {
+    .aside-figure__container {
         display: none;
     }
 }
