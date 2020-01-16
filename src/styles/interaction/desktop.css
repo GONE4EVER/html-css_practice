@@ -58,6 +58,10 @@
         padding: 6px;
     }
 
+    .interaction__card-icon {
+        width: 45px;
+    }
+
     .interaction__card-content {
         width: 100px;
         height: 100%;

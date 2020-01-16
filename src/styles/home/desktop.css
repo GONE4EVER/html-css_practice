@@ -20,16 +20,18 @@
         width: 307px;
     }
 
-    #homeSubtitle {
-        letter-spacing: 0.4px;
-    }
-
     #homeTitle {
         margin-bottom: 27px;
 
         letter-spacing: 1.18px;
 
         font-size: 34px;
+    }
+
+    #homeSubtitle {
+        letter-spacing: 0.4px;
+
+        font-size: 20px;
     }
 
     #homeTitle::before,

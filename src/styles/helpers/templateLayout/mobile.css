@@ -1,7 +1,6 @@
 @media only screen and (--mobile-viewport) {
     .template-layout__container {
-        width: 90%;
-        padding: 5% 0;
+        padding: 16px 28px;
     }
 
     .template-layout__text-info {
@@ -35,14 +34,11 @@
     .template-layout__info-header__subtitle::after {
         width: 19vw;
         height: 1px;
-        margin-top: 12px;
 
         border: 1px solid;
     }
 
     .template-layout__info-content {
-        width: 100%;
-
         text-align: center;
         letter-spacing: 0.025em;
         word-break: break-word;

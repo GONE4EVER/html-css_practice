@@ -58,6 +58,10 @@
         padding: 5px;
     }
 
+    .interaction__card-icon {
+        width: 45px;
+    }
+
     #ask {
         top: 7px;
 
