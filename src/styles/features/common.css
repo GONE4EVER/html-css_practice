@@ -1,6 +1,8 @@
-#features {
+.features__container {
     display: flex;
     flex-direction: column;
+
+    margin: auto;
 
     align-items: center;
     justify-content: flex-start;
@@ -9,18 +11,15 @@
 
 /* sections header */
 .features__header {
-    padding-bottom: 1.2vw;
+    padding-bottom: 12px;
 
-    letter-spacing: 0.15em;
+    letter-spacing: 5px;
 }
 
 
 /* sections content */
 .features__content {
     display: flex;
-
-    width: 67%;
-    height: 65%;
 
     flex-wrap: wrap;
 }
@@ -45,17 +44,8 @@
     justify-content: flex-end;
 }
 
-.features__content-item__inner > img {
-    height: 46%;
-    padding-bottom: 5.5%;
-}
 
-.features__content-item figcaption {
-    padding-bottom: 7%;
-
-    letter-spacing: 0.01em;
-
-    font-size: 1.8rem;
+.features__content-item-description {
     font-weight: bold;
 }
 

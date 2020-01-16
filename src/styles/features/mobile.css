@@ -1,10 +1,4 @@
 @media only screen and (--mobile-viewport) {
-    #features {
-        height: 140vw;
-        min-height: 460px;
-    }
-
-
     /* sections header */
     .features__header {
         margin: 8% 0 1%;

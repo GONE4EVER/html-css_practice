@@ -1,14 +1,30 @@
 @media only screen and (--desktop-viewport) {
-    #features {
-        height: 72.6vh;
-        padding: 2.5% 0;
+    .features__container {
+        width: 1024px;
+        padding: 27px 175px;
     }
 
 
     /* sections header */
     .features__header {
         padding-bottom: 0;
+
+        letter-spacing: 4px;
     }
+
+    .features__content-item-icon {
+        height: 34px;
+        margin: 26px 0 17px;
+    }
+
+    .features__content-item-description {
+        padding-bottom: 12px;
+
+        letter-spacing: 0.18px;
+
+        font-size: 18px;
+    }
+
 
     /* removing extra vertical borders */
     #question::before,
