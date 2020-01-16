@@ -27,6 +27,13 @@
         font-size: 6.4px;
     }
 
+    .interaction__template-layout__info-header__subtitle::after {
+        width: 42px;
+
+        border: none;
+        border-top: 1px solid;
+    }
+
     .interaction__card-content {
         padding: 0;
     }

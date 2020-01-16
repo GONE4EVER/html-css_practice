@@ -1,15 +1,6 @@
 #home {
     z-index: 0;
 
-    margin: auto;
-    /* border-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #1b3c57;
-    background-image: url("assets/images/home/background_desktop.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
-
     background-color: rgb(34, 43, 119);
 }
 

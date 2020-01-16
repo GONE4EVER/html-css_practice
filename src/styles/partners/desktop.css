@@ -1,9 +1,8 @@
 @media only screen and (--desktop-viewport) {
-    #partners {
-        height: 37.5vh;
-    }
+    .partners__container {
+        width: 1024px;
+        padding: 2px 0 4px;
 
-    .partners__image-background {
         background-image: url("./assets/images/partners/background_desktop.jpg");
     }
 
@@ -11,23 +10,14 @@
         margin: 0.8vw 0 0.6vw;
     }
 
-    .partners__container {
-        padding: 0 6vw;
-    }
-
     .partners__list {
-        height: 50%;
-        padding: 5% 0;
+        padding: 52px 59px 50px;
 
         justify-content: center;
     }
 
     .partners__list-item {
         flex: 1 1;
-
-        height: 100%;
-
-        order: 0 !important;
     }
 
     .partners__contol-arrow {
@@ -36,7 +26,7 @@
 
         display: block;
 
-        padding: 0.8vw;
+        padding: 8px;
 
         cursor: pointer;
 
@@ -45,42 +35,42 @@
     }
 
     .partners__contol-arrow.right {
-        right: 3.4vw;
+        right: 27px;
 
         transform: rotate(45deg);
     }
 
     .partners__contol-arrow.left {
-        left: 3.4vw;
+        left: 34px;
 
         transform: rotate(-135deg);
     }
 
-    #mccann > img {
-        width: 68%;
+    #mccann > .partners__list-item-icon {
+        width: 86px;
     }
 
-    #unwomen > img {
-        width: 58%;
+    #unwomen > .partners__list-item-icon {
+        width: 68px;
     }
 
-    #accenture > img {
-        width: 62%;
+    #accenture > .partners__list-item-icon {
+        width: 77px;
     }
 
-    #cisco > img {
-        width: 38%;
+    #cisco > .partners__list-item-icon {
+        width: 47px;
     }
 
-    #eventbrite > img {
-        width: 62%;
+    #eventbrite > .partners__list-item-icon {
+        width: 78px;
     }
 
-    #zappos > img {
-        width: 54%;
+    #zappos > .partners__list-item-icon {
+        width: 63px;
     }
 
-    #siemens > img {
-        width: 70%;
+    #siemens > .partners__list-item-icon {
+        width: 87px;
     }
 }

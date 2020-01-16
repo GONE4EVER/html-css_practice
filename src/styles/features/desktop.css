@@ -1,7 +1,7 @@
 @media only screen and (--desktop-viewport) {
     .features__container {
         width: 1024px;
-        padding: 27px 175px;
+        padding: 28px 175px 43px;
     }
 
 

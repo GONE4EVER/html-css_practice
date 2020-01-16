@@ -2,7 +2,7 @@
     /* sections header */
     .features__container {
         width: 768px;
-        padding: 50px 0;
+        padding: 50px 0 58px;
     }
 
     .features__header {
