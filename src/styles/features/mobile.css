@@ -1,25 +1,34 @@
 @media only screen and (--mobile-viewport) {
     /* sections header */
+
+    .features__container {
+        width: 320px;
+        padding: 15px 38px 37px;
+    }
+
     .features__header {
-        margin: 8% 0 1%;
+        margin: 0 0 20px;
+        padding: 0;
+
+        letter-spacing: 3px;
+
+        font-size: 18px;
     }
 
-
-    /* secitons content */
-    .features__content {
-        width: 96%;
-        height: 80%;
-    }
 
     .features__content-item {
         width: 50%;
-
-        align-items: center;
     }
 
+    .features__content-item-icon {
+        height: 20px;
+        margin: 7px 0 7px;
+    }
 
-    .features__content-item figcaption {
-        font-size: 5.1rem;
+    .features__content-item-description {
+        margin-bottom: 9px;
+
+        font-size: 10px;
     }
 
     /* vertical border*/
