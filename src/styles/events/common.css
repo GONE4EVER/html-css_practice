@@ -62,7 +62,6 @@
 
 .events__card > header::after {
     position: absolute;
-    z-index: -1;
     top: 0;
     left: 0;
 
@@ -157,8 +156,6 @@
 }
 
 #interactive {
-    z-index: 1;
-
     transform: translateY(-4%);
 }
 

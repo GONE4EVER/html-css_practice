@@ -24,20 +24,23 @@
         >
       </div>
       
-      <div class="header__toggle-menu-block">
+
+      <label 
+        for="toggleMenu" 
+        class="header__toggle-menu-container" 
+        role="button" 
+        tabindex="0"
+      >
         <input type="checkbox" role="button" id="toggleMenu">
-  
-        <label for="toggleMenu" class="header__toggle-menu__content" role="button" tabindex="0">
-          <div class="header__toggle-menu__bar" id="bar-top"></div>
-  
-          <div class="header__toggle-menu__bar" id="bar-middle"></div>
-  
-          <div class="header__toggle-menu__bar" id="bar-bottom"></div>
-        </label>
-      </div>
+        <div class="header__toggle-menu__bar" id="bar-top"></div>
+
+        <div class="header__toggle-menu__bar" id="bar-middle"></div>
+
+        <div class="header__toggle-menu__bar" id="bar-bottom"></div>
+      </label>
   
       <nav 
-        class="navbar" 
+        class="header__navbar" 
         role="navigation"
       >
         <ul class="navbar__tabs-list row">

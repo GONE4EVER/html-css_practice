@@ -10,7 +10,7 @@
         display: none;
     }
 
-    .navbar {
+    .header__navbar {
         display: flex;
 
         min-width: 372px;

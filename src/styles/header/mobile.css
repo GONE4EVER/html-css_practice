@@ -26,11 +26,21 @@
         height: 56px;
     }
 
-    .navbar {
-        display: none; /* temporary */
-        position: absolute;
+    .header__navbar {
+        position: fixed;
+        top: 0;
         left: -100%;
+
+        z-index: 1;
         
+        padding: 10px 15px;
+
+        transition: all 0.3s;
+        height: 100%;
+        background-color: black;
+    }
+
+    .navbar__tabs-list {
         font-size: 6em;
         z-index: 2;
         
@@ -38,7 +48,6 @@
         
         height: 100%;
         flex-direction: column;
-        transition: all 0.3s;
     }
 
     .navbar__tabs-list-item {
@@ -50,21 +59,12 @@
         display: none;
     }
     
-    .header__toggle-menu-block {
+    .header__toggle-menu-container {
         position: absolute;
-        right: 0;
+        right: 20px;
 
-        display: flex;
-
-        width: 20%;
-        min-height: var(--header-min-height);
-        height: var(--header-height);
-    }
-
-    .header__toggle-menu__content {
         display: flex;
         flex-direction: column;
-
         width: 25px;
         height: 25px;
         
@@ -96,28 +96,28 @@
         transition: all var(--icon-animation-duration);
     }
 
-    .header__toggle-menu__content:focus {
+    .header__toggle-menu-container:focus {
         outline: none;
     }
 
     /* making menu visible */
-    .header__toggle-menu__content:focus, .navbar {
-       
+    .header__toggle-menu-container:focus + .header__navbar {
+        left: 0;
     }
 
-    .header__toggle-menu__content:focus .header__toggle-menu__bar {
+    .header__toggle-menu-container:focus .header__toggle-menu__bar {
         margin: 0 auto;
     }
 
-    .header__toggle-menu__content:focus > #bar-top {
+    .header__toggle-menu-container:focus #bar-top {
         transform: rotateZ(45deg) translateY(1px);
     }
 
-    .header__toggle-menu__content:focus > #bar-bottom {
+    .header__toggle-menu-container:focus #bar-bottom {
         transform: rotateZ(-45deg) ;
     }
 
-    .header__toggle-menu__content:focus > #bar-middle {
+    .header__toggle-menu-container:focus #bar-middle {
         min-width: 0px;
         width: 0;
 

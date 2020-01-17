@@ -69,11 +69,3 @@
 
     min-width: var(--col-12-width);
 }
-
-
-
-.row-cols-7 > * {
-    flex: 1 1 calc(100% / 7);
-
-    min-width: calc(100% / 7);
-}

@@ -8,7 +8,7 @@
         padding-left: 145px;
     }
 
-    .navbar {
+    .header__navbar {
         display: flex;
 
         min-width: 500px;

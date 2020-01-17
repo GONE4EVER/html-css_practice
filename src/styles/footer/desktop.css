@@ -51,6 +51,7 @@
         justify-content: space-between;
     }
 
+    /* REPLACE COMBINATOR */
     .footer__links > * > ul {
         font-size: 0.9rem;
         line-height: 1.27em;
