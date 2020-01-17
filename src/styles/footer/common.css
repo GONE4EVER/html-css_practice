@@ -128,3 +128,7 @@ input[type=email]:focus {
 
     font-family: var(--font-light);
 }
+
+.footer__copyright::before {
+    content: "©";
+}
