@@ -4,7 +4,6 @@
     }
 
     .features__container {
-        width: var(--min-section-width-mobile);
         padding: 15px 38px 37px;
     }
 

@@ -4,7 +4,6 @@
     }
 
     .howItWorks__container {
-        width: var(--min-section-width-mobile);
         padding: 20px 30px 0;
     }
 
