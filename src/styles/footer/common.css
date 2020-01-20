@@ -5,8 +5,6 @@ footer {
     font-family: var(--font-regular);
 }
 
-
-/* major container */
 .footer__content {
     display: flex;
     flex-direction: column;
@@ -15,8 +13,6 @@ footer {
     padding: 4vw 8vw 0;
 }
 
-
-/* logo block */
 .footer__logo-container {
     display: flex;
     flex-direction: column;
@@ -36,14 +32,10 @@ footer {
     padding-bottom: 2.88vw;
 }
 
-
-/* links blocks */
-
 .footer__links {
     display: flex;
 }
 
-/* social block */
 .footer__social {
     display: flex;
     flex-direction: column;
@@ -63,8 +55,6 @@ footer {
     justify-content: space-around;
 }
 
-
-/* email form */
 .footer__email-form {
     display: flex;
     flex-direction: column;

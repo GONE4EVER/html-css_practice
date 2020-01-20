@@ -46,15 +46,13 @@
 .partners__list-item {
     display: flex;
 
-    width: 33%; /* tablet/mobile */
-    height: 33%; /* tablet/mobile */
+    width: 33%;
+    height: 33%;
 
     align-items: center;
     justify-content: center;
 }
 
-
-/* tablet/mobile */
 .partners__contol-arrow {
     display: none;
 }

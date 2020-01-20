@@ -1,5 +1,4 @@
 @media only screen and (--desktop-viewport) {
-    /* Main content */
     .template-layout__container {
         flex-direction: row;
 
@@ -9,7 +8,6 @@
         align-items: flex-start;
     }
 
-    /* Text block */
     .template-layout__text-info {
         flex: 1 1 50%;
     }

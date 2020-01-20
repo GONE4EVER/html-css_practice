@@ -1,5 +1,4 @@
 @media only screen and (--desktop-viewport) {
-    /* sections header */
     .events__header {
         margin-bottom: 1em;
     }
@@ -17,8 +16,6 @@
         font-size: 1.6rem;
     }
 
-
-    /* card items header images */
     #external > header::after {
         background-image: url("./assets/images/events/externalEvent.jpg");
     }

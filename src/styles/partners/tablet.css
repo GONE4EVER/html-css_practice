@@ -50,7 +50,6 @@
         width: 120px;
     }
 
-    /* fixing order (tablet/mobile) */
     #unwomen {
         order: 0;
     }

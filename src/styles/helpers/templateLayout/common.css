@@ -16,7 +16,6 @@
     justify-content: center;
 }
 
-/* Text block */
 .template-layout__text-info {
     display: flex;
     flex-direction: column;

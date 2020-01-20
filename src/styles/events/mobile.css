@@ -5,14 +5,10 @@
         padding: 0;
     }
 
-
-    /* sections header */
     .events__header {
         display: none;
     }
 
-
-    /* sections content */
     .events__content {
         flex-direction: column;
 
@@ -20,8 +16,6 @@
         padding: 0;
     }
 
-
-    /* card item */
     .events__card {
         position: relative;
 
@@ -56,8 +50,6 @@
         background-size: cover;
     }
 
-
-    /* card items header */
     .events__card > header {
         display: block;
 
@@ -78,8 +70,6 @@
         content: none;
     }
 
-
-    /* card items content */
     .events__card-content {
         flex-direction: row;
 
@@ -118,14 +108,12 @@
     }
 
 
-    /* card items content icons */
     .events__card-icon {
         height: 35%;
         margin: 0 5%;
     }
 
 
-    /* card items background */
     #external::before {
         background-image: url("./assets/images/events/externalEvent.jpg");
     }
@@ -151,7 +139,6 @@
         background-image: url("./assets/icons/events/mobile/hard-disk.png");
     }
 
-    /* color themes */
     .events__card.events__card_interactive > * {
         background-color: rgba(242, 98, 80, 0.8);
     }
@@ -173,8 +160,6 @@
         color: #4ca59a;
     }
 
-
-    /* changing cards order (mobile only) */
     #interactivity {
         order: 0;
     }

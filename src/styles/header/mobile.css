@@ -58,8 +58,6 @@
         display: none;
     }
     
-
-    /* menu block */
     .header__toggle-menu-container {
         position: absolute;
         right: 20px;
@@ -81,7 +79,6 @@
         justify-content: center;
     }
 
-    /* making navbar visible */
     .header__toggle-menu-container:focus + .header__navbar {
         left: 0;
     }

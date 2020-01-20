@@ -1,5 +1,4 @@
 @media only screen and (--tablet-viewport) {
-    /* sections header */
     .features__container {
         width: 768px;
         padding: 50px 0 58px;
@@ -13,8 +12,6 @@
         font-size: 29px;
     }
 
-
-    /* secitons content */
     .features__content-item {
         width: 50%;
     }
@@ -30,26 +27,20 @@
         font-size: 32px;
     }
 
-    /* table borders */
-
-    /* vertical border*/
     .features__content-item::before {
         height: 65%;
     }
 
-    /* horizontal border*/
     .features__content-item__inner::after {
         width: 85%;
     }
 
-    /* removing extra vertical borders */
     #question::before,
     #vote:before,
     #statistics::before {
         display: none;
     }
 
-    /* removing extra horizontal borders */
     #statistics .features__content-item__inner::after,
     #policy .features__content-item__inner::after {
         display: none;

@@ -3,7 +3,6 @@
         height: 130vw;
     }
 
-    /* secion content */
     .aboutUs__template-layout__container {
         flex-direction: column;
 
@@ -11,7 +10,6 @@
         padding: 8px 0;
     }
 
-    /* graphical section */
     .aboutUs__template-layout__graphical-info {
         flex-direction: row;
         flex: 1 1 50%;
@@ -22,8 +20,6 @@
         order: -1;
     }
 
-
-    /* text section */
     .aboutUs__template-layout__text-info {
         justify-content: flex-start;
     }
@@ -56,8 +52,6 @@
         line-height: 1.31em;
     }
 
-
-    /* graphical section */
     .aboutUs__stats-item > span {
         letter-spacing: -0.02vw;
 

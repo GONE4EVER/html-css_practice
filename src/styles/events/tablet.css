@@ -3,14 +3,10 @@
         height: 72.8vw;
     }
 
-
-    /* sections header */
     .events__header {
         margin-bottom: 7vw;
     }
 
-
-    /* sections content */
     .events__content {
         height: 65%;
         padding: 0;
@@ -23,8 +19,6 @@
         line-height: 7rem;
     }
 
-
-    /* card items transforms */
     #external {
         transform: scale(0.89) translate(0.2vw,-0.8vw);
     }
@@ -39,8 +33,6 @@
         transform: scale(0.89) translate(-0.2vw, -0.8vw);
     }
 
-
-    /* header images */
     #external > header::after {
         background-image: url("./assets/images/events/externalEvent.jpg");
     }
@@ -53,8 +45,6 @@
         background-image: url("./assets/images/events/internalEvent.jpg");
     }
 
-
-    /* card items content */
     .events__card-content > button {
         width: 14.76vw;
         height: 4.75vw;

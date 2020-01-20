@@ -21,8 +21,6 @@
         align-items: flex-start;
     }
 
-
-    /* logo block */
     .footer__logo-container {
         padding-right: 6vw;
     }
@@ -39,7 +37,6 @@
         padding-bottom: 2.88vw;
     }
 
-    /* links blocks */
     .footer__links {
         display: flex;
 
@@ -51,14 +48,11 @@
         justify-content: space-between;
     }
 
-    /* REPLACE COMBINATOR */
     .footer__links > * > ul {
         font-size: 0.9rem;
         line-height: 1.27em;
     }
 
-
-    /* social block */
     .footer__social {
         height: 63.5%;
         padding-left: 3.6vw;
@@ -75,8 +69,6 @@
         width: 1.4vw;
     }
 
-
-    /* email form */
     .footer__email-form {
         display: flex;
         flex-direction: column;

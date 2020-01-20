@@ -31,8 +31,6 @@
     }
 }
 
-
-/* positioning */
 .header__underline.header__underline-left::after {
     left: 1.45em;
 }
@@ -45,7 +43,6 @@
     right: 1.45em;
 }
 
-/* colors */
 .primary .header__underline::after,
 .primary .header__underline::before {
     border-color: var(--color-primary);
