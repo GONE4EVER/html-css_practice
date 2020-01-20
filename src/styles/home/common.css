@@ -1,6 +1,4 @@
 #home {
-    z-index: 0;
-
     background-color: rgb(34, 43, 119);
 }
 
@@ -47,20 +45,18 @@
 
 .phone__image {
     position: absolute;
-    z-index: 1;
 }
 
 .home__container {
     position: relative;
 
     display: flex;
+    overflow: hidden;
     flex-direction: row;
 
     margin: auto;
 
-    border-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #1b3c57;
+    border-bottom: 1px solid #1b3c57;
     background-image: url("assets/images/home/background_desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;

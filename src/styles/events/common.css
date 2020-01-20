@@ -45,22 +45,16 @@
 
 
 /* card items header */
-.events__card > header {
+.events__card-header {
     position: relative;
 
-    display: flex;
-    flex-direction: column;
-
-    height: 46%;
-
-    text-align: center;
     letter-spacing: 0.01em;
 
     font-family: var(--font-light);
     font-weight: lighter;
 }
 
-.events__card > header::after {
+.events__card-header::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -74,6 +68,15 @@
     background-size: cover;
 }
 
+.events__card-header-content {
+    z-index: 1;
+
+    flex-direction: column;
+
+    width: 100%;
+}
+
+
 .events__card > header > span {
     font-family: var(--font-regular);
     font-size: 1.15em;
@@ -86,7 +89,7 @@
     display: flex;
     flex-direction: column;
 
-    height: 60%;
+    height: 54%;
     padding: 0.4vw 0;
 
     color: var(--color-black);
@@ -165,7 +168,7 @@
 
 
 /* color themes (desktop/tablet) */
-.events__card_red > header {
+.events__card_red .events__card-header-content {
     background-color: rgba(242, 98, 80, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px var(--color-red);
@@ -179,7 +182,7 @@
     background-color: var(--color-secondary);
 }
 
-.events__card_orange > header {
+.events__card_orange .events__card-header-content {
     background-color: rgba(240, 167, 101, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px var(--color-orange);
@@ -193,7 +196,7 @@
     background-color: var(--color-secondary);
 }
 
-.events__card_green > header {
+.events__card_green .events__card-header-content {
     background-color: rgba(76, 165, 154, 0.8);
     box-shadow: 0 1px var(--color-secondary),
     0 6px var(--color-green);

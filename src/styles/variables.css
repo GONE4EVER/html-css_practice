@@ -1,8 +1,8 @@
 :root {
     /* colors */
     --color-primary: rgb(3, 118, 147);
-    --color-secondary: #ffffff;
-    --color-black: #121011;
+    --color-secondary: rgb(255, 255, 255);
+    --color-black: rgb(18, 16, 17);
 
     --color-orange: rgb(240, 167, 101);
     --color-orange-opacity: rgba(240, 167, 101, 0.6);
