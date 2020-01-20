@@ -105,17 +105,17 @@
         border: 1.2vw solid;
     }
 
-    .aboutUs__stats-item.aboutUs__stats-item_green > span::before {
+    .aboutUs__stats-item.aboutUs__stats-item_served > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-green-opacity);
     }
 
-    .aboutUs__stats-item.aboutUs__stats-item_red > span::before {
+    .aboutUs__stats-item.aboutUs__stats-item_service-hours > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-red-opacity);
     }
 
-    .aboutUs__stats-item.aboutUs__stats-item_orange > span::before {
+    .aboutUs__stats-item.aboutUs__stats-item_event-covered > span::before {
         box-shadow: 0 0 0 2px var(--color-secondary),
         0 0 0 0.7vw var(--color-orange-opacity);
     }

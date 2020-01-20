@@ -87,7 +87,6 @@
     }
 
     .header__toggle-menu-content {
-        position: relative;
 
         display: flex;
         align-items: center;
@@ -99,8 +98,8 @@
         cursor: pointer;
     }
     
-    .header__toggle-menu-content::before,
-    .header__toggle-menu-content::after {
+    .header__toggle-menu__bar::before,
+    .header__toggle-menu__bar::after {
         position: absolute;
         transition: all 0.1s ;
     
@@ -111,43 +110,44 @@
     
         background-color: rgb(224, 224, 224);
     }
-    .header__toggle-menu-content::before {
-        top: 2px;
+    .header__toggle-menu__bar::before {
+        top: -4px;
     }
-    .header__toggle-menu-content::after {
-        bottom: 2px;
+    .header__toggle-menu__bar::after {
+        top: 4px;
     }
 
 
     .header__toggle-menu__bar {
         width: 100%;
+        position: relative;
         
         height: 1px;
 
-        transition: width 0.3s ease;
+        transition: width var(--menu-animation-duration) ease;
 
         background-color: var(--color-secondary);
     }
     
 
     .header__toggle-menu-container:focus .header__toggle-menu__bar {
-        width: 0;
+        height: 0;
     }
 
-    .header__toggle-menu-container:focus .header__toggle-menu-content::before,
-    .header__toggle-menu-container:focus .header__toggle-menu-content::after {
+    .header__toggle-menu-container:focus .header__toggle-menu__bar::before,
+    .header__toggle-menu-container:focus .header__toggle-menu__bar::after {
         animation-duration: var(--menu-animation-duration);
         animation-fill-mode: forwards;
         animation-timing-function: ease-in-out;
         animation-delay: 0.1s;
     }
-    .header__toggle-menu-container:focus .header__toggle-menu-content::before {
-        top: 6px;
+    .header__toggle-menu-container:focus .header__toggle-menu__bar::before {
+        top: 0;
 
         animation-name: rotate-right;
     }
-    .header__toggle-menu-container:focus .header__toggle-menu-content::after {
-        bottom: 6px;
+    .header__toggle-menu-container:focus .header__toggle-menu__bar::after {
+        top: 0;
 
         animation-name: rotate-left;
     }
