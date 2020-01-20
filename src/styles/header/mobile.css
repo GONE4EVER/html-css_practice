@@ -37,7 +37,7 @@
 
         transition: all 0.3s;
         height: 100%;
-        background-color: black;
+        background-color: var(--color-black);
     }
 
     .navbar__tabs-list {
@@ -108,7 +108,7 @@
         height: 1px;
         width: 100%;
     
-        content: " ";
+        content: "";
     
         background-color: rgb(224, 224, 224);
     }
@@ -142,7 +142,6 @@
         animation-timing-function: ease-in-out;
         animation-delay: 0.1s;
     }
-
     .header__toggle-menu-container:focus .header__toggle-menu-content::before {
         top: 6px;
 

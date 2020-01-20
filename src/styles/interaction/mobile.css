@@ -1,11 +1,16 @@
 @media only screen and (--mobile-viewport) {
+    #interaction {
+        min-width: var(--min-section-width-mobile);
+    }
+
     .interaction__container {
-        width: 320px;
+        width: var(--min-section-width-mobile);
     }
 
     .interaction__card-item {
         width: 40px;
         height: 40px;
+        margin-bottom: 10px;
         padding: 2px;
 
         border-radius: 2px;
@@ -52,24 +57,11 @@
 
     .interaction__template-layout__graphical-info {
         width: 100%;
-        padding: 14px 22px 10px;
-    }
-
-    #ask {
-        top: 7.9vw;
-        right: 26.5vw;
+        padding: 14px 22px 0;
     }
 
     #choose {
-        top: 15.35vw;
-        right: 17.2vw;
-
         order: 2;
-    }
-
-    #select {
-        top: 22.8vw;
-        right: 26.5vw;
     }
 
 

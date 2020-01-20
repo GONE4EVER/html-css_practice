@@ -1,8 +1,12 @@
 @media screen and (--mobile-viewport) {
+    #home {
+        min-width: var(--min-section-width-mobile);
+    }
+
     .home__container {
         flex-direction: column;
 
-        width: 320px;
+        width: var(--min-section-width-mobile);
         padding: 65px 0 28px;
 
         align-items: center;

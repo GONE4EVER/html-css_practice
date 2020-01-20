@@ -1,6 +1,10 @@
 @media only screen and (--mobile-viewport) {
+    #partners {
+        min-width: var(--min-section-width-mobile);
+    }
+
     .partners__container {
-        width: 320px;
+        width: var(--min-section-width-mobile);
         padding-top: 5px;
 
         background-image: url("./assets/images/partners/background_tablet.jpg");

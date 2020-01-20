@@ -1,8 +1,10 @@
 @media only screen and (--mobile-viewport) {
-    /* sections header */
+    #features {
+        min-width: var(--min-section-width-mobile);
+    }
 
     .features__container {
-        width: 320px;
+        width: var(--min-section-width-mobile);
         padding: 15px 38px 37px;
     }
 

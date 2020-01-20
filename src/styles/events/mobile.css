@@ -1,5 +1,6 @@
 @media only screen and (--mobile-viewport) {
     #events {
+        width: var(--min-section-width-mobile);
         height: 200vw;
         padding: 0;
     }

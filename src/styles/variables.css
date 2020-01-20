@@ -39,3 +39,9 @@
     --font-regular: "Lato Regular";
     --font-bold: "Lato Bold";
 }
+
+@media only screen and (--mobile-viewport) {
+    :root {
+        --min-section-width-mobile: 320px;
+    }
+}

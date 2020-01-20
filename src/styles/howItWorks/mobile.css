@@ -1,6 +1,10 @@
 @media only screen and (--mobile-viewport) {
+    #howItWorks {
+        min-width: var(--min-section-width-mobile);
+    }
+
     .howItWorks__container {
-        width: 320px;
+        width: var(--min-section-width-mobile);
         padding: 20px 30px 0;
     }
 
