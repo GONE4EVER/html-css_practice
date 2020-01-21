@@ -1,0 +1,93 @@
+@media only screen and (--desktop-viewport) {
+    #interaction {
+        display: flex;
+    }
+
+    .interaction__container {
+        width: 1024px;
+    }
+
+    .interaction__content {
+        flex: 1 1 85%;
+    }
+
+    .interaction__template-layout__info-header {
+        padding-bottom: 32px;
+    }
+
+    .interaction__template-layout__info-header__title {
+        margin: 0 0 9px;
+
+        letter-spacing: 0.6px;
+
+        line-height: 43px;
+    }
+
+    .interaction__template-layout__info-header__subtitle {
+        letter-spacing: 0.8px;
+
+        font-size: 16px;
+    }
+
+    .interaction__template-layout__info-content {
+        width: 390px;
+
+        letter-spacing: 0.5px;
+
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .interaction__template-layout__container {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .interaction__template-layout__text-info {
+        flex: 1 1 35%;
+
+        max-width: 441px;
+        padding: 5px 0 13px;
+    }
+
+    .interaction__card-item {
+        position: absolute;
+
+        width: 119px;
+        height: 119px;
+        padding: 6px;
+    }
+
+    .interaction__card-icon {
+        width: 45px;
+    }
+
+    .interaction__card-content {
+        width: 100px;
+        height: 100%;
+
+        transform: rotate(-45deg);
+    }
+
+    .interaction__card-description {
+        letter-spacing: 0.5px;
+
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    #ask {
+        top: 58px;
+        left: 0;
+    }
+
+    #choose {
+        top: 134px;
+        left: 96px;
+    }
+
+    #select {
+        top: 211px;
+        left: 0;
+    }
+}

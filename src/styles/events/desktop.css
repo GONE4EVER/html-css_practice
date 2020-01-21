@@ -1,0 +1,44 @@
+@media only screen and (--desktop-viewport) {
+    .events__header {
+        margin-bottom: 1em;
+    }
+
+    .events__card > header {
+        font-size: 3.8rem;
+        line-height: 4.8rem;
+    }
+
+    .events__card-content > p {
+        padding-bottom: 2.6%;
+    }
+
+    .events__card-content > button {
+        font-size: 1.6rem;
+    }
+
+    #external > header::after {
+        background-image: url("./assets/images/events/externalEvent.jpg");
+    }
+
+    #interactive > header::after {
+        background-image: url("./assets/images/events/interactiveEvent.jpg");
+    }
+
+    #internal > header::after {
+        background-image: url("./assets/images/events/internalEvent.jpg");
+    }
+
+
+
+    #external .events__card-icon {
+        background-image: url("./assets/icons/events/usb-connection.png");
+    }
+
+    #interactive .events__card-icon {
+        background-image: url("./assets/icons/events/interactivity.png");
+    }
+
+    #internal .events__card-icon {
+        background-image: url("./assets/icons/events/hard-disk.png");
+    }
+}

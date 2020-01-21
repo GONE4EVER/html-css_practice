@@ -1,0 +1,118 @@
+@media only screen and (--desktop-viewport) {
+    #aboutUs {
+        display: flex;
+
+        height: 37.3vw;
+    }
+
+    .aboutUs__header {
+        position: relative;
+        left: -1em;
+
+        margin: 0 0 1.7vw;
+
+        letter-spacing: 0.15em;
+
+        align-self: center;
+    }
+
+    .aboutUs__content {
+        flex: 1 1 85%;
+
+        padding-top: 6.2vw;
+    }
+
+    .aboutUs__template-layout__container {
+        width: 100%;
+        padding-top: 22px;
+        padding-left: 0;
+    }
+
+    .aboutUs__template-layout__text-info {
+        flex: 1 1 40%;
+
+        padding-left: 2.4vw;
+    }
+
+    .aboutUs__template-layout__info-header {
+        padding-bottom: 2vw;
+    }
+
+    .aboutUs__template-layout__info-header__title {
+        margin-bottom: 0;
+        padding-left: 0.15vw;
+
+        letter-spacing: 0.024em;
+
+        font-size: 3.1rem;
+    }
+
+    .aboutUs__template-layout__info-header__subtitle {
+        padding-left: 0.4vw;
+
+        letter-spacing: 0.11em;
+    }
+
+    .aboutUs__template-layout__info-header__subtitle::after {
+        position: relative;
+        top: 3px;
+
+        width: 10.8vw;
+        margin-left: 1.8vw;
+    }
+
+    .aboutUs__template-layout__info-content {
+        width: 92%;
+
+        letter-spacing: 0.003em;
+
+        font-size: 1.05em;
+        line-height: 1.34em;
+    }
+
+    .aboutUs__template-layout__graphical-info {
+        display: flex;
+        flex: 1 1 40%;
+
+        padding-right: 8vw;
+    }
+
+    .aboutUs__stats-item-text {
+        letter-spacing: 0.04vw;
+
+        color: var(--color-black);
+
+        font-size: 1.3rem;
+    }
+
+    .aboutUs__stats-item::after {
+        margin-top: 2vw;
+
+        border: 0.11vw solid;
+    }
+
+    .aboutUs__stats-item > span {
+        letter-spacing: -0.02vw;
+
+        font-size: 2.9rem;
+    }
+
+    .aboutUs__stats-item > span::before {
+        border: 1.2vw solid;
+    }
+
+    .aboutUs__stats-item.aboutUs__stats-item_served > span::before {
+        box-shadow: 0 0 0 2px var(--color-secondary),
+        0 0 0 0.7vw var(--color-green-opacity);
+    }
+
+    .aboutUs__stats-item.aboutUs__stats-item_service-hours > span::before {
+        box-shadow: 0 0 0 2px var(--color-secondary),
+        0 0 0 0.7vw var(--color-red-opacity);
+    }
+
+    .aboutUs__stats-item.aboutUs__stats-item_event-covered > span::before {
+        box-shadow: 0 0 0 2px var(--color-secondary),
+        0 0 0 0.7vw var(--color-orange-opacity);
+    }
+}

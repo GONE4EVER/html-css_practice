@@ -1,0 +1,53 @@
+@media only screen and (--mobile-viewport) {
+    #features {
+        min-width: var(--min-section-width-mobile);
+    }
+
+    .features__container {
+        padding: 15px 38px 37px;
+    }
+
+    .features__header {
+        margin: 0 0 20px;
+        padding: 0;
+
+        letter-spacing: 3px;
+
+        font-size: 18px;
+    }
+
+
+    .features__content-item {
+        width: 50%;
+    }
+
+    .features__content-item-icon {
+        height: 20px;
+        margin: 7px 0 7px;
+    }
+
+    .features__content-item-description {
+        margin-bottom: 9px;
+
+        font-size: 10px;
+    }
+
+    .features__content-item::before {
+        height: 60%;
+    }
+
+    .features__content-item__inner::after {
+        width: 70%;
+    }
+
+    #question::before,
+    #statistics::before,
+    #survey::before {
+        display: none;
+    }
+
+    #survey .features__content-item__inner::after,
+    #policy .features__content-item__inner::after {
+        display: none;
+    }
+}

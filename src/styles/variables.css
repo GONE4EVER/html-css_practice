@@ -1,0 +1,47 @@
+:root {
+    /* colors */
+    --color-primary: rgb(3, 118, 147);
+    --color-secondary: rgb(255, 255, 255);
+    --color-black: rgb(18, 16, 17);
+
+    --color-orange: rgb(240, 167, 101);
+    --color-orange-opacity: rgba(240, 167, 101, 0.6);
+
+    --color-red: rgb(242, 98, 80);
+    --color-red-opacity: rgb(242, 98, 80, 0.6);
+
+    --color-green: rgb(76, 165, 154);
+    --color-green-opacity: rgb(76, 165, 154, 0.6);
+    
+
+    --color-interaction-card: rgb(241, 180, 81);
+
+
+    /* grid column sizes */
+    --grid-column-width: calc(100% / 12);
+
+    --col-1-width: var(--grid-column-width);
+    --col-2-width: calc(100% - 10 * var(--grid-column-width));
+    --col-3-width: calc(100% - 9 * var(--grid-column-width));
+    --col-4-width: calc(100% - 8 * var(--grid-column-width));
+    --col-5-width: calc(100% - 7 * var(--grid-column-width));
+    --col-6-width: calc(100% - 6 * var(--grid-column-width));
+    --col-7-width: calc(100% - 5 * var(--grid-column-width));
+    --col-8-width: calc(100% - 4 * var(--grid-column-width));
+    --col-9-width: calc(100% - 3 * var(--grid-column-width));
+    --col-10-width: calc(100% - 2 * var(--grid-column-width));
+    --col-11-width: calc(100% - 1 * var(--grid-column-width));
+    --col-12-width: 100%;
+
+
+    /* fonts */
+    --font-light: "Lato Light";
+    --font-regular: "Lato Regular";
+    --font-bold: "Lato Bold";
+}
+
+@media only screen and (--mobile-viewport) {
+    :root {
+        --min-section-width-mobile: 320px;
+    }
+}

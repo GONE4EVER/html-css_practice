@@ -1,0 +1,56 @@
+@media only screen and (--mobile-viewport) {
+    #howItWorks {
+        min-width: var(--min-section-width-mobile);
+    }
+
+    .howItWorks__container {
+        padding: 20px 30px 0;
+    }
+
+    .howItWorks__header {
+        margin: 0 0 12px;
+
+        letter-spacing: 1.5px;
+
+        font-size: 21px;
+    }
+
+    .howItWorks__content {
+        padding: 15px 0 6px;
+    }
+
+    .howItWorks__tip {
+        width: 50%;
+        margin-bottom: 22px;
+        padding: 0 19px;
+
+        justify-content: flex-start;
+    }
+
+    .howItWorks__tip-image-wrapper {
+        width: 42px;
+        height: 42px;
+    }
+
+    .howItWorks__tip-image-description {
+        margin-top: 19px;
+
+        font-size: 9px;
+    }
+
+    img#freeAccount {
+        width: 14px;
+    }
+
+    img#discussIssue {
+        width: 28px;
+    }
+
+    img#qrCode {
+        width: 25px;
+    }
+
+    img#favorites {
+        width: 33px;
+    }
+}

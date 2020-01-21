@@ -1,0 +1,45 @@
+@media only screen and (--desktop-viewport) {
+    .header__logo-container {
+        margin-right: 73px;
+    }
+
+    .header__container {
+        width: 1024px;
+        padding-left: 145px;
+    }
+
+    .header__navbar {
+        display: flex;
+
+        min-width: 500px;
+
+        font-size: 16px;
+    }
+
+    .navbar__tabs-list {
+        width: 100%;
+    }
+
+    .header__logo {
+        height: 75px;
+        margin: 5px 0;
+    }
+
+    .header__toolbar {
+        position: relative;
+
+        margin-left: 36px;
+
+        font-size: 9px;
+    }
+
+
+    .header__toolbar-control {
+        margin-right: 18px;
+        padding: 5px;
+    }
+
+    .header__toolbar-control-icon {
+        width: 14px;
+    }
+}

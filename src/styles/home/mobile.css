@@ -1,0 +1,75 @@
+@media screen and (--mobile-viewport) {
+    #home {
+        min-width: var(--min-section-width-mobile);
+    }
+
+    .home__container {
+        flex-direction: column;
+
+        width: var(--min-section-width-mobile);
+        padding: 65px 0 28px;
+
+        align-items: center;
+    }
+
+    .home__container-header {
+        margin-bottom: 28px;
+    }
+
+    #homeTitle {
+        margin-bottom: 14px;
+
+        text-align: center;
+        letter-spacing: 0.6px;
+
+        font-size: 18px;
+    }
+
+    #homeTitle::before,
+    #homeTitle::after {
+        bottom: -0.3em;
+    }
+
+    #homeTitle::before {
+        right: 4.7em;
+
+        width: 0.3em;
+    }
+    #homeTitle::after {
+        right: 0.2em;
+
+        width: 4.3em;
+    }
+
+    #homeSubtitle {
+        letter-spacing: 0.4px;
+
+        font-size: 11px;
+    }
+
+    .home__controls {
+        width: 90%;
+
+        font-size: 11px;
+    }
+
+    .home__button {
+        flex: 1 1 50%;
+
+        line-height: 24px;
+    }
+
+    #createEvent {
+        margin-right: 20px;
+
+        flex-shrink: 1.3;
+    }
+
+    .home__controls-pair {
+        flex: 1.2 1 63%;
+    }
+
+    .phone__image {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+
+    flex-flow: row nowrap;
+}
+
+.primary {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+.secondary {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+}
+
+.centered {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}

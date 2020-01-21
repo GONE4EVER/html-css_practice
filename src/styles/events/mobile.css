@@ -1,0 +1,174 @@
+@media only screen and (--mobile-viewport) {
+    #events {
+        width: var(--min-section-width-mobile);
+        height: 200vw;
+        padding: 0;
+    }
+
+    .events__header {
+        display: none;
+    }
+
+    .events__content {
+        flex-direction: column;
+
+        height: 100%;
+        padding: 0;
+    }
+
+    .events__card {
+        position: relative;
+
+        max-width: 100%;
+
+        transform: none !important;
+
+        border-width: 2px;
+        border-color: var(--color-secondary);
+        border-top-style: solid;
+        border-bottom-style: solid;
+        background-position: center;
+        background-size: cover;
+        box-shadow: none !important;
+    }
+
+    .events__card > * {
+        position: relative;
+    }
+
+    .events__card::before {
+        position: absolute;
+        z-index: 0;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+
+        content: "";
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    .events__card > header {
+        display: block;
+
+        height: 30%;
+        padding-top: 8vw;
+
+        letter-spacing: 0.5rem;
+
+        background-color: transparent;
+        box-shadow: none;
+
+        font-size: 8.5rem;
+    }
+
+    .events__card > header::after {
+        display: none;
+
+        content: none;
+    }
+
+    .events__card-content {
+        flex-direction: row;
+
+        height: 70%;
+        padding-bottom: 0;
+
+        color: var(--color-black);
+
+        font-weight: bold;
+
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .events__card-content button {
+        width: 36%;
+        height: 24%;
+
+        background-color: var(--color-secondary);
+
+        font-size: 4.8rem;
+        font-weight: bold;
+    }
+
+    .events__card-content > p {
+        display: flex;
+
+        height: 50%;
+
+        color: var(--color-secondary);
+
+        font-size: 3.5rem;
+
+        align-items: center;
+    }
+
+
+    .events__card-icon {
+        height: 35%;
+        margin: 0 5%;
+    }
+
+
+    #external::before {
+        background-image: url("./assets/images/events/externalEvent.jpg");
+    }
+
+    #interactive::before {
+        background-image: url("./assets/images/events/interactiveEvent.jpg");
+    }
+
+    #internal::before {
+        background-image: url("./assets/images/events/internalEvent.jpg");
+    }
+
+
+    #external .events__card-icon {
+        background-image: url("./assets/icons/events/mobile/usb-connection.png");
+    }
+
+    #interactive .events__card-icon {
+        background-image: url("./assets/icons/events/mobile/interactivity.png");
+    }
+
+    #internal .events__card-icon {
+        background-image: url("./assets/icons/events/mobile/hard-disk.png");
+    }
+
+    .events__card.events__card_interactive > * {
+        background-color: rgba(242, 98, 80, 0.8);
+    }
+    .events__card_interactive button {
+        color: #f26250;
+    }
+
+    .events__card.events__card_internal > * {
+        background-color: rgba(240, 167, 101, 0.8);
+    }
+    .events__card_internal button {
+        color: #f0a765;
+    }
+
+    .events__card.events__card_external > * {
+        background-color: rgba(76, 165, 154, 0.8);
+    }
+    .events__card_external button {
+        color: #4ca59a;
+    }
+
+    #interactivity {
+        order: 0;
+    }
+
+    #internal {
+        order: 1;
+    }
+
+    #external {
+        order: 2;
+    }
+}

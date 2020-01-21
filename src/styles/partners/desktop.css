@@ -1,0 +1,76 @@
+@media only screen and (--desktop-viewport) {
+    .partners__container {
+        width: 1024px;
+        padding: 2px 0 4px;
+
+        background-image: url("./assets/images/partners/background_desktop.jpg");
+    }
+
+    .partners__header {
+        margin: 0.8vw 0 0.6vw;
+    }
+
+    .partners__list {
+        padding: 52px 59px 50px;
+
+        justify-content: center;
+    }
+
+    .partners__list-item {
+        flex: 1 1;
+    }
+
+    .partners__contol-arrow {
+        position: absolute;
+        top: 60%;
+
+        display: block;
+
+        padding: 8px;
+
+        cursor: pointer;
+
+        border: solid var(--color-secondary);
+        border-width: 2px 2px 0 0;
+    }
+
+    .partners__contol-arrow.right {
+        right: 27px;
+
+        transform: rotate(45deg);
+    }
+
+    .partners__contol-arrow.left {
+        left: 34px;
+
+        transform: rotate(-135deg);
+    }
+
+    #mccann > .partners__list-item-icon {
+        width: 86px;
+    }
+
+    #unwomen > .partners__list-item-icon {
+        width: 68px;
+    }
+
+    #accenture > .partners__list-item-icon {
+        width: 77px;
+    }
+
+    #cisco > .partners__list-item-icon {
+        width: 47px;
+    }
+
+    #eventbrite > .partners__list-item-icon {
+        width: 78px;
+    }
+
+    #zappos > .partners__list-item-icon {
+        width: 63px;
+    }
+
+    #siemens > .partners__list-item-icon {
+        width: 87px;
+    }
+}

@@ -1,0 +1,71 @@
+.col-1 {
+    flex: 1 1 var(--col-1-width);
+
+    min-width: var(--col-1-width);
+}
+
+.col-2 {
+    flex: 1 1 var(--col-2-width);
+
+    min-width: var(--col-2-width);
+}
+
+.col-3 {
+    flex: 1 1 var(--col-3-width);
+
+    min-width: var(--col-3-width);
+}
+
+.col-4 {
+    flex: 1 1 var(--col-4-width);
+
+    min-width: var(--col-4-width);
+}
+
+.col-5 {
+    flex: 1 1 var(--col-5-width);
+
+    min-width: var(--col-5-width);
+}
+
+.col-6 {
+    flex: 1 1 var(--col-6-width);
+
+    min-width: var(--col-6-width);
+}
+
+.col-7 {
+    flex: 1 1 var(--col-7-width);
+
+    min-width: var(--col-7-width);
+}
+
+.col-8 {
+    flex: 1 1 var(--col-8-width);
+
+    min-width: var(--col-8-width);
+}
+
+.col-9 {
+    flex: 1 1 var(--col-9-width);
+
+    min-width: var(--col-9-width);
+}
+
+.col-10 {
+    flex: 1 1 var(--col-10-width);
+
+    min-width: var(--col-10-width);
+}
+
+.col-11 {
+    flex: 1 1 var(--col-11-width);
+
+    min-width: var(--col-11-width);
+}
+
+.col-12 {
+    flex: 1 1 var(--col-12-width);
+
+    min-width: var(--col-12-width);
+}

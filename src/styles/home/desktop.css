@@ -1,0 +1,77 @@
+@media only screen and (--desktop-viewport) {
+    .home__container {
+        width: 1024px;
+        padding-top: 144px;
+    }
+
+    .home__content {
+        margin-top: 15px;
+        margin-bottom: 152px;
+        margin-left: 120px;
+    }
+
+    .home__container-header {
+        margin-bottom: 107px;
+    }
+
+    .phone__image {
+        left: 639px;
+
+        width: 307px;
+    }
+
+    #homeTitle {
+        margin-bottom: 27px;
+
+        letter-spacing: 1.18px;
+
+        font-size: 34px;
+    }
+
+    #homeSubtitle {
+        letter-spacing: 0.4px;
+
+        font-size: 20px;
+    }
+
+    #homeTitle::before,
+    #homeTitle::after {
+        bottom: -7px;
+
+        border: 2px solid;
+        border-radius: 2px;
+    }
+
+    #homeTitle::before {
+        right: 148px;
+
+        width: 10px;
+    }
+    #homeTitle::after {
+        right: 0;
+
+        width: 144px;
+    }
+
+    .home__controls {
+        width: 302px;
+
+        font-size: 14px;
+    }
+
+    .home__button {
+        flex: 1 1 50%;
+
+        line-height: 30px;
+    }
+
+    #createEvent {
+        margin-right: 30px;
+
+        flex-shrink: 1.3;
+    }
+
+    .home__controls-pair {
+        flex: 1.2 1 63%;
+    }
+}

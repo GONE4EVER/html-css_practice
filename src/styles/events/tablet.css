@@ -1,0 +1,75 @@
+@media only screen and (--tablet-viewport) {
+    #events {
+        height: 72.8vw;
+    }
+
+    .events__header {
+        margin-bottom: 7vw;
+    }
+
+    .events__content {
+        height: 65%;
+        padding: 0;
+    }
+
+    .events__card > header {
+        letter-spacing: 0.1rem;
+
+        font-size: 4.7rem;
+        line-height: 7rem;
+    }
+
+    #external {
+        transform: scale(0.89) translate(0.2vw,-0.8vw);
+    }
+
+    #interactive {
+        z-index: 1;
+
+        transform: translateY(-4%);
+    }
+
+    #internal {
+        transform: scale(0.89) translate(-0.2vw, -0.8vw);
+    }
+
+    #external > header::after {
+        background-image: url("./assets/images/events/externalEvent.jpg");
+    }
+
+    #interactive > header::after {
+        background-image: url("./assets/images/events/interactiveEvent.jpg");
+    }
+
+    #internal > header::after {
+        background-image: url("./assets/images/events/internalEvent.jpg");
+    }
+
+    .events__card-content > button {
+        width: 14.76vw;
+        height: 4.75vw;
+
+        border-radius: 40px;
+
+        font-size: 2.4rem;
+    }
+
+    .events__card-content > p {
+        width: 90%;
+        padding-bottom: 1.5rem;
+
+        font-size: 1.5rem;
+    }
+
+    #external .events__card-icon {
+        background-image: url("./assets/icons/events/usb-connection.png");
+    }
+
+    #interactive .events__card-icon {
+        background-image: url("./assets/icons/events/interactivity.png");
+    }
+
+    #internal .events__card-icon {
+        background-image: url("./assets/icons/events/hard-disk.png");
+    }
+}

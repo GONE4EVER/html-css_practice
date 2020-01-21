@@ -1,0 +1,80 @@
+@media only screen and (--tablet-viewport) {
+    .partners__container {
+        width: 768px;
+        padding-top: 52px;
+
+        background-image: url("./assets/images/partners/background_tablet.jpg");
+    }
+
+    .partners__header {
+        margin: 0 0 90px;
+
+        letter-spacing: 4.5px;
+
+        font-size: 33px;
+    }
+
+    .partners__list {
+        padding: 36px 180px 11px;
+    }
+
+    .partners__list-item {
+        margin: 0 0 56px;
+    }
+
+    #mccann > .partners__list-item-icon {
+        width: 120px;
+    }
+
+    #unwomen > .partners__list-item-icon {
+        width: 90px;
+    }
+
+    #accenture > .partners__list-item-icon {
+        width: 105px;
+    }
+
+    #cisco > .partners__list-item-icon {
+        width: 70px;
+    }
+
+    #eventbrite > .partners__list-item-icon {
+        width: 110px;
+    }
+
+    #zappos > .partners__list-item-icon {
+        width: 85px;
+    }
+
+    #siemens > .partners__list-item-icon {
+        width: 120px;
+    }
+
+    #unwomen {
+        order: 0;
+    }
+
+    #accenture {
+        order: 1;
+    }
+
+    #eventbrite {
+        order: 2;
+    }
+
+    #mccann {
+        order: 3;
+    }
+
+    #cisco {
+        order: 4;
+    }
+
+    #zappos {
+        order: 5;
+    }
+
+    #siemens {
+        order: 6;
+    }
+}
