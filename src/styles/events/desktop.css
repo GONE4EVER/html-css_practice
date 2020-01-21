@@ -1,16 +1,12 @@
 @media only screen and (--desktop-viewport) {
-    #events {
-        max-width: 1024px;
-    }
-
     .events__container {
+        width: 1024px;
         padding: 39px 0 20px;
     }
 
     .events__header {
         margin-bottom: 39px;
     }
-
 
     .events__content {
         padding: 0 85px;
@@ -28,7 +24,7 @@
     }
 
     .events__card-content-text {
-        padding-bottom: 2.6%;
+        padding-bottom: 6px;
     }
 
     .events__card-icon {
@@ -36,6 +32,9 @@
     }
 
     .events__card-button {
+        width: 94px;
+        height: 28px;
+
         font-size: 16px;
     }
 

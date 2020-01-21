@@ -19,8 +19,6 @@
 
 .events__header {
     margin: 0;
-
-    letter-spacing: 0.15em;
 }
 
 .events__content {
@@ -40,8 +38,6 @@
 
 .events__card-header {
     position: relative;
-
-    letter-spacing: 0.01em;
 
     font-family: var(--font-light);
     font-weight: lighter;
@@ -67,6 +63,8 @@
     flex-direction: column;
 
     width: 100%;
+
+    letter-spacing: 0.1px;
 }
 
 
@@ -88,23 +86,19 @@
 
 .events__card-content-text {
     text-align: center;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.7px;
 
     font-family: var(--font-light);
-    line-height: 1.6em;
+    font-size: 10px;
+    line-height: 16px;
 }
 
 .events__card-button {
-    width: 9.2vw;
-    height: 2.75vw;
-
     border: 1px solid transparent;
     border-radius: 40px;
 }
 
 .events__card-icon {
-    height: 30%;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -128,10 +122,10 @@
     box-shadow: 0 1px var(--color-secondary),
     0 4px var(--color-red);
 }
-.events__card_interactive button {
+.events__card_interactive .events__card-button {
     background-color: var(--color-red);
 }
-.events__card_interactive button:hover {
+.events__card_interactive .events__card-button:hover {
     color: var(--color-red);
     border-color: var(--color-red);
     background-color: var(--color-secondary);
@@ -142,10 +136,10 @@
     box-shadow: 0 1px var(--color-secondary),
     0 4px var(--color-orange);
 }
-.events__card_internal button {
+.events__card_internal .events__card-button {
     background-color: var(--color-orange);
 }
-.events__card_internal button:hover {
+.events__card_internal .events__card-button:hover {
     color: var(--color-orange);
     border-color: var(--color-orange);
     background-color: var(--color-secondary);
@@ -156,10 +150,10 @@
     box-shadow: 0 1px var(--color-secondary),
     0 4px var(--color-green);
 }
-.events__card_external button {
+.events__card_external .events__card-button {
     background-color: var(--color-green);
 }
-.events__card_external button:hover {
+.events__card_external .events__card-button:hover {
     color: var(--color-green);
     border-color: var(--color-green);
     background-color: var(--color-secondary);
