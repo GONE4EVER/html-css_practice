@@ -2,36 +2,35 @@
     display: flex;
     flex-direction: column;
 
-    height: 42.8vw;
-    padding-top: 1%;
-
     background-color: rgb(232, 232, 232);
 
     align-items: center;
     justify-content: flex-start;
 }
 
-.events__header {
-    margin-bottom: 1.4em;
+.events__container {
+    display: flex;
+    flex-direction: column;
 
-    letter-spacing: 0.15em;
+    margin: auto;
+
+    align-items: center;
+}
+
+.events__header {
+    margin: 0;
 }
 
 .events__content {
     display: flex;
 
-    width: 100%;
-    height: 80%;
-    padding: 0 9%;
-
     align-items: center;
 }
 
 .events__card {
-    flex: 1 1 calc(100% / 3);
+    flex: 1 1 33%;
 
-    max-width: calc(100% / 3);
-    height: 94%;
+    max-width: 33%;
 
     color: var(--color-secondary);
     background-color: var(--color-secondary);
@@ -39,8 +38,6 @@
 
 .events__card-header {
     position: relative;
-
-    letter-spacing: 0.01em;
 
     font-family: var(--font-light);
     font-weight: lighter;
@@ -66,21 +63,19 @@
     flex-direction: column;
 
     width: 100%;
+
+    letter-spacing: 0.1px;
 }
 
 
-.events__card > header > span {
+.events__card-header-text_bold {
     font-family: var(--font-regular);
-    font-size: 1.15em;
     font-weight: bold;
 }
 
 .events__card-content {
     display: flex;
     flex-direction: column;
-
-    height: 54%;
-    padding: 0.4vw 0;
 
     color: var(--color-black);
 
@@ -89,76 +84,39 @@
     align-items: center;
 }
 
-.events__card-content > p {
-    width: 70%;
-
+.events__card-content-text {
     text-align: center;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.7px;
 
     font-family: var(--font-light);
-    line-height: 1.6em;
+    font-size: 10px;
+    line-height: 16px;
 }
 
-.events__card-content > button {
-    width: 9.2vw;
-    height: 2.75vw;
-
+.events__card-button {
     border: 1px solid transparent;
     border-radius: 40px;
 }
 
 .events__card-icon {
-    height: 30%;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-#external .events__card-icon {
-    width: 9.4%;
-}
-
-#interactive .events__card-icon {
-    width: 12%;
-}
-
-#internal .events__card-icon {
-    width: 11%;
-}
-
-#external,
-#internal {
-    box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
-}
-
-#interactive {
-    box-shadow: 0 2.72px 65.28px 2.72px rgba(30, 30, 30, 0.26);
-}
 
 
-#external {
-    transform: scale(0.89) translate(4.7vw,-0.4vw);
-}
-
-#interactive {
-    transform: translateY(-4%);
-}
-
-#internal {
-    transform: scale(0.89) translate(-4.7vw, -0.4vw);
-}
 
 
 .events__card_interactive .events__card-header-content {
     background-color: rgba(242, 98, 80, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px var(--color-red);
+    0 4px var(--color-red);
 }
-.events__card_interactive button {
+.events__card_interactive .events__card-button {
     background-color: var(--color-red);
 }
-.events__card_interactive button:hover {
+.events__card_interactive .events__card-button:hover {
     color: var(--color-red);
     border-color: var(--color-red);
     background-color: var(--color-secondary);
@@ -167,12 +125,12 @@
 .events__card_internal .events__card-header-content {
     background-color: rgba(240, 167, 101, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px var(--color-orange);
+    0 4px var(--color-orange);
 }
-.events__card_internal button {
+.events__card_internal .events__card-button {
     background-color: var(--color-orange);
 }
-.events__card_internal button:hover {
+.events__card_internal .events__card-button:hover {
     color: var(--color-orange);
     border-color: var(--color-orange);
     background-color: var(--color-secondary);
@@ -181,12 +139,12 @@
 .events__card_external .events__card-header-content {
     background-color: rgba(76, 165, 154, 0.8);
     box-shadow: 0 1px var(--color-secondary),
-    0 6px var(--color-green);
+    0 4px var(--color-green);
 }
-.events__card_external button {
+.events__card_external .events__card-button {
     background-color: var(--color-green);
 }
-.events__card_external button:hover {
+.events__card_external .events__card-button:hover {
     color: var(--color-green);
     border-color: var(--color-green);
     background-color: var(--color-secondary);

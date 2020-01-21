@@ -1,6 +1,6 @@
 @media only screen and (--tablet-viewport) {
     .home__container {
-        width: 768px;
+        width: var(--min-section-width-tablet);
         padding-top: 118px;
     }
 

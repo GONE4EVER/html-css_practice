@@ -1,6 +1,6 @@
 @media screen and (--tablet-viewport) {
     .header__container {
-        width: 768px;
+        width: var(--min-section-width-tablet);
         padding-left: 101px;
 
         justify-content: center;

@@ -1,44 +1,93 @@
 @media only screen and (--desktop-viewport) {
+    .events__container {
+        width: var(--min-section-width-desktop);
+        padding: 39px 0 20px;
+    }
+
     .events__header {
-        margin-bottom: 1em;
+        margin-bottom: 39px;
     }
 
-    .events__card > header {
-        font-size: 3.8rem;
-        line-height: 4.8rem;
+    .events__content {
+        padding: 0 85px;
     }
 
-    .events__card-content > p {
-        padding-bottom: 2.6%;
+    .events__card-header-content {
+        padding: 23px 0;
+
+        font-size: 42px;
+        line-height: 50px;
     }
 
-    .events__card-content > button {
-        font-size: 1.6rem;
+    .events__card-content {
+        padding: 10px 35px 30px;
     }
 
-    #external > header::after {
+    .events__card-content-text {
+        padding-bottom: 6px;
+    }
+
+    .events__card-icon {
+        margin-bottom: 2px;
+    }
+
+    .events__card-button {
+        width: 94px;
+        height: 28px;
+
+        font-size: 16px;
+    }
+
+    #external > .events__card-header::after {
         background-image: url("./assets/images/events/externalEvent.jpg");
     }
 
-    #interactive > header::after {
+    #interactive > .events__card-header::after {
         background-image: url("./assets/images/events/interactiveEvent.jpg");
     }
 
-    #internal > header::after {
+    #internal > .events__card-header::after {
         background-image: url("./assets/images/events/internalEvent.jpg");
     }
 
-
-
     #external .events__card-icon {
+        width: 30px;
+        height: 43px;
+
         background-image: url("./assets/icons/events/usb-connection.png");
     }
 
     #interactive .events__card-icon {
+        width: 36px;
+        height: 46px;
+
         background-image: url("./assets/icons/events/interactivity.png");
     }
 
     #internal .events__card-icon {
+        width: 33px;
+        height: 43px;
+
         background-image: url("./assets/icons/events/hard-disk.png");
+    }
+
+    #external {
+        transform: scale(0.89) translate(48px, -7px);
+
+        box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
+    }
+
+    #internal {
+        transform: scale(0.89) translate(-48px, -7px);
+
+        box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
+    }
+
+    #interactive {
+        z-index: 1;
+
+        transform: translateY(-4%);
+
+        box-shadow: 0 2.72px 65.28px 2.72px rgba(30, 30, 30, 0.26);
     }
 }

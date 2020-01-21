@@ -4,7 +4,7 @@
     }
 
     .interaction__container {
-        width: 1024px;
+        width: var(--min-section-width-desktop);
     }
 
     .interaction__content {

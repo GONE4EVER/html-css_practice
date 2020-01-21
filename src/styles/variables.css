@@ -38,10 +38,10 @@
     --font-light: "Lato Light";
     --font-regular: "Lato Regular";
     --font-bold: "Lato Bold";
-}
 
-@media only screen and (--mobile-viewport) {
-    :root {
-        --min-section-width-mobile: 320px;
-    }
+
+    /* layout min width */
+    --min-section-width-mobile: 320px;
+    --min-section-width-tablet: 768px;
+    --min-section-width-desktop: 1024px;
 }

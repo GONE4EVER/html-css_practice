@@ -1,6 +1,6 @@
 @media only screen and (--desktop-viewport) {
     .howItWorks__container {
-        width: 1024px;
+        width: var(--min-section-width-desktop);
         padding: 62px 80px 79px;
     }
 
@@ -8,8 +8,6 @@
         margin: 0 0 42px;
 
         letter-spacing: 4px;
-
-        font-size: 35px;
     }
 
     .howItWorks__content {
