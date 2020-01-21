@@ -1,6 +1,6 @@
 @media only screen and (--desktop-viewport) {
     .features__container {
-        width: 1024px;
+        width: var(--min-section-width-desktop);
         padding: 28px 175px 43px;
     }
 

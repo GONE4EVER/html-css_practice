@@ -1,6 +1,6 @@
 @media only screen and (--tablet-viewport) {
     .events__container {
-        width: 768px;
+        width: var(--min-section-width-tablet);
         padding: 88px 0 20px;
     }
 
@@ -40,8 +40,17 @@
         font-size: 16px;
     }
 
+
+    #interactive {
+        transform: translateY(-4%);
+
+        box-shadow: 0 2.72px 65.28px 2.72px rgba(30, 30, 30, 0.26);
+    }
+
     #external {
         transform: scale(0.89) translateY(-2px);
+
+        box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
     }
 
     #interactive {
@@ -56,6 +65,8 @@
 
     #internal {
         transform: scale(0.89) translateY(-2px);
+
+        box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
     }
 
     #external > .events__card-header::after {

@@ -1,6 +1,6 @@
 @media only screen and (--desktop-viewport) {
     .home__container {
-        width: 1024px;
+        width: var(--min-section-width-desktop);
         padding-top: 144px;
     }
 

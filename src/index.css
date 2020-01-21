@@ -24,10 +24,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url("./assets/fonts/Lato-Light.eot"); /* IE9 Compat Modes */
-    src: url("./assets/fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./assets/fonts/Lato-Light.woff2") format("woff2"), /* Modern Browsers */
-    url("./assets/fonts/Lato-Light.woff") format("woff"), /* Modern Browsers */
+    src: url("./assets/fonts/Lato-Light.woff2") format("woff2"),
+    url("./assets/fonts/Lato-Light.woff") format("woff"),
     url("./assets/fonts/Lato-Light.ttf") format("truetype");
     text-rendering: optimizeLegibility;
 }
@@ -37,10 +35,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url("./assets/fonts/Lato-Regular.eot"); /* IE9 Compat Modes */
-    src: url("./assets/fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./assets/fonts/Lato-Regular.woff2") format("woff2"), /* Modern Browsers */
-    url("./assets/fonts/Lato-Regular.woff") format("woff"), /* Modern Browsers */
+    src: url("./assets/fonts/Lato-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Lato-Regular.woff") format("woff"),
     url("./assets/fonts/Lato-Regular.ttf") format("truetype");
     text-rendering: optimizeLegibility;
 }
@@ -50,10 +46,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url("./assets/fonts/Lato-Bold.eot"); /* IE9 Compat Modes */
-    src: url("./assets/fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./assets/fonts/Lato-Bold.woff2") format("woff2"), /* Modern Browsers */
-    url("./assets/fonts/Lato-Bold.woff") format("woff"), /* Modern Browsers */
+    src: url("./assets/fonts/Lato-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Lato-Bold.woff") format("woff"),
     url("./assets/fonts/Lato-Bold.ttf") format("truetype");
     text-rendering: optimizeLegibility;
 }
@@ -105,6 +99,9 @@ a:hover {
 
 
 @media only screen and (--desktop-viewport) {
+    :root {
+        font-size: 1vw;
+    }
     h1 {
         letter-spacing: 4px;
 

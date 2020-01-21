@@ -1,6 +1,6 @@
 @media only screen and (--desktop-viewport) {
     .events__container {
-        width: 1024px;
+        width: var(--min-section-width-desktop);
         padding: 39px 0 20px;
     }
 
@@ -71,15 +71,23 @@
         background-image: url("./assets/icons/events/hard-disk.png");
     }
 
-    #interactive {
-        z-index: 1;
-    }
-
     #external {
         transform: scale(0.89) translate(48px, -7px);
+
+        box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
     }
 
     #internal {
         transform: scale(0.89) translate(-48px, -7px);
+
+        box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
+    }
+
+    #interactive {
+        z-index: 1;
+
+        transform: translateY(-4%);
+
+        box-shadow: 0 2.72px 65.28px 2.72px rgba(30, 30, 30, 0.26);
     }
 }

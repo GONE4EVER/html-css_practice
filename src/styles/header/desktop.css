@@ -4,7 +4,7 @@
     }
 
     .header__container {
-        width: 1024px;
+        width: var(--min-section-width-desktop);
         padding-left: 145px;
     }
 

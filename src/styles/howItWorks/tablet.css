@@ -1,6 +1,6 @@
 @media only screen and (--tablet-viewport) {
     .howItWorks__container {
-        width: 768px;
+        width: var(--min-section-width-tablet);
         padding: 20px 80px 15px;
     }
 

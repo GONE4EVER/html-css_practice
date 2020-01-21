@@ -105,16 +105,7 @@
 }
 
 
-#external,
-#internal {
-    box-shadow: 0 2px 4.8px 0.2px rgba(30, 30, 30, 0.35);
-}
 
-#interactive {
-    transform: translateY(-4%);
-
-    box-shadow: 0 2.72px 65.28px 2.72px rgba(30, 30, 30, 0.26);
-}
 
 
 .events__card_interactive .events__card-header-content {
