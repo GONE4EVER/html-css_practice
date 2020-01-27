@@ -46,7 +46,7 @@
     justify-content: flex-start;
 }
 
-.home__content {
+.significant-content {
     position: relative;
 
     display: flex;
@@ -55,7 +55,7 @@
     align-items: center;
 }
 
-#homeTitle {
+.major-header__title {
     position: relative;
 
     text-shadow: 0 5px 2px rgba(0, 0, 0, 0.9);
@@ -64,7 +64,7 @@
     font-weight: bold;
 }
 
-#homeSubtitle {
+.major-header__subtitle {
     text-align: center;
 
     font-weight: normal;
