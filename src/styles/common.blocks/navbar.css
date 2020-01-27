@@ -9,7 +9,7 @@
 
     transition: all 0.3s;
 
-    background-color: var(--color-black);
+    background-color: inherit;
 }
 
 .toggle-menu:focus + .navbar {
@@ -38,14 +38,6 @@
     padding: 30px 15px;
 
     text-align: center;
-}
-
-.navbar__item-link:hover,
-.navbar__item-link:focus,
-.navbar__item-link:active {
-    border-top: 2px solid rgb(245, 245, 245);
-    outline: none;
-    background-color: rgb(22, 22, 22);
 }
 
 @media screen and (--tablet-viewport) {

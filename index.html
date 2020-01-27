@@ -32,40 +32,40 @@
           </span>
         </label>
 
-        <nav class="navbar" role="navigation">
+        <nav class="navbar header__navbar" role="navigation">
           <ul class="navbar__tabs-list row">
             <li class="navbar__tabs-list-item layout-centered">
-              <a class="navbar__item-link" href="#home">
+              <a class="navbar__item-link header__link" href="#home">
                 Home
               </a>
             </li>
 
             <li class="navbar__tabs-list-item layout-centered">
-              <a class="navbar__item-link" href="#how-it-works">
+              <a class="navbar__item-link header__link" href="#how-it-works">
                 How it works
               </a>
             </li>
 
             <li class="navbar__tabs-list-item layout-centered">
-              <a class="navbar__item-link" href="#features">
+              <a class="navbar__item-link header__link" href="#features">
                 Features
               </a>
             </li>
 
             <li class="navbar__tabs-list-item layout-centered">
-              <a class="navbar__item-link" href="#partners">
+              <a class="navbar__item-link header__link" href="#partners">
                 Partners
               </a>
             </li>
 
             <li class="navbar__tabs-list-item layout-centered">
-              <a class="navbar__item-link" href="#events">
+              <a class="navbar__item-link header__link" href="#events">
                 Events
               </a>
             </li>
 
             <li class="navbar__tabs-list-item layout-centered">
-              <a class="navbar__item-link" href="#aboutUs">
+              <a class="navbar__item-link header__link" href="#aboutUs">
                 About us
               </a>
             </li>
@@ -134,7 +134,7 @@
       </section>
 
       <section id="how-it-works" class="how-it-works primary">
-        <div class="how-it-works__container section-container">
+        <figure class="how-it-works__container section-container">
           <h1
             class="how-it-works__header header__underline header__underline-left"
           >
@@ -142,9 +142,11 @@
           </h1>
 
           <div class="flex-list how-it-works__content">
-            <div class="flex-list__item captioned-image">
+            <figure
+              class="flex-list__item captioned-image how-it-works__content-item"
+            >
               <div
-                class="captioned-image__image-wrapper layout-centered secondary"
+                class="captioned-image__image-wrapper layout-centered  how-it-works__content-image secondary"
               >
                 <img
                   id="freeAccount"
@@ -157,11 +159,13 @@
               <figcaption class="captioned-image__image-description">
                 Create a FREE account with us
               </figcaption>
-            </div>
+            </figure>
 
-            <div class="flex-list__item captioned-image">
+            <figure
+              class="flex-list__item captioned-image how-it-works__content-item"
+            >
               <div
-                class="captioned-image__image-wrapper layout-centered primary"
+                class="captioned-image__image-wrapper layout-centered how-it-works__content-image primary"
               >
                 <img
                   id="discussIssue"
@@ -174,11 +178,13 @@
               <figcaption class="captioned-image__image-description">
                 Create your own event or Q&A session
               </figcaption>
-            </div>
+            </figure>
 
-            <div class="flex-list__item captioned-image">
+            <figure
+              class="flex-list__item captioned-image how-it-works__content-item"
+            >
               <div
-                class="captioned-image__image-wrapper layout-centered primary"
+                class="captioned-image__image-wrapper layout-centered how-it-works__content-image primary"
               >
                 <img
                   id="qrCode"
@@ -191,11 +197,13 @@
               <figcaption class="captioned-image__image-description">
                 Share your meeting code with the participants
               </figcaption>
-            </div>
+            </figure>
 
-            <div class="flex-list__item captioned-image">
+            <figure
+              class="flex-list__item captioned-image how-it-works__content-item"
+            >
               <div
-                class="captioned-image__image-wrapper layout-centered primary"
+                class="captioned-image__image-wrapper layout-centered how-it-works__content-image primary"
               >
                 <img
                   id="favorites"
@@ -209,7 +217,7 @@
                 Run your meeting successfully
               </figcaption>
             </div>
-          </div>
+          </figure>
         </div>
       </section>
 
@@ -335,89 +343,90 @@
           <h1 class="features__header header__underline header__underline-left">
             Features
           </h1>
-          <div class="features__content">
-            <figure id="question" class="features__content-item">
-              <div class="features__content-item__inner">
+
+          <div class="features-list flex-list">
+            <figure id="question" class="captioned-image flex-list__item flex-list__item_underline-bottom flex-list__item_underline-right features-list__list-item">
+              <div class="captioned-image__image-wrapper layout-centered primary features__item-image-wrapper">
                 <img
                   src="assets/icons/features/microphone.png"
                   alt="microphone"
-                  class="features__content-item-icon"
+                  class="features-list__list-item-icon"
                 />
-
-                <figcaption class="features__content-item-description">
-                  Ask a question
-                </figcaption>
               </div>
+
+              <figcaption class="captioned-image__image-description  features-list__list-item-description">
+                Ask a question
+              </figcaption>
             </figure>
 
-            <figure id="poll" class="features__content-item">
-              <div class="features__content-item__inner">
+            <figure id="poll" class="captioned-image flex-list__item flex-list__item_underline-bottom features-list__list-item">
+              <div class="captioned-image__image-wrapper layout-centered primary features__item-image-wrapper">
                 <img
                   src="assets/icons/features/bar-chart.png"
                   alt="bar-chart"
-                  class="features__content-item-icon"
+                  class="features-list__list-item-icon"
                 />
-
-                <figcaption class="features__content-item-description">
-                  Raise a poll
-                </figcaption>
               </div>
+
+              <figcaption class="captioned-image__image-description  features-list__list-item-description">
+                Raise a poll
+              </figcaption>
             </figure>
 
-            <figure id="statistics" class="features__content-item">
-              <div class="features__content-item__inner">
+            <figure id="statistics" class="captioned-image flex-list__item flex-list__item_underline-bottom flex-list__item_underline-right features-list__list-item">
+              <div class="captioned-image__image-wrapper layout-centered primary features__item-image-wrapper">
                 <img
                   src="assets/icons/features/insight.png"
                   alt="insight"
-                  class="features__content-item-icon"
+                  class="features-list__list-item-icon"
                 />
-
-                <figcaption class="features__content-item-description">
-                  View statistics
-                </figcaption>
               </div>
+
+              <figcaption class="captioned-image__image-description  features-list__list-item-description">
+                View statistics
+              </figcaption>
             </figure>
 
-            <figure id="vote" class="features__content-item">
-              <div class="features__content-item__inner">
+            <figure id="vote" class="captioned-image flex-list__item flex-list__item_underline-bottom features-list__list-item">
+              <div class="captioned-image__image-wrapper layout-centered primary features__item-image-wrapper">
                 <img
                   src="assets/icons/features/medal.png"
                   alt="medal"
-                  class="features__content-item-icon"
+                  class="features-list__list-item-icon"
                 />
-
-                <figcaption class="features__content-item-description">
-                  Vote a question
-                </figcaption>
               </div>
+
+              <figcaption class="captioned-image__image-description  features-list__list-item-description">
+                Vote a question
+              </figcaption>
             </figure>
 
-            <figure id="survey" class="features__content-item">
-              <div class="features__content-item__inner">
+            <figure id="survey" class="captioned-image flex-list__item flex-list__item_underline-right features-list__list-item">
+              <div class="captioned-image__image-wrapper layout-centered primary features__item-image-wrapper">
                 <img
                   src="assets/icons/features/flag.png"
                   alt="flag"
-                  class="features__content-item-icon"
+                  class="features-list__list-item-icon"
                 />
-
-                <figcaption class="features__content-item-description">
-                  Create a survey
-                </figcaption>
               </div>
+
+              <figcaption class="captioned-image__image-description  features-list__list-item-description">
+                Create a survey
+              </figcaption>
             </figure>
 
-            <figure id="policy" class="features__content-item">
-              <div class="features__content-item__inner">
+            <figure id="policy" class="captioned-image flex-list__item features-list__list-item">
+              <div class="captioned-image__image-wrapper layout-centered primary features__item-image-wrapper">
                 <img
                   src="assets/icons/features/padlock.png"
                   alt="padlock"
-                  class="features__content-item-icon"
+                  class="features-list__list-item-icon"
                 />
-
-                <figcaption class="features__content-item-description">
-                  Policy ensured
-                </figcaption>
               </div>
+
+              <figcaption class="captioned-image__image-description  features-list__list-item-description">
+                Policy ensured
+              </figcaption>
             </figure>
           </div>
         </div>

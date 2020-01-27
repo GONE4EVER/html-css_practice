@@ -21,6 +21,14 @@
     justify-content: center;
 }
 
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+    border-top: 2px solid rgb(245, 245, 245);
+    outline: none;
+    background-color: rgb(22, 22, 22);
+}
+
 @media screen and (--tablet-viewport) {
     .header__container {
         width: var(--min-section-width-tablet);
