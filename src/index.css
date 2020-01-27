@@ -9,7 +9,6 @@
 @import "./styles/helpers/templateLayout/index.css";
 
 @import "./styles/home/index.css";
-@import "./styles/howItWorks/index.css";
 @import "./styles/interaction/index.css";
 @import "./styles/features/index.css";
 @import "./styles/partners/index.css";
@@ -18,11 +17,17 @@
 @import "./styles/footer/index.css";
 
 /* commonly used blocks */
-@import "./styles/common.blocks/header.css";
 @import "./styles/common.blocks/auth-toolbar.css";
 @import "./styles/common.blocks/logo.css";
 @import "./styles/common.blocks/navbar.css";
 @import "./styles/common.blocks/toggleMenu.css";
+@import "./styles/common.blocks/section-container.css";
+
+@import "./styles/common.blocks/flex-list.css";
+@import "./styles/common.blocks/captioned-image.css";
+
+@import "./styles/sections/header.css";
+@import "./styles/sections/how-it-works.css";
 
 @font-face {
     font-family: "Lato Light";

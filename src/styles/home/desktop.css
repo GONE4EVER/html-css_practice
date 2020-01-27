@@ -2,12 +2,12 @@
     .home__container {
         width: var(--min-section-width-desktop);
         padding-top: 144px;
+        padding-bottom: 152px;
+        padding-left: 120px;
     }
 
     .home__content {
         margin-top: 15px;
-        margin-bottom: 152px;
-        margin-left: 120px;
     }
 
     .home__container-header {

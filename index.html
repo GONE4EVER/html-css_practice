@@ -34,37 +34,37 @@
 
         <nav class="navbar" role="navigation">
           <ul class="navbar__tabs-list row">
-            <li class="navbar__tabs-list-item centered">
+            <li class="navbar__tabs-list-item layout-centered">
               <a class="navbar__item-link" href="#home">
                 Home
               </a>
             </li>
 
-            <li class="navbar__tabs-list-item centered">
-              <a class="navbar__item-link" href="#howItWorks">
+            <li class="navbar__tabs-list-item layout-centered">
+              <a class="navbar__item-link" href="#how-it-works">
                 How it works
               </a>
             </li>
 
-            <li class="navbar__tabs-list-item centered">
+            <li class="navbar__tabs-list-item layout-centered">
               <a class="navbar__item-link" href="#features">
                 Features
               </a>
             </li>
 
-            <li class="navbar__tabs-list-item centered">
+            <li class="navbar__tabs-list-item layout-centered">
               <a class="navbar__item-link" href="#partners">
                 Partners
               </a>
             </li>
 
-            <li class="navbar__tabs-list-item centered">
+            <li class="navbar__tabs-list-item layout-centered">
               <a class="navbar__item-link" href="#events">
                 Events
               </a>
             </li>
 
-            <li class="navbar__tabs-list-item centered">
+            <li class="navbar__tabs-list-item layout-centered">
               <a class="navbar__item-link" href="#aboutUs">
                 About us
               </a>
@@ -73,7 +73,7 @@
         </nav>
 
         <div class="auth-toolbar">
-          <a class="auth-toolbar__button centered" href="#login">
+          <a class="auth-toolbar__button layout-centered" href="#login">
             <img
               class="auth-toolbar__button-icon"
               src="assets/icons/header/login.svg"
@@ -82,7 +82,7 @@
             />
             <span class="auth-toolbar__button-text">Log In</span>
           </a>
-          <a class="auth-toolbar__button centered" href="#register">
+          <a class="auth-toolbar__button layout-centered" href="#register">
             <img
               class="auth-toolbar__button-icon"
               src="assets/icons/header/user.svg"
@@ -133,67 +133,79 @@
         </article>
       </section>
 
-      <section id="howItWorks" class="primary">
-        <div class="howItWorks__container">
+      <section id="how-it-works" class="how-it-works primary">
+        <div class="how-it-works__container section-container">
           <h1
-            class="howItWorks__header header__underline header__underline-left"
+            class="how-it-works__header header__underline header__underline-left"
           >
             How it works
           </h1>
 
-          <div class="howItWorks__content">
-            <div class="howItWorks__tip">
-              <div class="howItWorks__tip-image-wrapper secondary">
+          <div class="flex-list how-it-works__content">
+            <div class="flex-list__item captioned-image">
+              <div
+                class="captioned-image__image-wrapper layout-centered secondary"
+              >
                 <img
                   id="freeAccount"
-                  src="assets/icons/howItWorks/freeAccount.png"
+                  src="assets/icons/how-it-works/freeAccount.png"
                   alt="freeAccount"
+                  class="captioned-image__image"
                 />
               </div>
 
-              <figcaption class="howItWorks__tip-image-description">
+              <figcaption class="captioned-image__image-description">
                 Create a FREE account with us
               </figcaption>
             </div>
 
-            <div class="howItWorks__tip">
-              <div class="howItWorks__tip-image-wrapper primary">
+            <div class="flex-list__item captioned-image">
+              <div
+                class="captioned-image__image-wrapper layout-centered primary"
+              >
                 <img
                   id="discussIssue"
-                  src="assets/icons/howItWorks/discussIssue.png"
+                  src="assets/icons/how-it-works/discussIssue.png"
                   alt="discussIssue"
+                  class="captioned-image__image"
                 />
               </div>
 
-              <figcaption class="howItWorks__tip-image-description">
+              <figcaption class="captioned-image__image-description">
                 Create your own event or Q&A session
               </figcaption>
             </div>
 
-            <div class="howItWorks__tip">
-              <div class="howItWorks__tip-image-wrapper primary">
+            <div class="flex-list__item captioned-image">
+              <div
+                class="captioned-image__image-wrapper layout-centered primary"
+              >
                 <img
                   id="qrCode"
-                  src="assets/icons/howItWorks/qrCode.png"
+                  src="assets/icons/how-it-works/qrCode.png"
                   alt="qrCode"
+                  class="captioned-image__image"
                 />
               </div>
 
-              <figcaption class="howItWorks__tip-image-description">
+              <figcaption class="captioned-image__image-description">
                 Share your meeting code with the participants
               </figcaption>
             </div>
 
-            <div class="howItWorks__tip">
-              <div class="howItWorks__tip-image-wrapper primary">
+            <div class="flex-list__item captioned-image">
+              <div
+                class="captioned-image__image-wrapper layout-centered primary"
+              >
                 <img
                   id="favorites"
-                  src="assets/icons/howItWorks/favorites.png"
+                  src="assets/icons/how-it-works/favorites.png"
                   alt="favorites"
+                  class="captioned-image__image"
                 />
               </div>
 
-              <figcaption class="howItWorks__tip-image-description">
+              <figcaption class="captioned-image__image-description">
                 Run your meeting successfully
               </figcaption>
             </div>
@@ -202,7 +214,7 @@
       </section>
 
       <section id="interaction" class="secondary template">
-        <div class="interaction__container">
+        <div class="interaction__container section-container">
           <aside class="aside-figure__container">
             <span class="aside-figure__content">
               <div class="aside-figure__decoration-line"></div>
@@ -319,7 +331,7 @@
       </section>
 
       <section id="features" class="primary">
-        <div class="features__container">
+        <div class="features__container section-container">
           <h1 class="features__header header__underline header__underline-left">
             Features
           </h1>
@@ -412,13 +424,13 @@
       </section>
 
       <section id="partners">
-        <div class="partners__container secondary">
+        <div class="partners__container section-container secondary">
           <h1
             class="partners__header header__underline header__underline-right"
           >
             Partners
           </h1>
-          <div class="partners__list centered col-12">
+          <div class="partners__list layout-centered col-12">
             <div id="mccann" class="partners__list-item">
               <img
                 src="assets/icons/partners/mccann.png"
@@ -459,7 +471,7 @@
               />
             </div>
 
-            <div id="zappos" class="partners__list-item  centered">
+            <div id="zappos" class="partners__list-item  layout-centered">
               <img
                 src="assets/icons/partners/zappos.png"
                 alt="zappos"
@@ -483,7 +495,7 @@
       </section>
 
       <section id="events" class="primary">
-        <div class="events__container">
+        <div class="events__container section-container">
           <h1
             class="events__header header__underline header__underline-left double"
           >
@@ -492,8 +504,8 @@
 
           <div class="events__content">
             <div id="external" class="events__card events__card_external">
-              <header class="events__card-header centered">
-                <div class="events__card-header-content centered">
+              <header class="events__card-header layout-centered">
+                <div class="events__card-header-content layout-centered">
                   EXTERNAL
                   <strong class="events__card-header-text_bold">EVENT</strong>
                 </div>
@@ -512,8 +524,8 @@
             </div>
 
             <div id="interactive" class="events__card events__card_interactive">
-              <header class="events__card-header centered">
-                <div class="events__card-header-content centered">
+              <header class="events__card-header layout-centered">
+                <div class="events__card-header-content layout-centered">
                   INTERACTIVE
                   <strong class="events__card-header-text_bold">EVENT</strong>
                 </div>
@@ -530,8 +542,8 @@
             </div>
 
             <div id="internal" class="events__card events__card_internal">
-              <header class="events__card-header centered">
-                <div class="events__card-header-content centered">
+              <header class="events__card-header layout-centered">
+                <div class="events__card-header-content layout-centered">
                   INTERNAL
                   <strong class="events__card-header-text_bold">EVENT</strong>
                 </div>
@@ -559,7 +571,7 @@
           </span>
         </aside>
 
-        <div class="aboutUs__content">
+        <div class="aboutUs__content section-container">
           <h1 class="aboutUs__header header__underline header__underline-right">
             About us
           </h1>

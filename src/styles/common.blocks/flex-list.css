@@ -1,0 +1,25 @@
+.flex-list {
+    display: flex;
+
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.flex-list__item {
+    display: flex;
+
+    width: 50%;
+}
+
+@media only screen and (--tablet-viewport) {
+    .flex-list__item {
+        width: 25%;
+    }
+}
+
+@media only screen and (--desktop-viewport) {
+    .flex-list__item {
+        width: 25%;
+    }
+}
