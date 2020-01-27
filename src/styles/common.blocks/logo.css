@@ -1,0 +1,27 @@
+.logo-container {
+    padding: 10px 0 15px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 56px;
+}
+
+@media screen and (--tablet-viewport) {
+    .logo-container {
+        display: none;
+    }
+}
+
+@media only screen and (--desktop-viewport) {
+    .logo-container {
+        margin-right: 73px;
+    }
+
+    .logo {
+        height: 75px;
+        margin: 5px 0;
+    }
+}
