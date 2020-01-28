@@ -79,13 +79,15 @@
 @media only screen and (--desktop-viewport) {
     .features__container {
         width: var(--min-section-width-desktop);
-        padding: 28px 175px 43px;
+        padding: 50px 175px 43px;
     }
 
     .features__header {
         padding-bottom: 0;
 
         letter-spacing: 4px;
+
+        font-size: 35px;
     }
 
     .features-list__list-item {

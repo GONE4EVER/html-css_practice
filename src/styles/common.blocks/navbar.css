@@ -1,112 +1,111 @@
 .navbar {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: -100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -100%;
 
-  height: 100%;
-  padding: 10px 0;
+    height: 100%;
+    padding: 10px 0;
 
-  transition: all 0.3s;
+    transition: all 0.3s;
 
-  background-color: inherit;
+    background-color: inherit;
 }
 
 .toggle-menu:focus + .navbar {
-  left: 0;
+    left: 0;
 }
 
 .tabs-list {
-  z-index: 2;
+    z-index: 2;
 
-  flex-direction: column;
+    flex-direction: column;
 
-  height: 100%;
+    height: 100%;
 }
 
 .tabs-list__list-item {
-  cursor: pointer;
+    cursor: pointer;
 
-  font-size: 24px;
+    font-size: 24px;
 
-  flex-grow: 0;
+    flex-grow: 0;
 }
 
 .tabs-list__item-link {
-  width: 100%;
-  height: 100%;
-  padding: 30px 15px;
+    width: 100%;
+    height: 100%;
+    padding: 30px 15px;
 
-  text-align: center;
+    text-align: center;
 }
 
 @media screen and (--tablet-viewport) {
-  .navbar {
-    position: static;
+    .navbar {
+        position: static;
 
-    display: flex;
+        display: flex;
 
-    min-width: 372px;
-    padding: 0;
-  }
+        min-width: 372px;
+        padding: 0;
+    }
 
-  .tabs-list {
-    flex-direction: row;
+    .tabs-list {
+        flex-direction: row;
 
-    width: 100%;
-  }
+        width: 100%;
+    }
 
-  .tabs-list__list-item {
-    font-size: 13px;
-    line-height: 62px;
+    .tabs-list__list-item {
+        font-size: 13px;
+        line-height: 62px;
 
-    flex-grow: 1;
-  }
+        flex-grow: 1;
+    }
 
-  .tabs-list__item-link {
-    display: flex;
+    .tabs-list__item-link {
+        display: flex;
 
-    width: 100%;
-    height: 100%;
-    padding: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
 
-    border: 2px solid transparent;
+        border: 2px solid transparent;
 
-    align-items: center;
-    justify-content: center;
-  }
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media only screen and (--desktop-viewport) {
-  .navbar {
-    position: static;
+    .navbar {
+        position: static;
 
-    display: flex;
+        display: flex;
 
-    min-width: 500px;
-    padding: 0;
-  }
+        min-width: 500px;
+        padding: 0;
+    }
 
-  .tabs-list {
-    flex-direction: row;
-  }
+    .tabs-list {
+        flex-direction: row;
+    }
 
-  .tabs-list__list-item {
-    flex-grow: 1;
-  }
+    .tabs-list__list-item {
+        flex-grow: 1;
+    }
 
-  .tabs-list__item-link {
-    display: flex;
+    .tabs-list__item-link {
+        display: flex;
 
-    width: 100%;
-    height: 100%;
-    padding: 45px 15px;
+        width: 100%;
+        height: 100%;
 
-    border: 2px solid transparent;
+        border: 2px solid transparent;
 
-    font-size: 16px;
+        font-size: 16px;
 
-    align-items: center;
-    justify-content: center;
-  }
+        align-items: center;
+        justify-content: center;
+    }
 }

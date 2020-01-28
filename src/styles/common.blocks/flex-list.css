@@ -58,4 +58,18 @@
     .flex-list__item {
         width: 25%;
     }
+
+    .flex-list__item_underline-right::before {
+        top: 21px;
+
+        height: 69px;
+
+        border-width: 1px;
+    }
+
+    .flex-list__item_underline-bottom::after {
+        width: 183px;
+
+        border-width: 1px;
+    }
 }
