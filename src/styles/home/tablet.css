@@ -2,13 +2,15 @@
     .home__container {
         width: var(--min-section-width-tablet);
         padding-top: 118px;
+        padding-bottom: 113px;
+        padding-left: 91px;
     }
 
-    .home__container-header {
+    .major-header {
         margin-bottom: 80px;
     }
 
-    #homeTitle {
+    .major-header__title {
         margin-bottom: 20px;
 
         letter-spacing: 0.6px;
@@ -16,24 +18,23 @@
         font-size: 26px;
     }
 
-    #homeSubtitle {
+    .major-header__subtitle {
         letter-spacing: 1.2px;
+
+        font-size: 14px;
     }
 
-    #homeTitle::before {
+    .major-header__title::before {
         width: 108px;
     }
-    #homeTitle::after {
+    .major-header__title::after {
         right: 112px;
 
         width: 7px;
     }
 
-
-    .home__content {
+    .significant-content {
         margin-top: 2px;
-        margin-bottom: 113px;
-        margin-left: 91px;
     }
 
     .phone__image {

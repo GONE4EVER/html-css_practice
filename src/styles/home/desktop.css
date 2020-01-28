@@ -2,15 +2,15 @@
     .home__container {
         width: var(--min-section-width-desktop);
         padding-top: 144px;
+        padding-bottom: 152px;
+        padding-left: 120px;
     }
 
-    .home__content {
+    .significant-content {
         margin-top: 15px;
-        margin-bottom: 152px;
-        margin-left: 120px;
     }
 
-    .home__container-header {
+    .major-header {
         margin-bottom: 107px;
     }
 
@@ -20,7 +20,7 @@
         width: 307px;
     }
 
-    #homeTitle {
+    .major-header__title {
         margin-bottom: 27px;
 
         letter-spacing: 1.18px;
@@ -28,26 +28,26 @@
         font-size: 34px;
     }
 
-    #homeSubtitle {
+    .major-header__subtitle {
         letter-spacing: 0.4px;
 
         font-size: 20px;
     }
 
-    #homeTitle::before,
-    #homeTitle::after {
+    .major-header__title::before,
+    .major-header__title::after {
         bottom: -7px;
 
         border: 2px solid;
         border-radius: 2px;
     }
 
-    #homeTitle::before {
+    .major-header__title::before {
         right: 148px;
 
         width: 10px;
     }
-    #homeTitle::after {
+    .major-header__title::after {
         right: 0;
 
         width: 144px;

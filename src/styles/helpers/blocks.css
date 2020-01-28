@@ -19,7 +19,7 @@
     background-color: var(--color-primary);
 }
 
-.centered {
+.layout-centered {
     display: flex;
 
     align-items: center;

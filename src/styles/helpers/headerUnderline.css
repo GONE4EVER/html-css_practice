@@ -1,4 +1,3 @@
-
 .header__underline {
     position: relative;
 }
@@ -23,7 +22,6 @@
     width: 0.2em;
 }
 
-
 @media only screen and (--mobile-viewport) {
     .header__underline::after,
     .header__underline::before {
@@ -34,7 +32,6 @@
 .header__underline.header__underline-left::after {
     left: 1.45em;
 }
-
 
 .header__underline.header__underline-right::before {
     right: 0;

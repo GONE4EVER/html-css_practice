@@ -8,16 +8,26 @@
 @import "./styles/helpers/headerUnderline.css";
 @import "./styles/helpers/templateLayout/index.css";
 
-@import "./styles/header/index.css";
 @import "./styles/home/index.css";
-@import "./styles/howItWorks/index.css";
 @import "./styles/interaction/index.css";
-@import "./styles/features/index.css";
 @import "./styles/partners/index.css";
 @import "./styles/events/index.css";
 @import "./styles/aboutUs/index.css";
 @import "./styles/footer/index.css";
 
+/* commonly used blocks */
+@import "./styles/common.blocks/auth-toolbar.css";
+@import "./styles/common.blocks/logo.css";
+@import "./styles/common.blocks/navbar.css";
+@import "./styles/common.blocks/toggleMenu.css";
+@import "./styles/common.blocks/section-container.css";
+
+@import "./styles/common.blocks/flex-list.css";
+@import "./styles/common.blocks/captioned-image.css";
+
+@import "./styles/sections/header.css";
+@import "./styles/sections/how-it-works.css";
+@import "./styles/sections/features.css";
 
 @font-face {
     font-family: "Lato Light";
@@ -51,7 +61,6 @@
     url("./assets/fonts/Lato-Bold.ttf") format("truetype");
     text-rendering: optimizeLegibility;
 }
-
 
 html,
 body {
@@ -96,7 +105,6 @@ a:hover {
     margin: 0;
     padding: 0;
 }
-
 
 @media only screen and (--desktop-viewport) {
     :root {

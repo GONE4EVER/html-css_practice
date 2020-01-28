@@ -1,0 +1,65 @@
+.auth-toolbar {
+    display: none;
+}
+
+@media screen and (--tablet-viewport) {
+    .auth-toolbar {
+        position: relative;
+        left: 24px;
+
+        display: flex;
+
+        font-size: 8px;
+
+        align-items: center;
+    }
+
+    .auth-toolbar__button {
+        flex-direction: column;
+
+        cursor: pointer;
+    }
+
+    .auth-toolbar__button:first-child {
+        margin-right: 24px;
+    }
+
+    .auth-toolbar__button-icon {
+        width: 10px;
+    }
+
+    .auth-toolbar__button-text {
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (--desktop-viewport) {
+    .auth-toolbar {
+        position: relative;
+
+        display: flex;
+
+        margin-left: 36px;
+
+        font-size: 9px;
+
+        align-items: center;
+    }
+
+    .auth-toolbar__button {
+        flex-direction: column;
+
+        margin-right: 18px;
+        padding: 5px;
+
+        cursor: pointer;
+    }
+
+    .auth-toolbar__button-icon {
+        width: 14px;
+    }
+
+    .auth-toolbar__button-text {
+        padding-top: 5px;
+    }
+}

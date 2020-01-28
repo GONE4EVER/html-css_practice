@@ -12,11 +12,11 @@
         align-items: center;
     }
 
-    .home__container-header {
+    .major-header {
         margin-bottom: 28px;
     }
 
-    #homeTitle {
+    .major-header__title {
         margin-bottom: 14px;
 
         text-align: center;
@@ -25,23 +25,23 @@
         font-size: 18px;
     }
 
-    #homeTitle::before,
-    #homeTitle::after {
+    .major-header__title::before,
+    .major-header__title::after {
         bottom: -0.3em;
     }
 
-    #homeTitle::before {
+    .major-header__title::before {
         right: 4.7em;
 
         width: 0.3em;
     }
-    #homeTitle::after {
+    .major-header__title::after {
         right: 0.2em;
 
         width: 4.3em;
     }
 
-    #homeSubtitle {
+    .major-header__subtitle {
         letter-spacing: 0.4px;
 
         font-size: 11px;
