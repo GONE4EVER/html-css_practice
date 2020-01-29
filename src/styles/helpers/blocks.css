@@ -9,13 +9,15 @@
     flex-flow: row nowrap;
 }
 
-.primary {
+.section_primary {
     color: var(--color-primary);
+    border-color: var(--color-primary);
     background-color: var(--color-secondary);
 }
 
-.secondary {
+.section_secondary {
     color: var(--color-secondary);
+    border-color: var(--color-secondary);
     background-color: var(--color-primary);
 }
 

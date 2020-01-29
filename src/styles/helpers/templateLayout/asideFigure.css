@@ -22,7 +22,6 @@
         align-items: center;
     }
 
-
     .aside-figure__text {
         letter-spacing: 4px;
 
@@ -49,17 +48,17 @@
         border-radius: 50%;
     }
 
-    .primary .aside-figure__decoration-line::before {
+    .section_primary .aside-figure__decoration-line::before {
         background-color: var(--color-primary);
     }
-    .primary .aside-figure__decoration-line {
+    .section_primary .aside-figure__decoration-line {
         background-color: var(--color-primary);
     }
 
-    .secondary .aside-figure__decoration-line::before {
+    .section_secondary .aside-figure__decoration-line::before {
         background-color: var(--color-secondary);
     }
-    .secondary .aside-figure__decoration-line {
+    .section_secondary .aside-figure__decoration-line {
         background-color: var(--color-secondary);
     }
 }

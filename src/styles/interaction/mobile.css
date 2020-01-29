@@ -1,6 +1,6 @@
 @media only screen and (--mobile-viewport) {
-    #interaction {
-        min-width: var(--min-section-width-mobile);
+    .interaction__container {
+        width: var(--min-section-width-mobile);
     }
 
     .interaction__card-item {
@@ -59,7 +59,6 @@
     #choose {
         order: 2;
     }
-
 
     .interaction__card-icon {
         width: 16px;

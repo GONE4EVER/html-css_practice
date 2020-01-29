@@ -1,8 +1,4 @@
 @media only screen and (--desktop-viewport) {
-    #interaction {
-        display: flex;
-    }
-
     .interaction__container {
         width: var(--min-section-width-desktop);
     }

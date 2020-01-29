@@ -35,10 +35,6 @@
     align-items: center;
 }
 
-.header__toolbar-slot {
-    margin-left: 36px;
-}
-
 @media only screen and (--mobile-viewport) {
     .header__navbar-collapse_target {
         position: fixed;
@@ -83,6 +79,10 @@
     .header__logo-slot {
         display: none;
     }
+
+    .header__toolbar-slot {
+        margin-left: 36px;
+    }
 }
 
 @media only screen and (--desktop-viewport) {
@@ -94,5 +94,9 @@
     .header__logo-slot {
         margin: 0;
         margin-right: 73px;
+    }
+
+    .header__toolbar-slot {
+        margin-left: 36px;
     }
 }

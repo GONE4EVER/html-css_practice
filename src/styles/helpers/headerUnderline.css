@@ -39,15 +39,3 @@
 .header__underline.header__underline-right::after {
     right: 1.45em;
 }
-
-.primary .header__underline::after,
-.primary .header__underline::before {
-    border-color: var(--color-primary);
-    background-color: var(--color-primary);
-}
-
-.secondary .header__underline::after,
-.secondary .header__underline::before {
-    border-color: var(--color-secondary);
-    background-color: var(--color-secondary);
-}
