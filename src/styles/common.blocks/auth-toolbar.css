@@ -9,6 +9,8 @@
 
         display: flex;
 
+        height: 100%;
+
         font-size: 8px;
 
         align-items: center;
@@ -39,7 +41,7 @@
 
         display: flex;
 
-        margin-left: 36px;
+        height: 100%;
 
         font-size: 9px;
 

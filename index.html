@@ -22,75 +22,79 @@
   <body class="app">
     <header class="header">
       <div class="header__container">
-        <div class="logo-container">
-          <img class="logo" src="assets/images/logo.png" alt="logo" />
+        <div class="header__logo-slot">
+          <a class="logo" href="/">
+            <img class="logo__image" src="assets/images/logo.png" alt="logo" />
+          </a>
         </div>
 
-        <label class="toggle-menu" role="button" tabindex="0">
-          <span class="toggle-menu__content">
-            <div class="toggle-menu__bar"></div>
-          </span>
-        </label>
+        <nav class="navbar header__navbar-slot" role="navigation">
+          <label class="toggle-menu header__navbar-collapse_trigger" role="button" tabindex="0">
+            <span class="toggle-menu__content">
+              <div class="toggle-menu__bar"></div>
+            </span>
+          </label>
 
-        <nav class="navbar header__navbar" role="navigation">
-          <ul class="tabs-list row">
+          <ul class="tabs-list tabs-list_vertical header__navbar-collapse_target row">
             <li class="tabs-list__list-item layout-centered">
-              <a class="tabs-list__item-link header__link" href="#home">
+              <a class="tabs-list__item-link tabs-list__item-link_vertical" href="#home">
                 Home
               </a>
             </li>
 
             <li class="tabs-list__list-item layout-centered">
-              <a class="tabs-list__item-link header__link" href="#how-it-works">
+              <a class="tabs-list__item-link tabs-list__item-link_vertical" href="#how-it-works">
                 How it works
               </a>
             </li>
 
             <li class="tabs-list__list-item layout-centered">
-              <a class="tabs-list__item-link header__link" href="#features">
+              <a class="tabs-list__item-link tabs-list__item-link_vertical" href="#features">
                 Features
               </a>
             </li>
 
             <li class="tabs-list__list-item layout-centered">
-              <a class="tabs-list__item-link header__link" href="#partners">
+              <a class="tabs-list__item-link tabs-list__item-link_vertical" href="#partners">
                 Partners
               </a>
             </li>
 
             <li class="tabs-list__list-item layout-centered">
-              <a class="tabs-list__item-link header__link" href="#events">
+              <a class="tabs-list__item-link tabs-list__item-link_vertical" href="#events">
                 Events
               </a>
             </li>
 
             <li class="tabs-list__list-item layout-centered">
-              <a class="tabs-list__item-link header__link" href="#aboutUs">
+              <a class="tabs-list__item-link tabs-list__item-link_vertical" href="#aboutUs">
                 About us
               </a>
             </li>
           </ul>
         </nav>
 
-        <div class="auth-toolbar">
-          <a class="auth-toolbar__button layout-centered" href="#login">
-            <img
-              class="auth-toolbar__button-icon"
-              src="assets/icons/header/login.svg"
-              id="login"
-              alt="login"
-            />
-            <span class="auth-toolbar__button-text">Log In</span>
-          </a>
-          <a class="auth-toolbar__button layout-centered" href="#register">
-            <img
-              class="auth-toolbar__button-icon"
-              src="assets/icons/header/user.svg"
-              id="register"
-              alt="register"
-            />
-            <span class="auth-toolbar__button-text">Register</span>
-          </a>
+        <div class="header__toolbar-slot">
+          <div class="auth-toolbar">
+            <a class="auth-toolbar__button layout-centered" href="#login">
+              <img
+                class="auth-toolbar__button-icon"
+                src="assets/icons/header/login.svg"
+                id="login"
+                alt="login"
+              />
+              <span class="auth-toolbar__button-text">Log In</span>
+            </a>
+            <a class="auth-toolbar__button layout-centered" href="#register">
+              <img
+                class="auth-toolbar__button-icon"
+                src="assets/icons/header/user.svg"
+                id="register"
+                alt="register"
+              />
+              <span class="auth-toolbar__button-text">Register</span>
+            </a>
+          </div>
         </div>
       </div>
     </header>

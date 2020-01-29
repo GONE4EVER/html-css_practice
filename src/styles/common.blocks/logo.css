@@ -1,24 +1,12 @@
-.logo-container {
-    align-items: center;
-    justify-content: center;
-}
-
-.logo {
+.logo__image {
     height: 56px;
 }
 
 @media screen and (--tablet-viewport) {
-    .logo-container {
-        display: none;
-    }
 }
 
 @media only screen and (--desktop-viewport) {
-    .logo-container {
-        margin-right: 73px;
-    }
-
-    .logo {
+    .logo__image {
         height: 75px;
         margin: 5px 0;
     }
