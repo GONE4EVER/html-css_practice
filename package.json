@@ -6,7 +6,7 @@
   "dependencies": {
     "css-vars-ponyfill": "^2.1.2",
     "dotenv": "^8.2.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "normalize.css": "^8.0.1",
     "url-loader": "^3.0.0"
   },
